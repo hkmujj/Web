@@ -1,0 +1,61 @@
+User-agent: * 
+Disallow: /admin
+Disallow: /inc
+Disallow: /web
+Disallow: /data
+Disallow: /datadir
+Disallow: /jquery
+Disallow: /templates
+Disallow: /templates2015
+Disallow: /php
+Disallow: /php2
+Disallow: /skins
+Disallow: /images
+Disallow: /aspbox
+Disallow: /editor
+Disallow: /tools
+Disallow: /*?*
+
+Disallow: /aspphpcms/aspphpcmshelp.html
+Disallow: /aspphpcms/aspphpcmstags.html
+Disallow: /asptophp/asptophpv1about.html
+Disallow: /aspphpcms/ruheaspwebtophpweb.html
+Disallow: /asptophp/asptophpv1rule.html
+Disallow: /asptophp/asptophpv1help.html
+Disallow: /asp/randshowstr1.html
+Disallow: /toolslist/onlinepinyin.html
+Disallow: /toolslist/onlinejsq.html
+Disallow: /aspphpcms/inlinetags.asp
+Disallow: /aspphpcms/aspphpcmsauthorization.html
+Disallow: /mobandown/mofangufoercom.html
+Disallow: /asp/cutstraspphpcode.html
+Disallow: /html5/onlinehtmlspecial.html
+Disallow: /asp/asptophpv1down.html
+Disallow: /aspphpcms/maketags.html
+Disallow: /asptophp/ruheaspwebtophpweb.html
+Disallow: /asp/asptophpv1case.html?act=testzd
+Disallow: /mobandown/mofanglegendstucom.html
+Disallow: /ask/2015yerwordwd.html
+Disallow: /mobandown/mofangcncncom.html
+Disallow: /asptophp/asptophpv1case.html?act=testcase
+Disallow: /asp/20aspverificationdown.html
+Disallow: /asp/onearraysort.html
+Disallow: /asp//asp/csssyjq.html
+Disallow: /contact/
+
+Disallow: /ASPPHPCMS/ASPPHPCMStags.html
+Disallow: /asp/randshowstr1.html
+Disallow: /ASPPHPCMS/ASPPHPCMShelp.html
+Disallow: /css3/jquery-about-help.html
+
+Sitemap: http://www.sharembweb.com/sitemap.xml
+
+
+
+
+
+
+
+
+
+

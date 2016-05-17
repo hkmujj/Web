@@ -1,0 +1,108 @@
+
+内容为空
+
+
+----------------------------
+
+
+推荐导航
+
+{$ReadColumeSetTitle title='推荐导航' style='312' value='[_推荐导航2014年11月18日 13时37分]' autoadd='true'$}
+<!--#[_推荐导航2014年11月18日 13时37分]
+{$RecommendNavigation ulclass='ulrn' default='[_2015年02月04日 13时54分]'$}
+#-->
+<!--#test start#-->
+<!--#[_2015年02月04日 13时54分] start#-->
+走近元朗，联系元朗||http://www.baidu.com，服务与支持
+公司资质，合作客户，企业相册
+元朗动态，行业新闻，技术下载，常见问题
+<!--#[_2015年02月04日 13时54分] end#-->
+<!--#test end#-->
+
+----------------------------
+产品展示
+
+{$ReadColumeSetTitle title='产品展示' style='312' value='[_产品展示2014年11月18日 13时37分]' autoadd='true'$}
+<!--#[_产品展示2014年11月18日 13时37分]
+[$读出内容 block='TopProduct' file=''$]
+#-->
+<R#读出内容TopProduct start#> 
+<ul id="MarqueeUL5" style="width:1px;height:1px;overflow:hidden;" class="marqueeul5">
+{$CustomInfoList did='产品展示' topnumb='8' cutstrnumb='28' defaultimage='/UploadFiles/NoImg.jpg' default='[_产品展示2014年11月17日 21时30分]' autoadddid='true' autoadd='true'$}
+<!--#[_产品展示2014年11月17日 21时30分]
+[list]<li><a [$aurl$]><img src="[$imgurl$]" /></a></li>
+<li><a [$aurl$]>[$showtitle$]</a></li>[/list]
+#-->
+</ul> 
+<script type="text/javascript"> 
+/*********向上连续滚动及鼠标拖动***************/
+new Marquee("MarqueeUL5",0,1,192,260,30,0,0)            //向上连续滚动及鼠标拖动实例实例
+</script>
+<R#读出内容TopProduct end#>
+
+<div class="clear4"></div> 
+
+
+----------------------------
+联系我们
+
+{$ReadColumeSetTitle title='联系我们' style='312'  moreurl=' ' moreclass='leftmore' morestr='More' value='[_联系我们2014年11月29日 11时28分]' autoadd='true'$}
+<!--#[_联系我们2014年11月29日 11时28分] 
+{$MainInfo title='左边联系我们' showtitle='左边联系我们' default='[_左边联系我们2015年01月13日 14时23分]' autoadd='true'$}
+#-->
+
+<div class="clear4"></div>
+
+----------------------------
+关于我们
+
+{$ReadColumeSetTitle title='关于我们' style='312'  moreurl=' ' moreclass='leftmore' morestr='More' value='[_联系我们2014年11月29日 11时28分]' autoadd='true'$}
+<!--#[_自定义关于我们2014年11月29日 11时28分] 
+{$MainInfo title='自定义关于我们' showtitle='自定义关于我们' default='自定义关于我们' autoadd='true'$}
+#-->
+<div class="clear4"></div>
+
+----------------------------
+公司简介
+
+{$ReadColumeSetTitle title='关于我们' style='312'  moreurl=' ' moreclass='leftmore' morestr='More' value='[_联系我们2014年11月29日 11时28分]' autoadd='true'$}
+<!--#[_自定义公司简介2014年11月29日 11时28分] 
+{$MainInfo title='自定义公司简介' showtitle='自定义公司简介' default='自定义公司简介' autoadd='true'$}
+#-->
+<div class="clear4"></div>
+
+----------------------------
+全局推荐文章
+
+{$ReadColumeSetTitle title='推荐文章' style='312' moreclass='leftmore' morestr='More' moreurl=' ' value='[_推荐文章2015年02月09日 19时53分]'$}
+<!--#[_推荐文章2015年02月09日 19时53分][$读出内容 block=\'BlockName\' file=\'\'$]
+{$News topnumb='6' cutstrnumb='32' dateyes='1' addsql='Order By Hits Desc' ulclass='ulstyleone'$}
+#-->
+
+----------------------------
+当前热门文章
+
+{$ReadColumeSetTitle title='最新文章' style='312' moreclass='leftmore' morestr='More' moreurl=' ' value='[_最新文章2015年02月09日 19时53分]'$}
+<!--#[_最新文章2015年02月09日 19时53分][$读出内容 block=\'BlockName\' file=\'\'$]
+{$News did='[$Did$]' topnumb='6' cutstrnumb='32' addsql='Order By Hits Desc' dateyes='1' ulclass='ulstyleone'$}
+#-->
+
+----------------------------
+当前最新文章
+
+{$ReadColumeSetTitle title='最新文章' style='312' moreclass='leftmore' morestr='More' moreurl=' ' value='[_最新文章2015年02月09日 19时53分]'$}
+<!--#[_最新文章2015年02月09日 19时53分][$读出内容 block=\'BlockName\' file=\'\'$]
+{$News did='[$Did$]' topnumb='6' cutstrnumb='32' addsql='Order By Id Desc' dateyes='1' ulclass='ulstyleone'$}
+#-->
+
+----------------------------
+相关新闻
+{$ReadColumeSetTitle title='相关新闻' style='312' moreclass='leftmore' morestr='More' moreurl=' ' value='[_相关新闻2014年11月29日 13时47分]' autoadd='true'$} 
+<!--#[_相关新闻2014年11月29日 13时47分]           
+{$RelatedInformationList topnumb='10' addsql=' Order By Hits Desc' defaultaddsql=' Where (BigClassName<>\'Banner\')'  cutstrnumb='32' default='[_2014年12月22日 10时53分]' selecttype='根据相关信息'$}
+#-->
+<!--#[_2014年12月22日 10时53分]
+[dialog start]<ul>[/dialog start] 
+[dialog end]</ul>[/dialog end]             
+[list]<li class='lic1'><a [$aurl$]>[$title len='40' delhtml='true' trim='true' deltabs='true' $]</a></li>[/list]
+#-->  
