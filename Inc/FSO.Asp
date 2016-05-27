@@ -6,7 +6,7 @@ Function getFileText(ByVal filePath)
     On Error Resume Next 
     Dim fso, fText, OpenFile 
     'GetFileText = ""   '它默认返回的就是空， 这个是多此一举 (2013,9,30)
-    Call HandlePath(filePath)                                                       '获得完整路径
+    Call handlePath(filePath)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(filePath) = True Then
             Set fText = fso.openTextFile(filePath, 1)
@@ -29,7 +29,7 @@ Function getFileType(ByVal filePath)
     On Error Resume Next 
     Dim fso, myFile, OpenFile 
     'GetFileText = ""   '它默认返回的就是空， 这个是多此一举 (2013,9,30)
-    Call HandlePath(filePath)                                                       '获得完整路径
+    Call handlePath(filePath)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(filePath) = True Then
             Set myFile = fso.GetFile(filePath)
@@ -43,7 +43,7 @@ End Function
 Function checkFile(ByVal filePath)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(filePath)                                                       '获得完整路径
+    Call handlePath(filePath)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         checkFile = fso.fileExists(filePath) 
     Set fso = Nothing 
@@ -57,12 +57,12 @@ End Function
 Function createFile(ByVal filePath, ByVal content)
     On Error Resume Next 
     Dim fText, fso 
-    Call HandlePath(filePath)                                                       '获得完整路径
+    Call handlePath(filePath)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
-        If ExistsZhiDuFile(filePath) = True Then                                        '判断是否为只读文件
+        If existsZhiDuFile(filePath) = True Then                                        '判断是否为只读文件
             Call EditFileAttribute(filePath, 32)                                            '把只读属性改成存档属性
-        End If
-		'call echo("filePath",filePath)
+        End If 
+        'call echo("filePath",filePath)
         Set fText = fso.createTextFile(filePath, True)
             fText.WriteLine(content) 
             createFile = True 
@@ -78,7 +78,7 @@ End Function
 Function createAddFile(ByVal filePath, ByVal content)
     On Error Resume Next 
     Dim fso, fText 
-    Call HandlePath(filePath)                                                       '获得完整路径
+    Call handlePath(filePath)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(filePath) = False Then                                        '文件不存在，则创建
             Set fText = fso.createTextFile(filePath, True)
@@ -86,7 +86,7 @@ Function createAddFile(ByVal filePath, ByVal content)
             Set fText = Nothing 
             createAddFile = "创建文件成功" 
         Else                                                                            '文件存在，则累加
-            createAddFile = AddToFile(filePath, content) 
+            createAddFile = addToFile(filePath, content) 
         End If 
     Set fso = Nothing 
     If Err Then Call doError(Err.Description, "CreateAddFile 创建文件，存在累加 函数出错，filePath=" & filePath) 
@@ -99,8 +99,8 @@ End Function
 Function addToFile(ByVal filePath, ByVal content)
     On Error Resume Next 
     Dim fso, fText 
-    Call HandlePath(filePath)                                                       '获得完整路径
-    If ExistsZhiDuFile(filePath) = True Then                                        '判断是否为只读文件
+    Call handlePath(filePath)                                                       '获得完整路径
+    If existsZhiDuFile(filePath) = True Then                                        '判断是否为只读文件
         Call EditFileAttribute(filePath, 32)                                            '把只读属性改成存档属性
     End If 
     Set fso = CreateObject("Scripting.FileSystemObject")
@@ -115,10 +115,10 @@ Function addToFile(ByVal filePath, ByVal content)
 End Function 
 '保存字节文件(20151106)
 Function saveByteFile(ByVal filePath, content)
-    Dim Ads 
-    filePath = HandlePath(filePath) 
-    Set Ads = CreateObject("ADODB.Stream")
-        With Ads
+    Dim ads 
+    filePath = handlePath(filePath) 
+    Set ads = CreateObject("ADODB.Stream")
+        With ads
             .Type = 1 
             .Open 
             .Write content 
@@ -127,7 +127,7 @@ Function saveByteFile(ByVal filePath, content)
             .Cancel 
             .Close 
         End With 
-    Set Ads = Nothing 
+    Set ads = Nothing 
 End Function 
 Function createByteFile(filePath, content)
 
@@ -136,8 +136,8 @@ End Function
 Function moveFile(ByVal path, ByVal ToPath)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(path)                                                           '获得完整路径
-    Call HandlePath(ToPath)                                                         '获得完整路径
+    Call handlePath(path)                                                           '获得完整路径
+    Call handlePath(ToPath)                                                         '获得完整路径
     moveFile = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(path) = True And fso.fileExists(ToPath) = False Then          '要移动文件为真，被移动文件为假
@@ -155,8 +155,8 @@ End Function
 Function copyFile(ByVal path, ByVal ToPath)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(path)                                                           '获得完整路径
-    Call HandlePath(ToPath)                                                         '获得完整路径
+    Call handlePath(path)                                                           '获得完整路径
+    Call handlePath(ToPath)                                                         '获得完整路径
     copyFile = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(path) = True And fso.fileExists(ToPath) = False Then          '要拷贝文件为真，被拷贝文件为假
@@ -170,7 +170,7 @@ End Function
 Function deleteFile(ByVal filePath)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(filePath)                                                       '获得完整路径
+    Call handlePath(filePath)                                                       '获得完整路径
     deleteFile = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(filePath) = True Then
@@ -196,8 +196,8 @@ Function delSelFile(RootPath, ByVal FileList)
 End Function 
 Function delFileList(RootPath, ByVal FileList)
     delFileList = delSelFile(RootPath, FileList) 
-End Function
-'批量删除文件(20151127) Call batchDelFile("/test/", Split("2.html|2.php|3.Asp", "|")) 
+End Function 
+'批量删除文件(20151127) Call batchDelFile("/test/", Split("2.html|2.php|3.Asp", "|"))
 Function batchDelFile(dirPath, fileArray)
     Dim fileName, filePath, c 
     For Each fileName In fileArray
@@ -206,22 +206,22 @@ Function batchDelFile(dirPath, fileArray)
         Call deleteFile(filePath) 
     Next 
     batchDelFile = c 
-End Function
+End Function 
 '删除指定文件列表  前面有#号的文件，给删除掉 例：Call DeleteAppointFileList("/Skins/Test/Css/")
 Function deleteAppointFileList(ByVal folderPath)
     'On Error Resume Next
     Dim fso, f, myFile, fileName 
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    Call handlePath(folderPath)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderPath) = False Then deleteAppointFileList = "" : Exit Function '文件夹不存在，退出
         Set f = fso.GetFolder(folderPath)
             For Each myFile In f.files
-                fileName = BaseName(myFile) 
+                fileName = baseName(myFile) 
                 'Call Echo(FileName,MyFile)
                 If Left(fileName, 1) = "#" Then
                     Call deleteFile(myFile) 
                 End If 
-                DoEvents 
+                doEvents 
             Next 
         Set f = Nothing 
     Set fso = Nothing 
@@ -231,7 +231,7 @@ End Function
 Function getFileSize(ByVal fileName)
     On Error Resume Next 
     Dim fso, OpenFile 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     getFileSize = 0 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(fileName) = True Then
@@ -254,7 +254,7 @@ End Function
 Function getFileCreateDate(ByVal fileName)
     On Error Resume Next 
     Dim fso, OpenFile 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(fileName) = True Then
             Set OpenFile = fso.GetFile(fileName)
@@ -272,7 +272,7 @@ End Function
 Function getFileEditDate(ByVal fileName)
     On Error Resume Next 
     Dim fso, OpenFile 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(fileName) = True Then
             Set OpenFile = fso.GetFile(fileName)
@@ -294,7 +294,7 @@ End Function
 Function getDateLastAccessed(ByVal fileName)
     On Error Resume Next 
     Dim fso, OpenFile 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(fileName) = True Then
             Set OpenFile = fso.GetFile(fileName)
@@ -305,10 +305,10 @@ Function getDateLastAccessed(ByVal fileName)
     If Err Then Call doError(Err.Description, "GetFileEditDate 获得文件访问时间 函数出错，FileName=" & fileName) 
 End Function 
 '修改文件最后修改时间 如：Call ModifyFileModifydate("F:\Temp\001\Config.ini", Now() - 5)
-Function modifyFileModifydate(ByVal fileName, ByVal DateTime)
+Function modifyFileModifydate(ByVal fileName, ByVal dateTime)
     On Error Resume Next 
     Dim dirPath, ShellObj, App_Path, App_File 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     If checkFile(fileName) = False Then                                             '文件不存在，为假退出
         modifyFileModifydate = False 
         Exit Function 
@@ -320,20 +320,20 @@ Function modifyFileModifydate(ByVal fileName, ByVal DateTime)
     Set ShellObj = CreateObject("Shell.Application")
         Set App_Path = ShellObj.NameSpace(dirPath)
             Set App_File = App_Path.ParseName(fileName)
-                App_File.Modifydate = DateTime 
+                App_File.Modifydate = dateTime 
                 modifyFileModifydate = True 
                 If Err Then Call doError(Err.Description, "ModifyFileModifydate 获得文件修改时间 函数出错，FileName=" & dirPath & fileName) 
 End Function
 '修改文件最后修改时间 (辅助)
-Function editFileEditDate(fileName, DateTime)
-    editFileEditDate = modifyFileModifydate(fileName, DateTime) 
+Function editFileEditDate(fileName, dateTime)
+    editFileEditDate = modifyFileModifydate(fileName, dateTime) 
 End Function 
 '判断只读文件
 Function existsZhiDuFile(ByVal fileName)
     On Error Resume Next 
     Dim fso, OpenFile 
     existsZhiDuFile = False 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(fileName) = True Then
             Set OpenFile = fso.GetFile(fileName)
@@ -354,7 +354,7 @@ End Function
 Function getFileAttribute(ByVal fileName)
     On Error Resume Next 
     Dim fso, OpenFile 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     getFileAttribute = -1 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(fileName) = True Then
@@ -369,7 +369,7 @@ End Function
 Function editFileAttribute(ByVal fileName, ByVal n)
     On Error Resume Next 
     Dim fso, OpenFile 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     editFileAttribute = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(fileName) = True Then
@@ -385,7 +385,7 @@ End Function
 Function existsFileDay(ByVal fileName, ByVal InputDayNumb)
     On Error Resume Next 
     Dim fso, OpenFile, DayNumb 
-    Call HandlePath(fileName)                                                       '获得完整路径
+    Call handlePath(fileName)                                                       '获得完整路径
     existsFileDay = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.fileExists(fileName) = True Then
@@ -406,7 +406,7 @@ End Function
 Function createFolder(ByVal folderPath)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    Call handlePath(folderPath)                                                     '获得完整路径
     createFolder = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderPath) = False Then
@@ -420,10 +420,10 @@ End Function
 Function createDirFolder(ByVal folderPath)
     'On Error Resume Next
     createDirFolder = "" 
-    If CheckFolder(folderPath) = True Then Exit Function                            '文件夹存在，退出
+    If checkFolder(folderPath) = True Then Exit Function                            '文件夹存在，退出
     Dim splStr, i, s, NewFolder 
     NewFolder = ""                                                                  'vb.net使用报错
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    Call handlePath(folderPath)                                                     '获得完整路径
     splStr = Split(folderPath, "\") 
     For i = 0 To UBound(splStr)
         s = Trim(splStr(i))                                                             '去除两边空格
@@ -438,31 +438,31 @@ Function createDirFolder(ByVal folderPath)
     Next 
 End Function 
 '创建以域名命名的文件夹
-Function createDomain(ByVal folderPath, ByVal HttpUrl)
+Function createDomain(ByVal folderPath, ByVal httpurl)
     On Error Resume Next 
     Dim ToPath 
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    Call handlePath(folderPath)                                                     '获得完整路径
     createDomain = False 
-    HttpUrl = GetWebSite(HttpUrl) 
-    HttpUrl = Replace(Replace(Replace(HttpUrl, "http://", ""), "/", ""), ".", "_") 
-    HttpUrl = Replace(HttpUrl, ":", "_")                                            '追加于2012年7月13日
-    ToPath = folderPath & HttpUrl 
-    If CheckFolder(ToPath) = False Then
+    httpurl = getWebSite(httpurl) 
+    httpurl = Replace(Replace(Replace(httpurl, "http://", ""), "/", ""), ".", "_") 
+    httpurl = Replace(httpurl, ":", "_")                                            '追加于2012年7月13日
+    ToPath = folderPath & httpurl 
+    If checkFolder(ToPath) = False Then
         Call CreateFolder(ToPath) 
         createDomain = True 
     End If 
     If Err Then Call doError(Err.Description, "CreateDoMain 创建以域名命名的文件夹 函数出错，FolderPath=" & folderPath) 
 End Function 
 '创建以域名命名的文件夹 (辅助)
-Function createDomainFolder(folderPath, HttpUrl)
-    createDomainFolder = createDomain(folderPath, HttpUrl) 
+Function createDomainFolder(folderPath, httpurl)
+    createDomainFolder = createDomain(folderPath, httpurl) 
 End Function 
 '移动文件夹
 Function moveFolder(ByVal path, ByVal ToPath)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(path)                                                           '获得完整路径
-    Call HandlePath(ToPath)                                                         '获得完整路径
+    Call handlePath(path)                                                           '获得完整路径
+    Call handlePath(ToPath)                                                         '获得完整路径
     moveFolder = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(path) = True And fso.FolderExists(ToPath) = False Then      '要移动文件夹为真，被移动文件夹为假
@@ -480,8 +480,8 @@ End Function
 Function copyFolder(ByVal path, ByVal ToPath)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(path)                                                           '获得完整路径
-    Call HandlePath(ToPath)                                                         '获得完整路径
+    Call handlePath(path)                                                           '获得完整路径
+    Call handlePath(ToPath)                                                         '获得完整路径
     '完善当前最后为\时会报错(20151022)
     If Right(path, 1) = "\" Then
         path = Left(path, Len(path) - 1) 
@@ -502,7 +502,7 @@ End Function
 Function deleteFolder(ByVal folderPath)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    Call handlePath(folderPath)                                                     '获得完整路径
     deleteFolder = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderPath) Then
@@ -517,7 +517,7 @@ End Function
 Function getFolderSize(ByVal folderName)
     On Error Resume Next 
     Dim fso, OpenFolder 
-    Call HandlePath(folderName)                                                     '获得完整路径
+    Call handlePath(folderName)                                                     '获得完整路径
     getFolderSize = 0 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderName) Then
@@ -532,7 +532,7 @@ End Function
 Function checkFolder(ByVal folderName)
     On Error Resume Next 
     Dim fso 
-    Call HandlePath(folderName)                                                     '获得完整路径
+    Call handlePath(folderName)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         checkFolder = fso.FolderExists(folderName) 
     Set fso = Nothing 
@@ -546,7 +546,7 @@ End Function
 Function getFolderCreateDate(ByVal folderName)
     On Error Resume Next 
     Dim fso, OpenFolder 
-    Call HandlePath(folderName)                                                     '获得完整路径
+    Call handlePath(folderName)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderName) Then
             Set OpenFolder = fso.GetFolder(folderName)
@@ -560,7 +560,7 @@ End Function
 Function getFolderEditDate(ByVal folderName)
     On Error Resume Next 
     Dim fso, OpenFolder 
-    Call HandlePath(folderName)                                                     '获得完整路径
+    Call handlePath(folderName)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderName) Then
             Set OpenFolder = fso.GetFolder(folderName)
@@ -578,7 +578,7 @@ End Function
 Function getFolderAttribute(ByVal folderName)
     On Error Resume Next 
     Dim fso, OpenFolder 
-    Call HandlePath(folderName)                                                     '获得完整路径
+    Call handlePath(folderName)                                                     '获得完整路径
     getFolderAttribute = 0 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderName) = True Then
@@ -593,7 +593,7 @@ End Function
 Function editFolderAttribute(ByVal folderName, n)
     On Error Resume Next 
     Dim fso, OpenFolder 
-    Call HandlePath(folderName)                                                     '获得完整路径
+    Call handlePath(folderName)                                                     '获得完整路径
     editFolderAttribute = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderName) Then
@@ -609,7 +609,7 @@ End Function
 Function existsFolderDay(ByVal folderName, ByVal InputDayNumb)
     On Error Resume Next 
     Dim fso, OpenFolder, DayNumb 
-    Call HandlePath(folderName)                                                     '获得完整路径
+    Call handlePath(folderName)                                                     '获得完整路径
     existsFolderDay = False 
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderName) = True Then
@@ -630,7 +630,7 @@ Function getFileFolderList(ByVal folderPath, FileYes, FileTypeList, FileNameOrTy
     On Error Resume Next 
     getFileFolderList = "" 
     Dim fso, f, fc, myFile, f1, FileType 
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    Call handlePath(folderPath)                                                     '获得完整路径
     FileTypeList = LCase(FileTypeList)                                              '文件类型列表小写
     Set fso = CreateObject("Scripting.FileSystemObject")
         If Not fso.FolderExists(folderPath) Then Exit Function 
@@ -646,24 +646,24 @@ Function getFileFolderList(ByVal folderPath, FileYes, FileTypeList, FileNameOrTy
                             c = c & myFile & vbCrLf 
                         End If 
                     End If 
-                    DoEvents 
+                    doEvents 
                 Next 
             End If 
 
-            If InStr("|" & FolderType & "|","|文件夹|") > 0 or InStr("|" & FolderType & "|","|全部文件夹|") > 0 or InStr("|" & FolderType & "|","|全部|") > 0 Then
+            If InStr("|" & FolderType & "|", "|文件夹|") > 0 Or InStr("|" & FolderType & "|", "|全部文件夹|") > 0 Or InStr("|" & FolderType & "|", "|全部|") > 0 Then
                 Set fc = f.subFolders
                     For Each f1 In fc
-						if instr("|" & FolderType & "|","|hidefolderlist|")=false then
-							If InStr("|名称|取名称|", "|" & FolderNameOrType & "|") > 0 Then
-								c = c & f1.Name & vbCrLf 
-							ElseIf LCase(FolderNameOrType) <> "no" Then
-								c = c & f1 & vbCrLf 
-							End If 
-						end if
-						If InStr("|" & FolderType & "|","|全部文件夹|") > 0 or InStr("|" & FolderType & "|","|全部|") > 0 Then
+                        If InStr("|" & FolderType & "|", "|hidefolderlist|") = False Then
+                            If InStr("|名称|取名称|", "|" & FolderNameOrType & "|") > 0 Then
+                                c = c & f1.Name & vbCrLf 
+                            ElseIf LCase(FolderNameOrType) <> "no" Then
+                                c = c & f1 & vbCrLf 
+                            End If 
+                        End If 
+                        If InStr("|" & FolderType & "|", "|全部文件夹|") > 0 Or InStr("|" & FolderType & "|", "|全部|") > 0 Then
                             c = getFileFolderList(f1, FileYes, FileTypeList, FileNameOrType, FolderType, FolderNameOrType, c) & vbCrLf 
                         End If 
-                        DoEvents 
+                        doEvents 
                     Next 
                 Set fc = Nothing 
             End If 
@@ -675,105 +675,105 @@ Function getFileFolderList(ByVal folderPath, FileYes, FileTypeList, FileNameOrTy
 End Function 
 '获得当前目录下全部Jpg文件
 Function getDirJpgList(ByVal folderPath)
-    getDirJpgList =getDirFileList(folderPath,"jpg")
-End Function
+    getDirJpgList = getDirFileList(folderPath, "jpg") 
+End Function 
 '获得当前目录下全部Png文件
 Function getDirPngList(ByVal folderPath)
-    getDirPngList =getDirFileList(folderPath,"png")
-End Function
+    getDirPngList = getDirFileList(folderPath, "png") 
+End Function 
 '获得当前目录下全部Ini文件
 Function getDirIniList(ByVal folderPath)
-    getDirIniList =getDirFileList(folderPath,"ini")
+    getDirIniList = getDirFileList(folderPath, "ini") 
 End Function 
 '获得当前目录下全部Txt文件
 Function getDirTxtList(ByVal folderPath)
-    getDirTxtList =getDirFileList(folderPath,"txt")
+    getDirTxtList = getDirFileList(folderPath, "txt") 
 End Function 
 '获得当前目录下全部js文件
 Function getDirJsList(ByVal folderPath)
-    getDirJsList=getDirFileList(folderPath,"js")
+    getDirJsList = getDirFileList(folderPath, "js") 
 End Function 
 '获得当前目录下全部css文件
 Function getDirCssList(ByVal folderPath)
-    getDirCssList=getDirFileList(folderPath,"css")
+    getDirCssList = getDirFileList(folderPath, "css") 
 End Function 
 '获得当前目录下全部Html文件
 Function getDirHtmlList(ByVal folderPath)
-    getDirHtmlList=getDirFileList(folderPath,"html")
+    getDirHtmlList = getDirFileList(folderPath, "html") 
 End Function 
 '获得当前目录下全部asp文件
 Function getDirAspList(ByVal folderPath)
-    getDirAspList=getDirFileList(folderPath,"asp")
+    getDirAspList = getDirFileList(folderPath, "asp") 
 End Function 
 '获得当前目录下全部php文件
-Function getDirPhpList(ByVal folderPath) 
-	getDirPhpList=getDirFileList(folderPath,"php")
-End Function
+Function getDirPhpList(ByVal folderPath)
+    getDirPhpList = getDirFileList(folderPath, "php") 
+End Function 
 '获得当前目录下批量文件列表
-Function getDirFileList(ByVal folderPath,fileTypeList)
-	if fileTypeList="" then
-		fileTypeList="全部"
-	end if
+Function getDirFileList(ByVal folderPath, fileTypeList)
+    If fileTypeList = "" Then
+        fileTypeList = "全部" 
+    End If 
     getDirFileList = getFileFolderList(folderPath, True, fileTypeList, "", "", "", "") 
-End Function
- 
+End Function 
+
 '获得当前目录下全部Jpg文件名称
 Function getDirJpgNameList(ByVal folderPath)
-    getDirJpgNameList =getDirFileNameList(folderPath,"jpg")
-End Function
+    getDirJpgNameList = getDirFileNameList(folderPath, "jpg") 
+End Function 
 '获得当前目录下全部Png文件名称
 Function getDirPngNameList(ByVal folderPath)
-    getDirPngNameList =getDirFileNameList(folderPath,"png")
-End Function
+    getDirPngNameList = getDirFileNameList(folderPath, "png") 
+End Function 
 '获得当前目录下全部Ini文件名称
 Function getDirIniNameList(ByVal folderPath)
-    getDirIniNameList =getDirFileNameList(folderPath,"ini")
+    getDirIniNameList = getDirFileNameList(folderPath, "ini") 
 End Function 
 '获得当前目录下全部Txt文件名称
 Function getDirTxtNameList(ByVal folderPath)
-    getDirTxtNameList =getDirFileNameList(folderPath,"txt")
+    getDirTxtNameList = getDirFileNameList(folderPath, "txt") 
 End Function 
 '获得当前目录下全部js文件名称
 Function getDirJsNameList(ByVal folderPath)
-    getDirJsNameList=getDirFileNameList(folderPath,"js")
+    getDirJsNameList = getDirFileNameList(folderPath, "js") 
 End Function 
 '获得当前目录下全部css文件名称
 Function getDirCssNameList(ByVal folderPath)
-    getDirCssNameList=getDirFileNameList(folderPath,"css")
+    getDirCssNameList = getDirFileNameList(folderPath, "css") 
 End Function 
 '获得当前目录下全部Html文件名称
 Function getDirHtmlNameList(ByVal folderPath)
-    getDirHtmlNameList=getDirFileNameList(folderPath,"html")
+    getDirHtmlNameList = getDirFileNameList(folderPath, "html") 
 End Function 
 '获得当前目录下全部asp文件名称
 Function getDirAspNameList(ByVal folderPath)
-    getDirAspNameList=getDirFileNameList(folderPath,"asp")
+    getDirAspNameList = getDirFileNameList(folderPath, "asp") 
 End Function 
 '获得当前目录下全部php文件名称
-Function getDirPhpNameList(ByVal folderPath) 
-	getDirPhpNameList=getDirFileNameList(folderPath,"php")
-End Function
+Function getDirPhpNameList(ByVal folderPath)
+    getDirPhpNameList = getDirFileNameList(folderPath, "php") 
+End Function 
 '获得当前目录下全部类型文件名称
-Function getDirFileNameList(ByVal folderPath,fileTypeList)
-	if fileTypeList="" then
-		fileTypeList="全部"
-	end if
+Function getDirFileNameList(ByVal folderPath, fileTypeList)
+    If fileTypeList = "" Then
+        fileTypeList = "全部" 
+    End If 
     getDirFileNameList = getFileFolderList(folderPath, True, fileTypeList, "名称", "", "", "") 
 End Function 
 
 
 '获得当前目录下全部文件名称
-Function getDirAllFileList(ByVal folderPath,fileTypeList)
-	if fileTypeList="" then
-		fileTypeList="全部"
-	end if
+Function getDirAllFileList(ByVal folderPath, fileTypeList)
+    If fileTypeList = "" Then
+        fileTypeList = "全部" 
+    End If 
     getDirAllFileList = getFileFolderList(folderPath, True, fileTypeList, "", "全部文件夹|hidefolderlist", "", "") 
-End Function
+End Function 
 '获得当前目录下全部文件名称
-Function getDirAllFileNameList(ByVal folderPath,fileTypeList)
-	if fileTypeList="" then
-		fileTypeList="全部"
-	end if
+Function getDirAllFileNameList(ByVal folderPath, fileTypeList)
+    If fileTypeList = "" Then
+        fileTypeList = "全部" 
+    End If 
     getDirAllFileNameList = getFileFolderList(folderPath, True, fileTypeList, "名称", "全部文件夹|hidefolderlist", "", "") 
 End Function 
 
@@ -797,26 +797,26 @@ End Function
 
 
 '获得全部文件（夹）数量
-Function getFileFolderNumb(ByVal folderPath, SType, ByVal countNumb)
+Function getFileFolderNumb(ByVal folderPath, sType, ByVal countNumb)
     On Error Resume Next 
     Dim fso, f, fc, f1 
     getFileFolderNumb = countNumb 
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    Call handlePath(folderPath)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderPath) = True Then
             Set f = fso.GetFolder(folderPath)
                 Set fc = f.subFolders
-                    If SType = "文件数量" Or SType = "全部文件数量" Then
+                    If sType = "文件数量" Or sType = "全部文件数量" Then
                         countNumb = countNumb + f.files.Count 
-                    ElseIf SType = "文件夹数量" Or SType = "全部文件夹数量" Then
+                    ElseIf sType = "文件夹数量" Or sType = "全部文件夹数量" Then
                         countNumb = countNumb + fc.Count 
-                    ElseIf SType = "文件夹大小" Then
+                    ElseIf sType = "文件夹大小" Then
                         countNumb = f.Size 
                     End If 
-                    If SType = "全部文件数量" Or SType = "全部文件夹数量" Then
+                    If sType = "全部文件数量" Or sType = "全部文件夹数量" Then
                         For Each f1 In fc
-                            countNumb = getFileFolderNumb(f1, SType, countNumb) 
-                            DoEvents 
+                            countNumb = getFileFolderNumb(f1, sType, countNumb) 
+                            doEvents 
                         Next 
                     End If 
                 Set f = Nothing 
@@ -847,23 +847,23 @@ Function getDirAllFolderNumb(folderPath)
     getDirAllFolderNumb = getFileFolderNumb(folderPath, "全部文件夹数量", 0) 
 End Function 
 '获得全部文件夹列表
-Function getFolderList(ByVal folderPath, SType)
+Function getFolderList(ByVal folderPath, sType)
     'On Error Resume Next
     Dim fso, f, fc, f1, c 
     c = "" 
-    SType = CStr(SType) 
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    sType = CStr(sType) 
+    Call handlePath(folderPath)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderPath) = True Then
             Set f = fso.GetFolder(folderPath)
                 Set fc = f.subFolders
                     For Each f1 In fc
-                        If SType = "名称" Or SType = "0" Then
+                        If sType = "名称" Or sType = "0" Then
                             c = c & f1.Name & vbCrLf 
                         Else
                             c = c & f1 & vbCrLf 
                         End If 
-                        DoEvents 
+                        doEvents 
                     Next 
                 Set f = Nothing 
             Set fc = Nothing 
@@ -875,22 +875,22 @@ Function getFolderList(ByVal folderPath, SType)
 End Function 
 '获得文件列表排序
 Function getDirFileSort(ByVal folderPath)
-    On Error Resume Next  
-    Dim fso, f, fc, myFile, id, ArrayStr(99), i, c  
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    On Error Resume Next 
+    Dim fso, f, fc, myFile, id, arrayStr(99), i, c 
+    Call handlePath(folderPath)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderPath) = False Then Exit Function                      '文件夹不存在，退出
         Set f = fso.GetFolder(folderPath)
             For Each myFile In f.files
                 If InStr(myFile.Name, "#") = False And InStr(myFile.Name, "、") > 0 Then        '#代表不显示，并且要有、符号
                     id = Replace(Left(myFile.Name, 2), "、", "") 
-                    ArrayStr(id) = myFile.Name 
+                    arrayStr(id) = myFile.Name 
                 End If 
-                DoEvents 
+                doEvents 
             Next 
-            For i = 0 To UBound(ArrayStr)
-                If ArrayStr(i) <> "" Then
-                    c = c & ArrayStr(i) & vbCrLf 
+            For i = 0 To UBound(arrayStr)
+                If arrayStr(i) <> "" Then
+                    c = c & arrayStr(i) & vbCrLf 
                 End If 
             Next 
         Set f = Nothing 
@@ -900,9 +900,9 @@ Function getDirFileSort(ByVal folderPath)
 End Function 
 '获得文件夹列表排序
 Function getDirFolderSort(ByVal folderPath)
-    On Error Resume Next  
-    Dim fso, f, fc, myFile, id, ArrayStr(99), i, c, f1  
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    On Error Resume Next 
+    Dim fso, f, fc, myFile, id, arrayStr(99), i, c, f1 
+    Call handlePath(folderPath)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If fso.FolderExists(folderPath) = False Then Exit Function                      '文件夹不存在，退出
         Set f = fso.GetFolder(folderPath)
@@ -910,13 +910,13 @@ Function getDirFolderSort(ByVal folderPath)
                 For Each f1 In fc
                     If InStr(f1.Name, "#") = 0 And InStr(f1.Name, "、") > 0 Then                    '#代表不显示，并且要有、符号
                         id = Replace(Left(f1.Name, 2), "、", "") 
-                        ArrayStr(id) = f1.Name 
-                        DoEvents 
+                        arrayStr(id) = f1.Name 
+                        doEvents 
                     End If 
                 Next 
-                For i = 0 To UBound(ArrayStr)
-                    If ArrayStr(i) <> "" Then
-                        c = c & ArrayStr(i) & vbCrLf 
+                For i = 0 To UBound(arrayStr)
+                    If arrayStr(i) <> "" Then
+                        c = c & arrayStr(i) & vbCrLf 
                     End If 
                 Next 
             Set f = Nothing 
@@ -944,26 +944,26 @@ Sub deleteAllFile(dirPath)
 End Sub 
 '获得当前更新文件列表  例 Call Rw(GetUpdateFile("/Inc","html|css|jpg|Asp","全部","n,1,文件路径",""))
 '暂时这么设计，设计不友好，当前的息是怎么想的 20150711
-Function getUpdateFile(ByVal folderPath, FileTypeList, FolderType, SetTime, ByVal c)
+Function getUpdateFile(ByVal folderPath, FileTypeList, FolderType, setTime, ByVal c)
     'On Error Resume Next
     Dim fso, f, fc, myFile, f1, FileType, ResultTime, s, setTimeType, splxx, showMsgType 
     getUpdateFile = "" 
     setTimeType = "" 
     showMsgType = "" 
-    Call HandlePath(folderPath)                                                     '获得完整路径
-    If InStr(SetTime, ",") Then
-        splxx = Split(SetTime, ",") 
+    Call handlePath(folderPath)                                                     '获得完整路径
+    If InStr(setTime, ",") Then
+        splxx = Split(setTime, ",") 
         setTimeType = Trim(splxx(0)) 
-        SetTime = Trim(splxx(1)) 
+        setTime = Trim(splxx(1)) 
         If UBound(splxx) >= 2 Then showMsgType = Trim(splxx(2))                         '显示回显内容类型
     End If 
     If setTimeType = "" Then
         setTimeType = "s" 
     End If 
-    If SetTime = "" Then
-        SetTime = -1 
+    If setTime = "" Then
+        setTime = -1 
     Else
-        SetTime = CLng(SetTime)                                                         '设置时间为数值类型
+        setTime = CLng(setTime)                                                         '设置时间为数值类型
     End If 
 
     FileTypeList = LCase(FileTypeList)                                              '文件类型列表小写
@@ -976,29 +976,29 @@ Function getUpdateFile(ByVal folderPath, FileTypeList, FolderType, SetTime, ByVa
                     '计算时间 然后再上传
                     ResultTime = DateDiff(setTimeType, myFile.DateLastModified, Now()) 
                     'call echo(MyFile & "("& setTimeType &")", ResultTime & "<=" & SetTime)
-                    If ResultTime <= SetTime Or SetTime = -1 Then
+                    If ResultTime <= setTime Or setTime = -1 Then
                         FileType = LCase(Right(myFile.Name, Len(myFile.Name) - InStrRev(myFile.Name, "."))) 
                         'Call Echo(FileType,MyFile)
                         If(InStr("|" & FileTypeList & "|", "|" & FileType & "|") > 0 Or FileTypeList = "" Or FileTypeList = "全部" Or FileTypeList = "*") And FileTypeList <> "0" Then'改进于20140929 文件类型判断完善
                             If showMsgType = "文件路径" Then
                                 s = myFile 
                             Else
-                                s = myFile & "|" & CheckCode(myFile) & "|" & PrintSpaceValue(myFile.Size) & "|" & Format_Time(myFile.DateLastModified, 1) & "|" & ResultTime & "/" & SetTime & "(" & SetTime - ResultTime & ")" 
+                                s = myFile & "|" & checkCode(myFile) & "|" & printSpaceValue(myFile.Size) & "|" & format_Time(myFile.DateLastModified, 1) & "|" & ResultTime & "/" & setTime & "(" & setTime - ResultTime & ")" 
                             End If 
                             c = c & s & vbCrLf 
                         End If 
                     End If 
                 End If 
-                DoEvents 
+                doEvents 
             Next 
 
             If InStr("|当前|全部|文件夹|全部文件夹|", "|" & FolderType & "|") > 0 Then
                 Set fc = f.subFolders
                     For Each f1 In fc
                         If InStr("|全部|全部文件夹|", "|" & FolderType & "|") > 0 Then
-                            c = getUpdateFile(f1, FileTypeList, FolderType, SetTime, c) & vbCrLf 
+                            c = getUpdateFile(f1, FileTypeList, FolderType, setTime, c) & vbCrLf 
                         End If 
-                        DoEvents 
+                        doEvents 
                     Next 
                 Set fc = Nothing 
             End If 
@@ -1010,7 +1010,7 @@ Function getUpdateFile(ByVal folderPath, FileTypeList, FolderType, SetTime, ByVa
 End Function 
 '========================================= 辅助区 =========================================
 '处理成完成路径 (2013,9,27
-Function handlePath(FFPath)                                                       'Path前面不加ByVal 重定义，这样是为了让前面函数里可以使用这个路径完整调用
+Function handlePath(FFPath)                                                     'Path前面不加ByVal 重定义，这样是为了让前面函数里可以使用这个路径完整调用
     FFPath = Replace(FFPath, "/", "\") 
     FFPath = Replace(FFPath, "\\", "\") 
     FFPath = Replace(FFPath, "\\", "\") 
@@ -1029,7 +1029,7 @@ Function handlePath(FFPath)                                                     
     FFPath = Replace(FFPath, "/", "\") 
     FFPath = Replace(FFPath, "\\", "\") 
     FFPath = Replace(FFPath, "\\", "\") 
-    FFPath = FullPath(FFPath) 
+    FFPath = fullPath(FFPath) 
     If isDir = True Then
         FFPath = FFPath & "\" 
     End If 
@@ -1069,13 +1069,13 @@ End Function
 '处理成相对路径(20150906)  如 a=handleRelativePath("",a)
 Function handleRelativePath(rootPath, ByVal filePath)
     If rootPath = "" Then rootPath = "\" 
-    rootPath = HandlePath(rootPath) 
+    rootPath = handlePath(rootPath) 
     filePath = Replace(filePath, rootPath, "\") 
     handleRelativePath = filePath 
 End Function 
 '获得目录
 Function dirName(filePath)
-    filePath = HandleFileUrl(filePath) 
+    filePath = handleFileUrl(filePath) 
     If Right(filePath, 1) <> "\" Then
         filePath = Mid(filePath, 1, InStrRev(filePath, "\")) 
     End If 
@@ -1083,7 +1083,7 @@ Function dirName(filePath)
 End Function 
 '获得目录 PHP版 20160516
 Function phpDirName(filePath)
-    filePath = HandleFileUrl(filePath) 
+    filePath = handleFileUrl(filePath) 
     If Right(filePath, 1) <> "\" Then
         filePath = Mid(filePath, 1, InStr(filePath, "\")) 
     End If 
@@ -1167,34 +1167,35 @@ Function showAttributeTip(n)
     showAttributeTip = c 
 End Function 
 'KB转M函数，不够1M,自动显示K 最大为G   (追求好看与可读，舒服)
-Function printSpaceValue(ByVal Numb)
+Function printSpaceValue(ByVal numb)
     Dim n 
-    n = Numb 
+    n = numb 
     If n >= 1073741824 Then                                                         '等于1024*1024*1024  VB中用CDec(1024)
         n = n / 1073741824 
         If InStr(n, ".") Then
-            n = Left(n, InStr(n, ".") + 2) 
+            n = Left(n, InStr(n, ".") + 2)
         End If 
-        n = n & " G" 
+        n = n & "G" 
     ElseIf n >= 1048576 Then                                                        '等于1024*1024
         n = n / 1048576 
         If InStr(n, ".") Then
             n = Left(n, InStr(n, ".") + 2) 
         End If 
-        n = n & " M" 
+        n = n & "M" 
     Else
-        n = Fix(n / 1024) & " K" 
-    End If 
-    If n = "0 K" Then n = Numb & "Bet"                                              '如果为0 K 就显示字的Bet数
+        n = FormatNumber(n / 1024,2) & "K" 				'把Fix换成FormatNumber 是因为与php那边一致 20160526
+    End If
+	
+    If n = "0K" Then n = "0" & FormatNumber(numb/1024,2) & "K"   'n = Numb & "Bet"   '如果为0 K 就显示字的Bet数    改成与php版一样最小为K 如0.93K  20160525
     printSpaceValue = n 
 End Function 
 'KB转M函数 (辅助)
-Function printSpaceSize(Numb)
-    printSpaceSize = printSpaceValue(Numb) 
+Function printSpaceSize(numb)
+    printSpaceSize = printSpaceValue(numb) 
 End Function 
 'KB转M函数 (辅助)
-Function printFileSize(Numb)
-    printFileSize = printSpaceValue(Numb) 
+Function printFileSize(numb)
+    printFileSize = printSpaceValue(numb) 
 End Function 
 '获得桌面路径
 Function getDeskPath()
@@ -1240,7 +1241,7 @@ Function findDirFileName(folderPath, fileName)
     Dim fso, f, myFile, fName 
     findDirFileName = "" 
     fileName = LCase(fileName)                                                      '转成小写
-    Call HandlePath(folderPath)                                                     '获得完整路径
+    Call handlePath(folderPath)                                                     '获得完整路径
     Set fso = CreateObject("Scripting.FileSystemObject")
         If Not fso.FolderExists(folderPath) Then Exit Function 
         Set f = fso.GetFolder(folderPath)
@@ -1250,7 +1251,7 @@ Function findDirFileName(folderPath, fileName)
                     findDirFileName = myFile.Name 
                     Exit Function 
                 End If 
-                DoEvents 
+                doEvents 
             Next 
         Set f = Nothing 
     Set fso = Nothing 
@@ -1341,7 +1342,7 @@ End Function
 '文件处理成数组20150124  数组  0原文件路径 1为文件路径   2为文件名称  3为去除文件类型文件名称   4为文件类型后缀名
 Function handleFilePathArray(ByVal filePath)
     Dim FileDir, fileName, FileNoTypeName, FileType 
-    filePath = HandleFileUrl(filePath) 
+    filePath = handleFileUrl(filePath) 
 
     FileDir = Mid(filePath, 1, InStrRev(filePath, "\")) 
     fileName = Mid(filePath, InStrRev(filePath, "\") + 1) 
@@ -1364,11 +1365,11 @@ End Function
 '获得处理后的文件名称
 Function getStrFileName(ByVal filePath)
     getStrFileName = handleFilePathArray(filePath)(2) 
-End Function
-'获得文件名称20160105 
-function getFileName(byval filePath)
-	getFileName=handleFilePathArray(filePath)(2)
-end function 
+End Function 
+'获得文件名称20160105
+Function getFileName(ByVal filePath)
+    getFileName = handleFilePathArray(filePath)(2) 
+End Function 
 '获得文件属性
 Function getFileAttr(ByVal filePath, sType)
     getFileAttr = "" 
@@ -1376,14 +1377,14 @@ Function getFileAttr(ByVal filePath, sType)
         getFileAttr = handleFilePathArray(filePath)(0) 
     ElseIf sType = "1" Then
         getFileAttr = handleFilePathArray(filePath)(1) 
-    ElseIf sType = "name" or "2" Then
+    ElseIf sType = "name" Or "2" Then
         getFileAttr = handleFilePathArray(filePath)(2) 
     ElseIf sType = "3" Then
         getFileAttr = handleFilePathArray(filePath)(3) 
     ElseIf sType = "4" Then
         getFileAttr = handleFilePathArray(filePath)(4) 
     End If 
-End Function
+End Function 
 '**************************************************
 '函数名：getFileExt
 '作  用：获取文件扩展名
@@ -1395,7 +1396,7 @@ Function getFileExt(fName)
 End Function 
 '获得上一级目录(20150909)
 Function getParentPath(ByVal dirPath)
-    dirPath = HandlePath(dirPath) 
+    dirPath = handlePath(dirPath) 
     getParentPath = "" 
     If InStr(dirPath, "\") > 0 Then
         If Right(dirPath, 1) = "\" Then
@@ -1404,6 +1405,7 @@ Function getParentPath(ByVal dirPath)
         getParentPath = Mid(dirPath, 1, InStrRev(dirPath, "\")) 
     End If 
 End Function 
-%>  
+%>   
+
 
 

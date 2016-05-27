@@ -895,7 +895,9 @@ Class ClassAccess
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key,"
             sql = sql & "bigClassName VarChar Default """","                           '大类名称
             sql = sql & "website VarChar Default """","                           '域名
-            sql = sql & "title VarChar Default """","                            '标题 
+            sql = sql & "webTitle VarChar Default """","                              '网站自定标题
+            sql = sql & "webKeywords VarChar Default """","                           '网站关键词
+            sql = sql & "webDescription VarChar Default """","                        '网站描述
 			
             sql = sql & "webState int Default 0,"                                   '状态
             sql = sql & "openSpeed int Default 0,"                                   '打开时间
@@ -908,7 +910,13 @@ Class ClassAccess
             sql = sql & "isAspx YesNo Default No,"                                  '可运行Aspx程序
             sql = sql & "isPhp YesNo Default No,"                                  '可运行Php程序
             sql = sql & "isJsp YesNo Default No,"                                  '可运行Jsp程序
-            sql = sql & "homePageList VarChar Default """","                                 '首页列表
+            sql = sql & "isHtm YesNo Default No,"                                  '可运行Htm程序
+            sql = sql & "isHtml YesNo Default No,"                                  '可运行Html程序
+            sql = sql & "nlinks int Default 0,"                                 '外链数
+            sql = sql & "links Text Default """","                                 '外链列表
+			
+			
+            sql = sql & "homepagelist VarChar Default """","                                 '旗
 			
             sql = sql & "flags VarChar Default """","                                 '旗
             sql = sql & "webSize int Default 0,"                                      '网页大小

@@ -141,6 +141,13 @@ end function
 function createFileUTF(byval fileName, byval content)
 	call writeToFile(fileName,content,"utf-8")
 end function
+'创建累加文件2
+function createAddFile2(filePath,addToStr)
+	dim content
+	content=readFile(filePath,"gb2312")
+	content = content & addToStr
+	call writeToFile(filePath,content,"gb2312")
+end function
 '是UTF或GB2312
 '自动获得编码并且判断Html内容是否与读出文件编码一致，一致则退出内容
 Function getUGText(ByVal path)

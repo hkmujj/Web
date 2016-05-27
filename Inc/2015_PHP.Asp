@@ -271,6 +271,6 @@ function printAccessToPHPInstallFile()
     content = Replace(content, searchStr, replaceStr) 
     'call eerr("",content)
     Call createfile(installFilePath, content) 
-    Call echo("操作完成，打印数据库到php能生成文件", "<a href=""http://127.0.0.1/PHP2/ImageWaterMark/Include/Install.php"">http://127.0.0.1/PHP2/ImageWaterMark/Include/Install.php</a>") 
+    Call echo("操作完成，打印数据库到php能生成文件", "<a href=""http://127.0.0.1/PHP2/ImageWaterMark/Include/Install.php?db_PREFIX=xy_"">http://127.0.0.1/PHP2/ImageWaterMark/Include/Install.php?db_PREFIX=xy_</a>") 
 End function 
 %> 

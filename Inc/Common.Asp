@@ -128,6 +128,10 @@ End Function
 Function HR()
     Response.Write("<hr size='1' color='#666666'> ") 
 End Function 
+'BR 20160517
+Function BR()
+    Response.Write("<br/>") 
+End Function 
 
 '输出字符串 引用别人20141217
 'Public Sub Echo(ByVal s) : Response.Write(s) : End Sub

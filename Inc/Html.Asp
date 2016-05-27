@@ -17,7 +17,7 @@ Function unDisplayHtml(str)
 End Function 
 
 '处理闭合HTML标签(20150902)  比上面的更好用 第二种
-Function handleCloseHtml(content, ImgAddAlt, action)
+Function handleCloseHtml(content, imgAddAlt, action)
     Dim i, endStr, s, s2, c, labelName, startLabel, endLabel 
     action = "|" & action & "|" 
     startLabel = "<" 
@@ -43,7 +43,7 @@ Function handleCloseHtml(content, ImgAddAlt, action)
                 If InStr(action, "|处理A链接|") > 0 Then
                     s = handleHtmlAHref(s, labelName, "http://127.0.0.1/TestWeb/Web/", "处理A链接") '处理干净html标签
                 ElseIf InStr(action, "|处理A链接第二种|") > 0 Then
-                    s = handleHtmlAHref(s, labelName, "http://127.0.0.1/debugRemoteWeb.asp?url=", "处理A链接") '处理干净html标签 
+                    s = handleHtmlAHref(s, labelName, "http://127.0.0.1/debugRemoteWeb.asp?url=", "处理A链接") '处理干净html标签
                 End If 
                 'call echo(s,labelName)   param与embed是Flash用到，不过embed有结束标签的
                 If InStr("|meta|link|embed|param|input|img|br|hr|rect|line|area|script|div|span|a|", "|" & labelName & "|") > 0 Then
@@ -51,7 +51,7 @@ Function handleCloseHtml(content, ImgAddAlt, action)
                     s = Replace(Replace(Replace(Replace(s, " class=''", ""), " alt=''", ""), " title=''", ""), " name=''", "") 
 
                     '给vb.net软件用的 要不然它会报错，晕
-                    If labelName = "img" And ImgAddAlt = True Then
+                    If labelName = "img" And imgAddAlt = True Then
                         If InStr(s, " alt") = False Then
                             s = s & " alt=""""" 
                         End If 
@@ -62,9 +62,9 @@ Function handleCloseHtml(content, ImgAddAlt, action)
                         If InStr(s, " type") = False Then
                             s = s & " type=""text/javascript""" 
                         End If 
-					elseif right(trim(s),1)<>"/" and InStr("|meta|link|embed|param|input|img|br|hr|rect|line|area|", "|" & labelName & "|") > 0 then
+                    ElseIf Right(Trim(s), 1) <> "/" And InStr("|meta|link|embed|param|input|img|br|hr|rect|line|area|", "|" & labelName & "|") > 0 Then
                         s = Trim(s) 
-                        s = s & " /"
+                        s = s & " /" 
                     End If 
                 End If 
                 s = startLabel & s & endLabel 
@@ -82,20 +82,20 @@ Function handleCloseHtml(content, ImgAddAlt, action)
         c = c & s 
     Next 
     handleCloseHtml = c 
-End Function
+End Function 
 '处理htmlA标签的Href链接  配合上面函数
 Function handleHtmlAHref(ByVal content, labelName, addToHttpUrl, action)
     Dim i, s, c, temp 
-    Dim isValue                                                           '是否为内容值
-    Dim valueStr                                                          '存储内容值
-    Dim yinghaoLabel                                                      '引号类型如'"
-    Dim parentName                                                        '参数名称
-    Dim behindStr                                                         '后面全部字符
-    Dim noDanYinShuangYinStr                                              '不是单引号和双引号字符
+    Dim isValue                                                               '是否为内容值
+    Dim valueStr                                                              '存储内容值
+    Dim yinghaoLabel                                                          '引号类型如'"
+    Dim parentName                                                            '参数名称
+    Dim behindStr                                                             '后面全部字符
+    Dim noDanYinShuangYinStr                                                  '不是单引号和双引号字符
     action = "|" & action & "|" 
-    content = Replace(content & " ", vbTab, " ")                          '退格替换成空格，最后加一个空格，方便计算
+    content = Replace(content & " ", vbTab, " ")                              '退格替换成空格，最后加一个空格，方便计算
     content = Replace(Replace(content, " =", "="), " =", "=") 
-    isValue = False                                                       '默认内容为假，因为先是获得标签名称
+    isValue = False                                                           '默认内容为假，因为先是获得标签名称
     For i = 1 To Len(content)
         s = Mid(content, i, 1)                                                       '获得当前一个字符
         behindStr = Mid(content, i)                                                  '后面字符
@@ -167,7 +167,7 @@ Function handleHtmlAHref(ByVal content, labelName, addToHttpUrl, action)
     handleHtmlAHref = c 
 End Function 
 '追加或替换网址(20150922) 配合上面   addToOrAddHttpUrl("http://127.0.0.1/aa/","http://127.0.0.1/4.asp","替换") = http://127.0.0.1/aa/4.asp
-Function addToOrAddHttpUrl(httpUrl, ByVal url, action)
+Function addToOrAddHttpUrl(httpurl, ByVal url, action)
     Dim s 
     action = "|" & action & "|" 
     If InStr(action, "|替换|") > 0 Then
@@ -176,11 +176,11 @@ Function addToOrAddHttpUrl(httpUrl, ByVal url, action)
             url = Replace(url, s, "") 
         End If 
     End If 
-    If InStr(url, httpUrl) = False Then
-        If Right(httpUrl, 1) = "/" And(Left(url, 1) = "/" Or Left(url, 1) = "\") Then
+    If InStr(url, httpurl) = False Then
+        If Right(httpurl, 1) = "/" And(Left(url, 1) = "/" Or Left(url, 1) = "\") Then
             url = Mid(url, 2) 
         End If 
-        url = httpUrl & url 
+        url = httpurl & url 
     End If 
 
     addToOrAddHttpUrl = url 
@@ -231,9 +231,78 @@ Function removeBlankLines(content)
 End Function 
 
 
+'call echo("webtitle",getHtmlValue(content,"webtitle"))
+'call echo("webdescription",getHtmlValue(content,"webdescription"))
+'call echo("webkeywords",getHtmlValue(content,"webkeywords"))
+'获得html里面指定值20160520 call echo("webtitle",getHtmlValue(content,"webtitle"))
+Function getHtmlValue(content, sType)
+    Dim i, endStr, s, labelName, startLabel, endLabel, LCaseEndStr, paramName 
+    startLabel = "<" 
+    endLabel = ">" 
+    For i = 1 To Len(content)
+        s = Mid(content, i, 1) 
+        endStr = Mid(content, i) 
+        If s = "<" Then
+            If InStr(endStr, ">") > 0 Then
+                s = Mid(endStr, 1, InStr(endStr, ">")) 
+                i = i + Len(s) - 1 
+                s = Mid(s, 2, Len(s) - 2) 
+                s = phptrim(s) 
+                If Right(s, 1) = "/" Then
+                    s = phptrim(Left(s, Len(s) - 1)) 
+                End If 
+                endStr = Right(endStr, Len(endStr) - Len(s) - 2)                                '最后字符减去当前标签  -2是因为它有<>二个字符
+                '注意之前放在labelName下面
+                labelName = Mid(s, 1, InStr(s & " ", " ") - 1) 
+                labelName = LCase(labelName) 
+
+                If labelName = "title" And sType = "webtitle" Then
+                    LCaseEndStr = LCase(endStr) 
+					if InStr(LCaseEndStr, "</title>")>0 then
+						s = Mid(endStr, 1, InStr(LCaseEndStr, "</title>") - 1) 
+					else
+						s=""
+					end if
+					getHtmlValue = s 
+                    Exit Function 
+                ElseIf labelName = "meta" And(sType = "webkeywords" Or sType = "webdescription") Then
+                    LCaseEndStr = LCase(endStr) 
+                    paramName = phptrim(LCase(getParamValue(s, "name"))) 
+                    If "web" & paramName = sType Then
+                        getHtmlValue = getParamValue(s, "content") 
+                        Exit Function 
+                    End If 
 
 
-%>   
+                End If 
+
+            End If 
+        End If 
+    Next 
+    getHtmlValue = "" 
+End Function 
+
+'获得参数值20160520  call rwend(getParamValue("meta name=""keywords"" content=""{$web_keywords$}""","name"))
+Function getParamValue(content, paramName)
+    Dim LCaseContent, s, splStart, splEnd, i, startStr, endStr 
+    LCaseContent = LCase(content) 
+
+    splStart = Array("=""", "='", "=") 
+    splEnd = Array("""", "'", ">") 
+    For i = 0 To UBound(splStart)
+        startStr = paramName & splStart(i) 
+        endStr = splEnd(i) 
+        If InStr(LCaseContent, startStr) > 0 And InStr(LCaseContent, endStr) > 0 Then
+            s = strCut(content, startStr, endStr, 2) 
+            If s <> "" Then
+                getParamValue = s 
+                Exit Function 
+            End If 
+        End If 
+    Next 
+End Function 
+
+%>    
 
 
 

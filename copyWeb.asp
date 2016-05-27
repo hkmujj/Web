@@ -13,15 +13,20 @@ end select
 'delPHP=true   为删除PHP
 'templates2015=web_default
 'jqueryCommon1=true
+'copyMyZIPFile=true  复制myzip.php文件
 sub displayDefault()
 	call echo("复制整站", "<a href='?act=copyweb' target='_blank'>点击复制整站</a>")
 	
 	call echo("复制ASPPHPCMS的ASP版", "<a href='?act=copyASPPHPCMS' target='_blank'>点击复制ASPPHPCMS 无模板</a>")
 	
 	call echo("复制ASPPHPCMS的ASP版", "<a href='?act=copyASPPHPCMS&templates2015=sharembweb|web_default&templates=ufoer&jqueryCommon1=true' target='_blank'>点击复制ASPPHPCMS[sharembweb|web_default|ufoer]</a>")
+
 	
 	
 	call echo("复制ASPPHPCMS的ASP版", "<a href='?act=copyASPPHPCMS&delPHP=true&jqueryCommon1=true&templates2015=web_default' target='_blank'>ASP版[web_default]</a>") 
+	
+	
+	call echo("复制ASPPHPCMS的ASP版", "<a href='?act=copyASPPHPCMS&delPHP=true&jqueryCommon1=true&copyMyZIPFile=true&templates2015=web_green' target='_blank'>ASP版[web_green]</a>") 
 	
 	call echo("复制ASPPHPCMS的ASP版", "<a href='?act=copyASPPHPCMS&isnote=true&isaspcodehx=true&isdelcodenode=true&templates=ufoer|legendstu&templates2015=sharembweb' target='_blank'>点击复制ASPPHPCMS（isnote|isaspcodehx|isdelcodenode）[sharembweb|ufoer|legendstu]</a>")
 	
@@ -38,7 +43,7 @@ sub copyASPPHPCMS()
 	dim rootDir,incDir,adminDir,jqueryDir,splstr,content,fileName,filePath,toFilePath,fileSuffix,templatesDir,templates2015Dir,indexFile,s,i
 	dim UploadFilesDir,dataDir,folderPath,folderName
 	
-	rootDir="/../ASPPHPCMS ga1/"
+	rootDir="/../ASPPHPCMS web_green/"
 	'call deletefolder(rootdir) 
 	if checkfolder(rootDir)=true then
 		splstr=split(getDirFolderList(rootDir),vbcrlf)
@@ -65,6 +70,10 @@ sub copyASPPHPCMS()
 	call createDirFolder(rootDir)
 	call copyFolder("/inc/",incDir)
 	call copyFolder("/web/",adminDir)
+	'20160518
+	if request("copyMyZIPFile")="true" then
+		call copyFile("/myzip.php",rootDir & "/myZip.php")
+	end if
 	'删除admin/data
 	call deleteFolder(adminDir & "/Data")	
 	call createFolder(adminDir & "/Data")
@@ -177,6 +186,7 @@ sub copyASPPHPCMS()
 				content=replace(content, "../"" & EDITORTYPE & ""web."" & EDITORTYPE & """, "../index.asp")
 				content=replace(content, """../"" & EDITORTYPE & ""web."" & EDITORTYPE", """../index.asp""")	
 				content=replace(content, """function.Asp""", """../Inc/admin_function.asp""")
+				content=replace(content, """function2.Asp""", """../Inc/admin_function2.asp""")
 				content=replace(content, """setAccess.Asp""", """../Inc/admin_setAccess.asp""") 
 				content=replace(content, "template.asp?", "../inc/admin_template.asp?")
 				
@@ -239,6 +249,7 @@ sub copyASPPHPCMS()
 	
 	'移动文件
 	call moveFile(adminDir & "/function.asp", incDir & "/admin_function.asp")
+	call moveFile(adminDir & "/function2.asp", incDir & "/admin_function2.asp")
 	call moveFile(adminDir & "/setAccess.asp", incDir & "/admin_setAccess.asp")
 	call moveFile(adminDir & "/template.asp", incDir & "/admin_template.asp")
  
@@ -327,6 +338,7 @@ sub copyASPPHPCMS()
 
 	'移动文件
 	call moveFile(adminDir & "/function.php", incDir & "/admin_function.php")
+	call moveFile(adminDir & "/function2.php", incDir & "/admin_function2.php")
 	call moveFile(adminDir & "/setAccess.php", incDir & "/admin_setAccess.php")
 	call moveFile(adminDir & "/template.php", incDir & "/admin_template.php")
 	call moveFile(adminDir & "/config.php", incDir & "/config.php")
@@ -378,6 +390,7 @@ sub copyASPPHPCMS()
 	content=getftext("/phpweb.php")
 	content=replace(content, "./Web/setAccess.php", "./phpInc/admin_setAccess.php") 
 	content=replace(content, "./Web/function.php", "./phpInc/admin_function.php") 
+	content=replace(content, "./Web/function2.php", "./phpInc/admin_function2.php") 
 	content=replace(content, "./Web/config.php", "./phpInc/config.php")
 	content=replace(content, "/web/1.asp", "/admin/index.asp")
 	

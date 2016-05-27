@@ -26,7 +26,7 @@ Function Send_Email(ToMail, ToTitle, MyEmalName, ToContent)
         JMail.Close 
     Set JMail = Nothing 
 End Function 
-'邮箱发送 例：Response.Write( ServerSend_Email("m18251922007","mydd3a","313801120@qq.com", "标题", "11@aa.com", "内容" & Action ) )
+'邮箱发送 例：Response.Write( ServerSend_Email("m18251922007","mydd3a","313801120@qq.com", "标题", "11@aa.com", "内容"  ) )
 '邮箱发送 
 Function ServerSend_Email(ServerUserName, ServerPassword, ToMail, ToTitle, MyEmalName, ToContent)
     Dim JMail, isgo, MailBody 

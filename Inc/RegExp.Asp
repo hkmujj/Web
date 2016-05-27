@@ -502,26 +502,25 @@ End Function
 'WebDes = RegExpGetStr("content=[""|']?([^""' ]*)([""|']?).*[\/]?>", WebDes, 1)
 'WebKey = RegExpGetStr("<meta[^<>]*keywords[^<>]*[\/]?>", Content, 0)
 'WebKey = RegExpGetStr("content=[""|']?([^""' ]*)([""|']?).*[\/]?>", WebKey, 1)
-Function regExpGetStr(title, content, SType)
-    Dim re, RemoteFileurl, RemoteFile, c 
-    c = "" 
-    regExpGetStr = "" 
+Function regExpGetStr(patternStr, content, SType)
+    Dim re, RemoteFileurl, RemoteFile, c
+	SType=cstr(SType)
     Set re = CreateObject("VBscript.RegExp")
         re.IgnoreCase = True 
         re.Global = True 
-        re.pattern = title 
+        re.pattern = patternStr 
         Set RemoteFile = re.Execute(content)
             For Each RemoteFileurl In RemoteFile
-                If SType = 1 Then
+                If SType = "1" Then
                     RemoteFileurl = re.Replace(RemoteFileurl, "$1") 
-                ElseIf SType = 2 Then
+                ElseIf SType = "2" Then
                     c = c & RemoteFileurl & "[$Array$]" 
                 End If 
                 regExpGetStr = RemoteFileurl 
             Next 
         Set RemoteFile = Nothing 
     Set re = Nothing 
-    If SType = 2 Then
+    If SType = "2" Then
         If c <> "" Then c = Left(c, Len(c) - 9) 
         regExpGetStr = c 
     End If 

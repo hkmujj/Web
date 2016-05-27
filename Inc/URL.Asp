@@ -308,14 +308,24 @@ End Function
 Function getWebSite(ByVal httpUrl)
     'On Error Resume Next
     '新版获得域名方法
-    Dim url, tempHttpUrl, is_WebSite 
+    Dim url, tempHttpUrl, is_WebSite,httpHead
     tempHttpUrl = httpUrl 
     url = Trim(LCase(Replace(httpUrl, "?", "/"))) 
     url = Replace(Replace(url, "\", "/"), "http://", "") 
     If InStr(url, "/") > 0 Then url = Mid(url, 1, InStr(url, "/") - 1) 
     url = "http://" & url & "/" 
     Dim splStr, s, c 
-    httpUrl = Replace(LCase(httpUrl), "http://", "") 
+    httpUrl = Replace(LCase(httpUrl), "http://", "")
+	httpHead="http://"
+	'增加了https://这种安全请求方式  20160526
+	if instr(LCase(httpUrl), "https://")>0 then
+		httpUrl = Replace(LCase(httpUrl), "https://", "")
+		httpHead="https://"
+	end if
+	'删除/后台的值20160526
+	if instr(httpUrl,"/")>0 then
+		httpUrl=mid(httpUrl,1,instr(httpUrl,"/")-1)
+	end if
     If InStr(httpUrl, "?") > 0 Then httpUrl = Mid(httpUrl, 1, InStr(httpUrl, "?") - 1) 
     If Left(httpUrl, 9) = "localhost" Then
         If InStr(httpUrl, "/") > 0 Then
@@ -347,7 +357,7 @@ Function getWebSite(ByVal httpUrl)
     For Each s In splStr
         If s <> "" Then
             If InStr(httpUrl, s) > 0 Then
-                httpUrl = "http://" & Left(httpUrl, InStr(httpUrl, s) + Len(s) - 1) & "/" : is_WebSite = True : Exit For 
+                httpUrl = httpHead & Left(httpUrl, InStr(httpUrl, s) + Len(s) - 1) & "/" : is_WebSite = True : Exit For 
             End If 
         End If 
     Next 
@@ -1503,7 +1513,22 @@ function handleWithWebSiteList(httpurl,urllist)
 	next
 	handleWithWebSiteList=c
 end function
-'mailto:xzxx@xhgroup.cn/
+'处理不同域名列表 20160501
+function handleDifferenceWebSiteList(httpurl,urllist)
+	dim website,splstr,url,c,urlWebsite,websiteList
+	website=lcase(getwebsite(httpurl))
+	splstr=split(urllist,vbcrlf)
+	for each url in splstr
+		urlWebsite=lcase(getwebsite(url))
+		if urlWebsite <>"" and website<>urlWebsite and instr(vbcrlf & websiteList & vbcrlf,vbcrlf & urlWebsite & vbcrlf)=false then
+			websiteList=websiteList & urlWebsite
+		end if
+	next
+	handleDifferenceWebSiteList=websiteList
+end function
+
+
+ 
 
 
 
