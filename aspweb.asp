@@ -1124,7 +1124,10 @@ Sub copyHtmlToWeb()
 			
 			content = deleteCssNote(content)			
 			content=phptrim(content)
-			
+			'…Ë÷√Œ™utf-8±‡¬Î 20160527
+			if lcase(setFileCode)="utf-8" then
+				content=replace(content,"gb2312","utf-8")
+			end if
             Call writeToFile(filePath, content, setFileCode) 
             Call echo("css", cfg_webImages) 
         End If 

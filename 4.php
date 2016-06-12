@@ -37,8 +37,29 @@ require_once './PHP2/Web/Inc/SystemInfo.php';
 require_once './Web/setAccess.php';
 require_once './Web/function.php';
 require_once './Web/config.php';
-
-echo(dirname('e:/a/b/c/d'));		//»ØÏÔ e:/a/b/c
+ 
 
 ?> 
+
+
+<?php
+/* 
+ÍøÒ³½ØÍ¼¹¦ÄÜ£¬±ØÐë°²×°IE+CutyCapt
+url:Òª½ØÍ¼µÄÍøÒ³
+out£ºÍ¼Æ¬±£´æÂ·¾¶
+path£ºCutyCaptÂ·¾¶
+cmd:CutyCaptÖ´ÐÐÃüÁî
+±ÈÈç:http://ÄãphpÂ·¾¶.php?url=http://niutuku.com/
+*/
+//$url=$_GET["url"];
+$url="http://sharembweb.com/";
+$imgname=str_replace('http://','',$url);
+$imgname=str_replace('https://','',$imgname);
+$imgname=str_replace('.','-',$imgname);
+$out = 'E:/EÅÌ/WEBÍøÕ¾/11.png';
+$path = 'E:/EÅÌ/WEBÍøÕ¾/ÖÁÇ°ÍøÕ¾/CutyCapt.exe';
+$cmd = "$path --url=$url --out=$out";
+echo $cmd;
+system($cmd);
+?>
  
