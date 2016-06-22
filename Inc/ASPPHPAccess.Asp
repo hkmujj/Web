@@ -1,7 +1,7 @@
 <%
 'ASP PHP数据操作通用文件
 
-'判断追加Sql是加Where 还是And   Sql = GetWhereAnd(Sql,AddSql)        修改于20141007 加强版
+'判断追加Sql是加Where 还是And   sql = getWhereAnd(sql,addSql)        修改于20141007 加强版
 Function getWhereAnd(ByVal sql, ByVal addSql)
     Dim LCaseAddSql, AddType 
     '追加SQl为空则退出

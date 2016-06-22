@@ -1,0 +1,270 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{$EDITORTYPE$}版 {$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+<script type="text/javascript" src="js/runAction.js"></script>
+<style type="text/css">
+/*顶部*/
+.header{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 90px;	
+	background: url(images/header_bg.jpg);
+	background-repeat:repeat-x;
+	overflow:hidden;
+	position:relative;
+}
+.header .top{
+	padding:16px 0 0 0;
+	line-height: 20px; 
+	color: #3B65A4;
+	font-size:14px;
+	position:relative;
+}
+.header .top .fleftwrap{
+	opacity:0.6;
+}
+.header .top .frightbox{
+	top:20px;
+	right:10px;
+	position:absolute;
+}
+.header .top a{
+	line-height: 20px;
+	float:right;
+	color: #3B65A4;
+	font-size:14px; 
+	padding:0 6px;
+}
+.header .top a:hover{
+	color: #2D4D7D;
+	text-decoration: underline;
+}
+.header .top .logo{
+  width: 180px;
+  line-height: 20px;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3B65A4;
+  text-align: left;
+  padding-left: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav{
+	position:absolute;
+	left:6px;
+	bottom:0px;
+	height:38px;
+	overflow:hidden;
+
+}
+.nav li{
+	width: 91px;
+	padding-top: 5px;
+	height: 33px;
+	float: left;
+	background: url("images/fenge.jpg") right center no-repeat;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #4b6888;
+	cursor: pointer;
+	text-align:center;
+
+}
+.nav .focus{ 
+	padding-top: 5px;
+	width: 91px;
+	height: 33px;
+	float: left;
+	background: url("images/f1png.png") -201px -40px no-repeat;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-align:center;
+}
+
+/*左边*/
+.mainleft{
+	margin: 0px;
+	padding: 0px;
+	width: 188px;
+	height: 100%;
+	border-right: 1px solid #9db3c5;
+	background-color: #F6F9FD;
+	border-top: 1px solid #DCDCDC;
+	float:left;
+}
+.mainleft .mleft{
+	width: 91px;
+	float: left;
+	height: 36px;
+	background: url(images/f1png.png) -4px -5px no-repeat;
+	cursor: pointer;
+}
+.mainleft .mleft:hover{background-position:-4px -43px;}
+.mainleft .mright{
+	width: 97px;
+	float: right;
+	height: 36px;
+	background: url(images/f1png.png) -95px -5px no-repeat;
+	cursor: pointer;
+}
+.mainleft .mright:hover{background-position:-95px -43px}
+/*左边主体按钮*/
+.mainleft .menubody{ 
+	width: 169px;
+	position: relative;
+	clear: both;
+}
+.mainleft .menubody .navwrap{
+	margin: 0px;
+	padding: 0px;
+	width: 169px;
+	text-align: left;
+}
+.mainleft .menubody .navwrap .didoff{
+	margin: 0px;
+	padding-left: 20px;
+	width: 148px;
+	height: 30px;  
+	line-height: 30px;
+	cursor: pointer; 
+	background: url("images/f1png.png") -198px -1px no-repeat;
+	font-size:14px;
+	color:#666666;
+}
+.mainleft .menubody .navwrap .didon{
+	margin: 0px;
+	padding-left: 20px;
+	width: 148px;
+	height: 30px;  
+	line-height: 30px;
+	cursor: pointer; 
+	background: url("images/f1png.png") -370px -1px no-repeat;
+	font-size:14px;
+	color:#666666;
+}
+.mainleft .menubody .navwrap .item{
+	padding: 0px 0px 0px 32px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	vertical-align: middle;
+	cursor: pointer;
+	color:#666666;
+	margin:3px 0;
+}
+.mainleft .menubody .navwrap .item:hover{
+	background:url("images/f1.gif") -346px -3px no-repeat; 
+}
+.mainleft .menubody .navwrap .itemfocus{
+	background:url("images/f1.gif") -346px -3px no-repeat; 
+}
+
+/*右边框架*/
+.mainright{
+	float:left;
+	position:absolute;
+	top:9px;
+	left:7px;
+}
+</style>
+</head>
+<body>
+<div class="mainright">
+<div id="positionwrap">
+		<div class="msg">当前位置：首页</div>
+    </div>    
+    <div class="mbox1">
+    	<a href="#" class="atitleleft mgr6">网站基本信息</a>
+    	<div class="atitleleft">网站基本信息</div>
+    	<div class="atitleright">网站基本信息</div>
+        <div class="clear"></div>
+        <div class="acontent">
+        	<a href="WebSiteConfig.Asp">如果您的游览器没有自动跳转,请点这里&gt;&gt;</a><br />
+            如果您的游览器没有自动跳转,请点这里<br />
+            如果您的游览器没有自动跳转,请点这里<br />
+            <div class="onCorrect">输入正确</div>
+            <div class="onFocus">真实姓名应该为2-20位之间</div>
+            <div class="onError">E-mail格式错误</div>
+            <div class="onShow">显示信息</div>
+            <div class="onLamp">显示onLamp</div>
+            <div class="onTime">显示onTime</div>
+            <div class="onHelp">显示onHelp</div> 
+            <div class="clear10"></div>
+            <script language="javascript" type="text/javascript" src="js/colorpicker.js"></script>
+            <img src="images/colour.png" width="15" height="16" onClick="colorpicker('title_colorpanel','set_title_color');" style="cursor:hand">
+             <span id="title_colorpanel" style="position:absolute; z-index:200" class="colorpanel"></span>
+             <img src="images/bold.png" width="10" height="10" onClick="input_font_bold()" style="cursor:hand">
+             <input type="text" id="title" class="measure-input" value="月月月月月月月月月月月2222" />
+            <input type="text" name="style_color" id="style_color" value="">
+            <input type="text" name="style_font_weight" id="style_font_weight" value="">
+            
+            <div class="clear10"></div>
+ 			<link rel="stylesheet" type="text/css" href="js/calendar/jscal2.css"/>
+			<link rel="stylesheet" type="text/css" href="js/calendar/border-radius.css"/>
+			<link rel="stylesheet" type="text/css" href="js/calendar/win2k.css"/>
+            <script type="text/javascript" src="js/calendar/calendar.js"></script>
+            <script type="text/javascript" src="js/calendar/lang/en.js"></script>
+            <input type="text" name="info[adddatetime]" id="adddatetime" value="2015-11-13 13:47:17" size="21" class="date input-text" readonly="">
+			<script type="text/javascript">
+			Calendar.setup({
+			weekNumbers: true,
+		    inputField : "adddatetime",
+		    trigger    : "adddatetime",
+		    dateFormat: "%Y-%m-%d %H:%M:%S",
+		    showTime: true,
+		    minuteStep: 1,
+		    onSelect   : function() {this.hide();}
+			});
+        </script> 
+            <input type="text" name="info[inputtime]" id="inputtime" value="2015-11-13" size="21" class="date input-text" readonly="">
+			<script type="text/javascript">
+			Calendar.setup({
+			weekNumbers: true,
+		    inputField : "inputtime",
+		    trigger    : "inputtime",
+		    dateFormat: "%Y-%m-%d",
+		    showTime: true,
+		    minuteStep: 1,
+		    onSelect   : function() {this.hide();}
+			});
+        </script> 
+        
+        
+		<div class="clear10"></div>
+        <div class="explain-col">
+        	温馨提示：请在添加、修改栏目全部完成后，更新栏目缓存
+        </div>
+		<div class="clear10"></div>
+        <input type="button" class="btnclick1" value="按钮一" />
+        <input type="button" class="btnclick2" value="按钮二" />
+        <div class="clear10"></div>
+        <input type="text" class="input-text" value="测试文本" />
+        <div class="clear10"></div>
+        <input type="text" class="inputstyle" value="测试文本" />
+
+            
+            </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+

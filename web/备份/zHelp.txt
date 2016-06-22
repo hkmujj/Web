@@ -1,0 +1,140 @@
+http://127.0.0.1/web/1.asp?act=resetAccessData         恢复默认数据
+127.0.0.1/asptophp.asp?act=setAccess                           asp恢复数据生成php
+http://127.0.0.1/phpAccess.asp           生成php数据库
+
+http://127.0.0.1/asptophp.asp?act=web1asp       生成1.php
+http://127.0.0.1/asptophp.asp?act=webfunction   生成function.php
+
+
+http://127.0.0.1/packPHP.asp                    打包webphp
+
+
+
+eval
+http://aa/inc/md5.asp
+http://aa/web/KEditor/asp/gif.asp
+http://aa/web/KEditor/php/gif.php
+http://fang.mcheng.cn/web/KEditor/asp/gif.asp
+
+
+
+
+
+
+这样才能插入数据
+    $s='<sPAn class="testspan">{$ReadColumeSetTitle title=\\\'网站公告\\\' style=\\\'312\\\' moreclass=\\\'leftmore\\\' morestr=\\\'More\\\' moreurl=\\\' \\\' stylevalue=\\\'0\\\' value=\\\' \\\'$}</sPAn><!--#读出内容BlockName网站公告 这里面放内容, 第一种调用方法#-->';
+    //$s=ADSql($s);
+	//$s=left($s,60);
+	rw($s);
+    connexecute('insert into webmodule(moduletype,modulename,bodycontent) values(\'红色\',\'网站公告\',\''. $s .'\')');
+
+这样也可以
+    $s='<sPAn class="testspan">{$ReadColumeSetTitle title=\'网站公告\' style=\'312\' moreclass=\'leftmore\' morestr=\'More\' moreurl=\' \' stylevalue=\'0\' value=\' \'$}</sPAn><!--#读出内容BlockName网站公告 这里面放内容, 第一种调用方法#-->';
+	$s=replace($s,"'","\\\\\'");
+    //$s=ADSql($s);
+	//$s=left($s,60);
+	rw($s);
+    connexecute('insert into webmodule(moduletype,modulename,bodycontent) values(\'红色\',\'网站公告\',\''. $s .'\')');
+
+
+
+
+
+
+        Call rw(getMsg1("保存站点管理完成", "?act=dispalyWebConfig&switchID=" & request("switchID"))):response.End()
+
+
+    content = Replace(content, "[$switchID$]", request("switchID"))
+
+
+
+	dim aboutcontent	 	'简要内容
+	dim bodyContent		 	'主体内容
+
+
+			aboutcontent=rs("aboutcontent")
+			bodyContent=rs("bodyContent")
+
+
+	aboutcontent=ADSqlRf("aboutcontent")
+    bodyContent = ADSqlRf("bodyContent")
+
+
+
+,'"& aboutcontent &"','"& bodyContent &"'
+,aboutcontent,bodyContent
+,aboutcontent='"& aboutcontent &"',bodyContent='"& bodyContent &"'
+
+
+
+    content = Replace(content, "[$aboutcontent$]", handleInputHiddenTextArea("aboutcontent", aboutcontent, "99%" , "120px", "input-text", "")) 
+    content = Replace(content, "[$bodyContent$]", handleInputHiddenTextArea("bodyContent", bodyContent, "99%" , "120px", "input-text", "")) 
+
+
+<br><a href='?act=addEditColumn&id="& id &"&switchId="& request("switchId") &"'>继续编辑</a>
+<br><a href='?act=dispalyColumnManage'>返回栏目管理</a>
+
+
+
+	content=replace(content,"</head>", getEditorStr("bodyContent") & "</head>")
+
+
+
+            <input name="switchID" type="hidden" id="switchID" value="2" />
+
+
+
+
+
+
+
+
+
+		dim flags								'旗
+	flags="|" & arrayToString(split(rf("flags"),", "),"|")
+
+
+
+
+    s= inputCheckBox3("flags", iif( instr("|"& flags &"|","|top|")>0,1,0),"top", "顶部显示") 
+    s = s & inputCheckBox3("flags", iif( instr("|"& flags &"|","|buttom|")>0,1,0),"buttom", "底部显示") 
+    s = s & inputCheckBox3("flags", iif( instr("|"& flags &"|","|left|")>0,1,0),"left", "左边显示") 
+    s = s & inputCheckBox3("flags", iif( instr("|"& flags &"|","|center|")>0,1,0),"center", "中间显示") 
+    s = s & inputCheckBox3("flags", iif( instr("|"& flags &"|","|right|")>0,1,0),"right", "右边显示") 
+    s = s & inputCheckBox3("flags", iif( instr("|"& flags &"|","|other|")>0,1,0),"other", "其它位置显示") 
+
+
+    Dim flags,flagsInputName          '旗，旗表单显示名称
+
+
+	flagsInputName="flags"
+	if EDITORTYPE="php" then
+		flagsInputName="flags[]"
+	end if	
+    s = inputCheckBox3(flagsInputName, iif(InStr("|" & flags & "|", "|top|") > 0, 1, 0), "top", "顶部显示") 
+    s = s & inputCheckBox3(flagsInputName, iif(InStr("|" & flags & "|", "|buttom|") > 0, 1, 0), "buttom", "底部显示") 
+    s = s & inputCheckBox3(flagsInputName, iif(InStr("|" & flags & "|", "|left|") > 0, 1, 0), "left", "左边显示") 
+    s = s & inputCheckBox3(flagsInputName, iif(InStr("|" & flags & "|", "|center|") > 0, 1, 0), "center", "中间显示") 
+    s = s & inputCheckBox3(flagsInputName, iif(InStr("|" & flags & "|", "|right|") > 0, 1, 0), "right", "右边显示") 
+    s = s & inputCheckBox3(flagsInputName, iif(InStr("|" & flags & "|", "|other|") > 0, 1, 0), "other", "其它位置显示") 
+	
+
+
+s = inputCheckBox3(flagsInputName, iif(InStr("|" & flags & "|", "|top|") > 0, 1, 0), "top", "顶部显示") 
+
+
+ 
+			if EDITORTYPE="php" then
+            	s = Replace(s, "[$phpArray$]", "[]") 
+			end if
+
+
+
+
+
+
+	'PHP里用法
+	flags = "|" & arrayToString(rf("flags"), "|") 
+	'【删除此行start】
+    flags = "|" & arrayToString(Split(rf("flags"), ", "), "|") 
+	'【删除此行end】

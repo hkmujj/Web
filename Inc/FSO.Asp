@@ -762,7 +762,7 @@ Function getDirFileNameList(ByVal folderPath, fileTypeList)
 End Function 
 
 
-'获得当前目录下全部文件名称
+'获得当前目录下全部文件
 Function getDirAllFileList(ByVal folderPath, fileTypeList)
     If fileTypeList = "" Then
         fileTypeList = "全部" 

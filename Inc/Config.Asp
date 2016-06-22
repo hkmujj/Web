@@ -72,6 +72,8 @@
 <!--#Include File = "ZClass_YouKou.Asp"--> 
 <!--#Include File = "ZClass_Maiside.Asp"--> 
 <!--#Include File = "SystemInfo.Asp"--> 
+<!--#Include File = "2016_PackXML.Asp"--> 
+ 
 <% 
 
 'ExecuteGlobal("S=""bb""")				'可动态加载文件不过不能有<%出现

@@ -519,7 +519,7 @@ Function enToCompany(ByVal content)
 End Function 
 
 
-
+'vbdel start
 '
 '繁体转简体 Simplified Chinese 			'繁体转简体在PHP里是有问题的，PHP太恶心了
 function simplifiedChinese(content)
@@ -566,6 +566,7 @@ Function handleTransferChinese_temp(content,sType)
     Next 
     handleTransferChinese_temp = c 
 End Function 
+'vbdel end
 %>     
 
 

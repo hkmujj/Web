@@ -40,10 +40,10 @@ end sub
 
 '点击复制ASPPHPCMS的ASP版
 sub copyASPPHPCMS()
-	dim rootDir,incDir,adminDir,jqueryDir,splstr,content,fileName,filePath,toFilePath,fileSuffix,templatesDir,templates2015Dir,indexFile,s,i
+	dim rootDir,incDir,adminDir,jqueryDir,splstr,splxx,content,fileName,filePath,toFilePath,fileSuffix,templatesDir,templates2015Dir,indexFile,s,i
 	dim UploadFilesDir,dataDir,folderPath,folderName
 	
-	rootDir="/../ASPPHPCMS web_green/"
+	rootDir="/../ASPPHPCMS v2.6/"
 	'call deletefolder(rootdir) 
 	if checkfolder(rootDir)=true then
 		splstr=split(getDirFolderList(rootDir),vbcrlf)
@@ -100,6 +100,21 @@ sub copyASPPHPCMS()
 		s=trim(s)
 		if s <>"" then
 			call copyFolder("/Templates2015/"& s &"/",templates2015Dir & "/"& s &"/") 
+			
+					
+			'处理模板文件夹里html文件			
+			splxx=split(getDirAllFileList(templates2015Dir & "/"& s, "html|txt"),vbcrlf)
+			for each filePath in splxx
+				if filePath<>"" then
+					content=getftext(filePath)
+					if instr(content,"'/PHP2/ImageWaterMark/Include'")>0 then
+						call echoyellow("替换 '/PHP2/ImageWaterMark/Include' ",filePath)
+						content=replace(content,"'/PHP2/ImageWaterMark/Include'", "/phpinc")
+						call createfile(filePath,content)
+					end if
+				end if
+			next
+	
 		end if
 	next
 	
@@ -185,10 +200,10 @@ sub copyASPPHPCMS()
 				'asp里替换
 				content=replace(content, "../"" & EDITORTYPE & ""web."" & EDITORTYPE & """, "../index.asp")
 				content=replace(content, """../"" & EDITORTYPE & ""web."" & EDITORTYPE", """../index.asp""")	
-				content=replace(content, """function.Asp""", """../Inc/admin_function.asp""")
-				content=replace(content, """function2.Asp""", """../Inc/admin_function2.asp""")
-				content=replace(content, """setAccess.Asp""", """../Inc/admin_setAccess.asp""") 
-				content=replace(content, "template.asp?", "../inc/admin_template.asp?")
+				content=regExp_Replace(content, """function.asp""", """../Inc/admin_function.asp""")
+				content=regExp_Replace(content, """function2.asp""", """../Inc/admin_function2.asp""")
+				content=regExp_Replace(content, """setAccess.asp""", """../Inc/admin_setAccess.asp""") 
+				content=regExp_Replace(content, "template.asp?", "../inc/admin_template.asp?")
 				
 				
 				Content=codeSafe(Content,fileSuffix)			'代码处理
@@ -230,6 +245,8 @@ sub copyASPPHPCMS()
 				
 				Content=codeSafe(Content,fileSuffix)			'代码处理
 				call writeToFile(filePath,content,"gb2312")
+
+
 			end if
 		end if
 	next	
@@ -252,10 +269,30 @@ sub copyASPPHPCMS()
 	call moveFile(adminDir & "/function2.asp", incDir & "/admin_function2.asp")
 	call moveFile(adminDir & "/setAccess.asp", incDir & "/admin_setAccess.asp")
 	call moveFile(adminDir & "/template.asp", incDir & "/admin_template.asp")
- 
- 
-	'admin
+	'处理里面html模板
 	
+	
+	'php中template.php
+	filePath=incDir & "/admin_template.asp"
+	content=getftext(filePath) 
+	content=replace(content, "'Images/", "'../admin/Images/") 	 
+	call createfile(filePath,content)
+	
+	
+	splstr=split(getDirHtmlList(adminDir),vbcrlf)
+	for each filePath in splstr
+		if filePath<>"" then
+			'call echo("11111111",filePath)
+			content=getFText(filePath)
+			if instr(content,"""template.{$EDITORTYPE$}")>0 then
+				content=replace(content,"""template.{$EDITORTYPE$}","""../{$EDITORTYPE_PHP$}inc/admin_template.{$EDITORTYPE$}")
+				call echoYellow("修改新生成后台 template.{$EDITORTYPE$}", filePath)
+				call createFile(filePath,content)
+			end if
+		end if	
+	next
+ 
+	'admin	
 	content=getftext(adminDir & "/1.asp")
 	content=replace(content,"_Config.Asp","Config.Asp")
 	call writeToFile(adminDir & "/index.asp",content,"gb2312") 
@@ -265,7 +302,8 @@ sub copyASPPHPCMS()
 	'root  index.asp
 	content=getftext("/aspweb.asp")
 	content=replace(content,"web/","admin/")
-	content=replace(content, """admin/function.Asp""", """inc/admin_function.Asp""")
+	content=replace(content, """admin/function.asp""", """inc/admin_function.asp""")
+	content=replace(content, """admin/function2.asp""", """inc/admin_function2.asp""")
 	content=replace(content,"_Config.Asp","Config.Asp")  
 
 	Content=codeSafe(Content,fileSuffix)			'代码处理
@@ -285,7 +323,7 @@ sub copyASPPHPCMS()
 	incDir=rootDir & "/PhpInc/"
 	call createFolder(incDir)
 	
-	splstr=split("ASP.php|sys_FSO.php|Conn.php|MySqlClass.php|sys_Cai.php|sys_System.php|startInstall.php|Install.php|sys_Url.php|sys_System.php|","|")
+	splstr=split("ASP.php|sys_FSO.php|Conn.php|MySqlClass.php|sys_Cai.php|sys_System.php|startInstall.php|Install.php|sys_Url.php|sys_System.php|YZM_7.php|","|")
 	for each fileName in splstr
 		filePath="/PHP2/ImageWaterMark/Include/" & fileName
 		toFilePath=incDir & fileName
@@ -342,6 +380,17 @@ sub copyASPPHPCMS()
 	call moveFile(adminDir & "/setAccess.php", incDir & "/admin_setAccess.php")
 	call moveFile(adminDir & "/template.php", incDir & "/admin_template.php")
 	call moveFile(adminDir & "/config.php", incDir & "/config.php")
+	
+	'php中template.php
+	filePath=incDir & "/admin_template.php"
+	content=getftext(filePath)
+	content=replace(content, "'./../PHP2/ImageWaterMark/Include/", "'./") 
+	content=replace(content, "'./../PHP2/Web/Inc/", "'./") 
+	content=replace(content, "'./setAccess.php'", "'./admin_setAccess.php'") 
+	content=replace(content, "'./function.php'", "'./admin_function.php'") 	 
+	content=replace(content, "phpweb.", "index.") 	
+	content=replace(content, "'Images/", "'../admin/Images/") 	 
+	call createfile(filePath,content)
 	
 
 	filePath=incDir & "/admin_function.php"
@@ -412,6 +461,7 @@ sub copyASPPHPCMS()
 	content=replace(content, "Web/", "phpInc/")
 	content=replace(content, "setAccess.php", "../phpInc/admin_setAccess.php")
 	content=replace(content, "function.php", "../phpInc/admin_function.php")
+	content=replace(content, "function2.php", "../phpInc/admin_function2.php")
 	content=replace(content, "config.php", "../phpInc/config.php")
 	content=replace(content, "'../phpweb.php'", "'../index.php'")
 	Content=codeSafe(Content,"php")			'代码处理

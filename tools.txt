@@ -1,0 +1,38 @@
+chatrobot=你好
+chatrobot=你好
+chatrobot=你好
+chatrobot=你好
+chatrobot=1 1=
+chatrobot=1 1=
+chatrobot=1 1=
+chatrobot=1 1=
+chatrobot=你好
+chatrobot=1 2=
+chatrobot=1 2=
+chatrobot=abc
+chatrobot=k l 
+chatrobot=qq
+pinyin=分享模板网站
+  
+pinyin=推广方法
+gbtoutf=网站推广120种方法
+gbtoutf=怎样写robots文件
+gbtoutf=有利于SEO的文件命名规则小结
+gbtoutf=SEO实战密码：60天网站流量提高20倍
+gbtoutf=如何进行文章标题优化？
+pinyin=作者：云端 QQ313801120  http://sharembweb.com/
+分享模板网站
+  
+chatrobot=天气
+chatrobot=天气
+chatrobot=天气
+chatrobot=你好
+chatrobot=天气
+chatrobot=含山天气
+chatrobot=含山天气
+chatrobot=含山天气
+chatrobot=含山天气
+chatrobot=含山天气
+chatrobot=含山天气
+chatrobot=含山天气
+chatrobot=含山天气

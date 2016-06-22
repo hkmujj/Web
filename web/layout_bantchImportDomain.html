@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script> 
+<script src="js/runAction.js"></script>
+</head>
+<body>
+
+<div id="positionwrap">
+    <div class="msg">当前位置：[$position$]</div>
+</div>
+<form action="?act=function2&stype=bantchImportDomain" method="post" name="formsubmit" onSubmit="return new xyClass().checkForm(this)">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本设置</li>   
+        <li>帮助信息</li>   
+    </ul>&nbsp;
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>网址列表</td>
+                      <td align="left" style="padding:3px;">
+
+<textarea name="bodycontent" type="text" id="bodycontent" style='width:97%;height:300px;;' class="input-text">
+http://127.0.0.1/
+http://sharembweb.com/
+</textarea>                      </td>
+                        <td>bodycontent</td>
+                    </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>帮助文档</td>
+                      	<td align="left" style="padding:3px;">
+http://127.0.0.1/<br>http://www.shkaine.com/<br>http://www.shanghaiczs.net/<br>http://www.toplabchem.com/<br>http://www.laxiang8.com/<br>http://www.sh-dyhm.com/<br>http://www.wxjiebao.com/<br>http://www.shdfs.com/<br>http://www.maiside.net/<br>http://www.xn--kor69f88ghtbj2ol73b.com/<br>http://www.xf021.com/<br>http://shfdty.hk40.hkusaidc.info/<br>http://www.021chaijiu.com/<br>http://www.qicai021.com/<br>http://qtlchem.com/<br>http://www.qiongdash.com/<br>http://www.fengyigj.com/<br>http://www.pvc567.com.cn/<br>http://www.shzhenpuzc.com/<br>http://www.shluzheng.com/<br>http://www.hongdazhoucheng.com/<br>http://www.baojie18.com/						</td>
+                        <td>help</td>
+                    </tr>
+                </tbody> 
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="开始批量导入域名(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="0" /> 
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>
+    </div> 
+</form>
+<script language="javascript" type="text/javascript" src="js/formBottom.js"></script>
+</body>
+</html>
+

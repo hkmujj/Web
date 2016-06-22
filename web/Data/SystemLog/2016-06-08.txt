@@ -1,0 +1,48 @@
+姓名：ASPPHPCMS
+表：
+信息：更新网站统计
+网址：1.asp?act=updateTodayWebStat&date=-1&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-06-08 09:53:50
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：清空网站统计
+网址：1.asp?act=function&stype=clearWebsiteStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-06-08 10:01:47
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：更新网站统计
+网址：1.asp?act=function&stype=updateTodayWebStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-06-08 10:01:52
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：更新网站统计
+网址：1.asp?act=function&stype=updateTodayWebStat&date=-1&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-06-08 10:01:59
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：详细网站统计
+网址：1.asp?act=function&stype=websiteDetail&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-06-08 10:02:04
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-08 15:41:12
+IP：127.0.0.1
+------------------------
+

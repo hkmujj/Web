@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>{$EDITORTYPE$}版 登录后台 {$webVersion$}</title> 
+<style type="text/css"> 
+body{background:#CAD7F7;font-size:12px;} 
+#DivFrame{width:500px;height:270px; margin-top:0; margin-bottom:0; margin-left:auto; margin-right:auto; 
+border-top-width:3px;border-right-width:3px;border-bottom-width:3px;border-left-width:3px;border-top-style:solid;border-right-style:solid; 
+border-bottom-style:solid;border-left-style:solid;border-top-color:#FFF;border-left-color:#FFF;border-right-color:#ACA899;border-bottom-color:#ACA899;background-color:#F4F6FC;} 
+.DivHead{background:#4455AA;line-height:20px;color:#FFF;font-weight:bold;text-align:center;} 
+.LoginInput{width:150px;height:16px;font-weight:bold;} 
+/*JsExistsVersion1.0*/ 
+.onShow { 
+PADDING-LEFT: 25px; FONT-SIZE: 12px; BACKGROUND: url(images/reg1.gif) no-repeat 5px 50%; VERTICAL-ALIGN: middle; LINE-HEIGHT: 22px} 
+.onFocus{ 
+PADDING-LEFT: 25px; FONT-SIZE: 12px; BACKGROUND: url(images/reg2.gif) #e9f0ff no-repeat 5px 50%; VERTICAL-ALIGN: middle; LINE-HEIGHT: 22px} 
+.onError { 
+PADDING-LEFT: 25px; FONT-SIZE: 12px; BACKGROUND: url(images/reg3.gif) #fff2e9 no-repeat 5px 50%; VERTICAL-ALIGN: middle; LINE-HEIGHT: 22px} 
+.onSuccess { 
+PADDING-LEFT: 25px; FONT-SIZE: 12px; BACKGROUND: url(images/reg4.gif) #e9ffeb no-repeat 5px 50%; VERTICAL-ALIGN: middle; LINE-HEIGHT: 22px} 
+.onLoad { 
+PADDING-LEFT: 25px; FONT-SIZE: 12px; BACKGROUND: url(images/loading_validator.gif) #e9ffeb no-repeat 3px 3px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 22px} 
+</style> 
+</head><form id="FormLoad" method="post" action="?act=login" onSubmit="return CheckForm('submit','');"> 
+<body><div style="height:100px;"></div> 
+<div id="DivFrame"> 
+    <div class="DivHead">管理员登录[如果您不是管理员，请立即停止您的登陆行为！]</div> 
+    <div><img src="Images/adminwelcome.gif" alt="" /></div> 
+    <div style="height:22px; background-color:#CAD7F7;"></div> 
+
+    <div style="width:60%;float:left;text-align:right;line-height:34px;">用户名：<input type="text" name="username" id="username" class="LoginInput" onFocus="CheckForm(this.name,1)" onBlur="CheckForm(this.name,0)"></div> 
+    <div style="width:40%;float:left;text-align:left;line-height:34px;">&nbsp;<span id="idusername" class="onShow">请输入用户名</span></div> 
+    <div style="width:60%;float:left;text-align:right;line-height:34px;">密&nbsp;码：<input type="password" name="password" id="password" class="LoginInput" onFocus="CheckForm(this.name,1)" onBlur="CheckForm(this.name,0)"> 
+    </div> 
+    <div style="width:40%;float:left;text-align:left;line-height:34px;">&nbsp;<span id="idpassword" class="onShow">请输入密码</span></div> 
+  <div style="text-align:center;padding-top:30px;"> 
+    <input type="submit" name="button" id="button" value=" 登 录 ">&nbsp;&nbsp; 
+    <input type="reset" name="button2" id="button2" value=" 重 置 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  </div> 
+</div> 
+</form> 
+<script language="javascript"> 
+function CheckForm(ValName,Focusblur){ 
+    if(ValName=="username"&&Focusblur==1){//usernameConfirm 
+        idusername.innerHTML="用户名可以用字母a-z,0-9" 
+        idusername.className="onFocus" 
+        return false; 
+    }else if(ValName=="username"&&Focusblur==0){ 
+        if(FormLoad.username.value==""){ 
+            idusername.innerHTML="您的用户名为空" 
+            idusername.className="onError" 
+            return false; 
+        }else if(FormLoad.username.value.indexOf("'")==0){ 
+            idusername.innerHTML="请不要输入特殊字符" 
+            idusername.className="onError" 
+            return false; 
+        }else{ 
+            idusername.innerHTML="输入正确" 
+            idusername.className="onSuccess" 
+        return false; 
+        } 
+    } 
+    if(ValName=="password"&&Focusblur==1){//PassWrodConfirm 
+        idpassword.innerHTML="密码可以用字母a-z,0-9" 
+        idpassword.className="onFocus" 
+        return false; 
+    }else if(ValName=="password"&&Focusblur==0){ 
+        if(FormLoad.password.value==""){ 
+            idpassword.innerHTML="您的密码为空" 
+            idpassword.className="onError" 
+            return false; 
+        }else if(FormLoad.password.value.indexOf("'")==0){ 
+            idpassword.innerHTML="请不要输入特殊字符" 
+            idpassword.className="onError" 
+            return false; 
+        }else{ 
+            idpassword.innerHTML="输入正确" 
+            idpassword.className="onSuccess" 
+        return false; 
+        } 
+    } 
+    if(ValName=="submit"){ 
+        if(FormLoad.username.value==""){ 
+            FormLoad.username.focus(); 
+            return false; 
+        }if(FormLoad.password.value==""){ 
+            FormLoad.password.focus(); 
+            return false; 
+        } 
+    } 
+}</script> 
+</body></html>

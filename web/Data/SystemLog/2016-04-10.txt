@@ -1,0 +1,385 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 07:34:32
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：更新网站统计
+网址：1.asp?act=updateTodayWebStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-04-10 07:53:52
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：清空网站统计
+网址：1.asp?act=clearWebsiteStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-04-10 07:53:57
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：更新网站统计
+网址：1.asp?act=updateTodayWebStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-04-10 07:54:00
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-04-10 08:12:50
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：feedback
+信息：删除反馈
+网址：1.asp?act=delHandle&actionType=Feedback&lableTitle=%B7%B4%C0%A1&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=1&mdbpath=
+时间：2016-04-10 08:29:51
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：feedback
+信息：删除反馈
+网址：1.asp?act=delHandle&actionType=Feedback&lableTitle=%B7%B4%C0%A1&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=0&mdbpath=
+时间：2016-04-10 08:29:57
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 08:30:06
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 09:10:30
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/web_default/
+网址：&templatename=web_default
+时间：2016-04-10 13:27:09
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 13:27:14
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：/1.php?act=login
+时间：2016-04-10 13:28:47
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：
+信息：应用模板/Templates2015/web_default/
+网址：/&templatename=web_default
+时间：2016-04-10 13:28:57
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：admin
+信息：登录成功
+网址：/1.php?act=login
+时间：2016-04-10 17:48:29
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 17:52:46
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 17:52:53
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：/1.php?act=login
+时间：2016-04-10 17:53:18
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-04-10 17:54:51
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-04-10 17:56:58
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 19:04:27
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-04-10 19:04:38
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 19:04:43
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 19:18:44
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-04-10 19:18:52
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-04-10 19:30:45
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 19:30:50
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-04-10 19:31:13
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 19:42:30
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 19:44:02
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/web_default/
+网址：&templatename=web_default
+时间：2016-04-10 19:44:09
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 19:44:14
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：guestbook
+信息：删除留言
+网址：1.asp?act=delHandle&actionType=GuestBook&lableTitle=留言&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=0,1,2,3,4,5,6&mdbpath=
+时间：2016-04-10 19:48:52
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：feedback
+信息：删除反馈
+网址：1.asp?act=delHandle&actionType=Feedback&lableTitle=反馈&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=3,2,1,0&mdbpath=
+时间：2016-04-10 19:48:56
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-04-10 19:49:19
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 19:49:23
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：/1.php?act=login
+时间：2016-04-10 20:12:17
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 20:16:06
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/web_default/
+网址：&templatename=web_default
+时间：2016-04-10 20:46:42
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 20:46:48
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 20:55:38
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-04-10 20:55:53
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 20:55:58
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 21:14:00
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-10 21:14:00
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/web_default/
+网址：&templatename=web_default
+时间：2016-04-10 21:14:09
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 21:14:13
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：tablecomment
+信息：修改评论
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=TableComment&lableTitle=评论&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-10 21:19:12
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-04-10 21:20:35
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-10 21:20:39
+IP：127.0.0.1
+------------------------
+

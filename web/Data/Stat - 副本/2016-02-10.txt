@@ -1,0 +1,11 @@
+来访http://sharembweb.com/Tools/asptophp.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/2/10 17:39:10
+IP:124.119.107.120
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=9952A810AB28EB3599123080F72BD30C; CNZZDATA1257109459=1465667236-1455097189-http%253A%252F%252Fsharembweb.com%252F%7C1455097189
+XP=
+Screen=1440x900
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 2345Explorer/6.5.0.11018
+-------------------------------------------------
+

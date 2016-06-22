@@ -28,7 +28,7 @@ Function saveRemoteFile(ByVal remoteFileurl, ByVal localFileName)
             .Close 
         End With 
     Set ads = Nothing 
-    If Err Then doError Err.Description, "SaveRemoteFile 下载远程文件 函数出错，RemoteFileUrl=" & remoteFileurl & "<hr>LocalFileName=" & localFileName 
+'    If Err Then doError Err.Description, "SaveRemoteFile 下载远程文件 函数出错，RemoteFileUrl=" & remoteFileurl & "<hr>LocalFileName=" & localFileName 
 End Function 
 
 

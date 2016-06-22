@@ -1,0 +1,168 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-31 09:40:24
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-31 09:55:17
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/test3/
+网址：&templatename=test3
+时间：2016-03-31 09:55:26
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-31 10:01:18
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-31 10:01:29
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-31 11:35:12
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-31 13:04:46
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-31 13:59:13
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-03-31 13:59:28
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-31 13:59:33
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-31 14:00:22
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-31 14:51:13
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-31 14:54:59
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-31 16:09:44
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/test3/
+网址：&templatename=test3
+时间：2016-03-31 16:25:18
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-31 16:25:22
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-31 16:28:54
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-31 16:33:03
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-31 17:07:17
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：friendlink
+信息：添加友情链接
+网址：1.asp?act=saveAddEditHandle&id=&actionType=FriendLink&lableTitle=友情链接&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-03-31 17:12:06
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：friendlink
+信息：添加友情链接
+网址：1.asp?act=saveAddEditHandle&id=&actionType=FriendLink&lableTitle=友情链接&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-03-31 17:12:25
+IP：127.0.0.1
+------------------------
+

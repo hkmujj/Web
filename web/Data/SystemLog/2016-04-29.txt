@@ -1,0 +1,192 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-29 13:48:01
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/夺宝/
+网址：&templatename=夺宝
+时间：2016-04-29 13:48:17
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-29 13:48:21
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-29 13:52:55
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-29 14:03:00
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-29 14:03:04
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webcolumn
+信息：添加网站栏目
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebColumn&lableTitle=%CD%F8%D5%BE%C0%B8%C4%BF&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 15:28:06
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：weburlscan
+信息：添加网址扫描
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebUrlScan&lableTitle=%CD%F8%D6%B7%C9%A8%C3%E8&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-04-29 15:29:13
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-29 15:44:46
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：添加网址扫描
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 15:47:35
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：添加网址扫描
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 15:57:32
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 15:57:38
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&switchId=0&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 15:58:56
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&switchId=0&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 15:59:01
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&switchId=0&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 15:59:27
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&switchId=0&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:00:36
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:00:53
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:01:53
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=0&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:03:44
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:04:08
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:05:41
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:05:47
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:06:11
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：weburlscan
+信息：修改网址扫描
+网址：1.asp?act=saveAddEditHandle&id=2&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-04-29 16:06:39
+IP：127.0.0.1
+------------------------
+

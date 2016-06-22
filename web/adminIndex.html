@@ -1,0 +1,473 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$EDITORTYPE$}版 {$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+<script type="text/javascript" src="js/runAction.js"></script>
+<style type="text/css">
+/*顶部*/
+.header{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 90px;	
+	background: url(images/header_bg.jpg);
+	background-repeat:repeat-x;
+	overflow:hidden;
+	position:relative;
+}
+.header .top{
+	padding:16px 0 0 0;
+	line-height: 20px; 
+	color: #3B65A4;
+	font-size:14px;
+	position:relative;
+}
+.header .top .fleftwrap{
+	opacity:0.6;
+}
+.header .top .frightbox{
+	top:20px;
+	right:10px;
+	position:absolute;
+}
+.header .top a{
+	line-height: 20px;
+	float:right;
+	color: #3B65A4;
+	font-size:14px; 
+	padding:0 6px;
+}
+.header .top a:hover{
+	color: #2D4D7D;
+	text-decoration: underline;
+}
+.header .top .logo{
+  width: 180px;
+  line-height: 20px;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3B65A4;
+  text-align: left;
+  padding-left: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav{
+	position:absolute;
+	left:6px;
+	bottom:0px;
+	height:38px;
+	overflow:hidden;
+
+}
+.nav li{
+	width: 91px;
+	padding-top: 5px;
+	height: 33px;
+	float: left;
+	background: url("images/fenge.jpg") right center no-repeat;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #4b6888;
+	cursor: pointer;
+	text-align:center;
+
+}
+.nav .focus{ 
+	padding-top: 5px;
+	width: 91px;
+	height: 33px;
+	float: left;
+	background: url("images/f1png.jpg") -201px -40px no-repeat;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-align:center;
+}
+
+/*左边*/
+.mainleft{
+	margin: 0px;
+	padding: 0px;
+	width: 188px;
+	height: 100%;
+	border-right: 1px solid #9db3c5;
+	background-color: #F6F9FD;
+	border-top: 1px solid #DCDCDC;
+	float:left;
+}
+.mainleft .mleft{
+	width: 91px;
+	float: left;
+	height: 36px;
+	background: url(images/f1png.jpg) -4px -5px no-repeat;
+	cursor: pointer;
+}
+.mainleft .mleft:hover{background-position:-4px -43px;}
+.mainleft .mright{
+	width: 97px;
+	float: right;
+	height: 36px;
+	background: url(images/f1png.jpg) -95px -5px no-repeat;
+	cursor: pointer;
+}
+.mainleft .mright:hover{background-position:-95px -43px}
+/*左边主体按钮*/
+.mainleft .menubody{ 
+	width: 169px;
+	position: relative;
+	clear: both;
+}
+.mainleft .menubody .navwrap{
+	margin: 0px;
+	padding: 0px;
+	width: 169px;
+	text-align: left;
+}
+.mainleft .menubody .navwrap .didoff{
+	margin: 0px;
+	padding-left: 20px;
+	width: 148px;
+	height: 30px;  
+	line-height: 30px;
+	cursor: pointer; 
+	background: url("images/f1png.jpg") -198px -1px no-repeat;
+	font-size:14px;
+	color:#666666;
+}
+.mainleft .menubody .navwrap .didon{
+	margin: 0px;
+	padding-left: 20px;
+	width: 148px;
+	height: 30px;  
+	line-height: 30px;
+	cursor: pointer; 
+	background: url("images/f1png.jpg") -370px -1px no-repeat;
+	font-size:14px;
+	color:#666666;
+}
+.mainleft .menubody .navwrap .item{
+	padding: 0px 0px 0px 32px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	vertical-align: middle;
+	cursor: pointer;
+	color:#666666;
+	margin:3px 0;
+	overflow-y: hidden;
+}
+.mainleft .menubody .navwrap .item:hover{
+	background:url("images/f1.gif") -346px -3px no-repeat; 
+}
+.mainleft .menubody .navwrap .itemfocus{
+	background:url("images/f1.gif") -346px -3px no-repeat; 
+}
+
+/*右边框架*/
+.mainright{
+	float:left;
+	position:absolute;
+	top:90px;
+	left:190px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+	<div class="top">
+        <li class="logo">{$webVersion$}</li>
+        <li class="fleftwrap">
+            您好！{$adminusername$} [{$adminflags$}]
+        </li>
+        <li class="frightbox"> 
+            <a href="javascript:outLogin()" >退出</a>  
+            <a href="javascript:window1('layout_help.html','后台地图');">帮助？</a>
+        	<a href="javascript:window1('?act=displayLayout&templateFile=layout_adminMap.html','后台地图');">后台地图</a>  
+            <a href="?act=clearCache"  onClick="return new xyClass().myConfirm('你确定要清除缓冲吗？')">清除缓冲</a>   
+        </li>
+    </div>
+    <div class="clear"></div>
+   
+    <ul class="nav">
+        [$adminonemenulist$]
+        
+    </ul>
+        <!--
+    	<li class="focus">系统管理</li>
+    	<li>导航管理</li>
+    	<li>文章管理</li>
+    	<li>单页管理</li>
+    	<li>招聘管理</li>
+    	<li>留言管理</li>
+    	<li>友情链接</li>
+    	<li>在线反馈</li>
+    	<li>生成HTML</li> 
+        -->
+</div> 
+<div class="mainleft">
+	<ul class="shortcutmenu">
+    	<li class="mleft" onClick="javascript:window.open('[$webDir$]{$WEB_VIEWURL$}');"></li>
+        <li class="mright"></li>
+    </ul>
+	<div class="menubody">
+    	[$adminmenulist$]
+        <!--
+        <ul class="navwrap">
+        	<li class="didon">系统管理</li>
+            
+            <li class="item" onClick="window1('?act=addEditHandle&actionType=WebSite&id=*','站点配置');">站点配置</li>        
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=WebColumn&addsql=order by sortrank','网站栏目');">网站栏目</li>       
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=ArticleDetail&addsql=order by sortrank','分类信息');">分类信息</li>      
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=TableComment&addsql=order by adddatetime desc','评论');">评论</li>      
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=OnePage','单页管理');">单页管理</li>    
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=Admin','后台管理员');">后台管理员</li>
+            
+              
+         
+            <li class="item">-----------</li>
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=Bidding&addsql=order by nComputerSearch desc','竞价词');">竞价词</li>
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=WebLayout','网站布局');">网站布局</li>
+            
+            
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=WebModule','网站模块');">网站模块</li> 
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=ListMenu','后台菜单');">后台菜单</li> 
+ 
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=SearchStat&addsql=order by sortrank','搜索统计');">搜索统计</li>
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=WebsiteStat&addsql= order by id desc','网站统计');">网站统计</li> 
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=SystemLog&addsql=order by id desc','后台操作日志');">后台操作日志</li> 
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=FriendLink&addsql=order by id desc','友情链接');">友情链接</li> 
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=Job&addsql=order by id desc','招聘');">招聘管理</li> 
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=Feedback&addsql=order by id desc','反馈');">反馈管理</li>
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=GuestBook&addsql=order by id desc','留言');">留言管理</li>
+            
+            
+            <li class="item" onClick="window1('?act=displayLayout&templateFile=manageMakeHtml.html','生成HTML');">生成HTML</li> 
+            <li class="item" onClick="window1('?act=displayLayout&templateFile=makeSiteMap.html','生成SiteMap');">生成SiteMap</li> 
+            <li class="item" onClick="window1('?act=displayLayout&templateFile=makeRobots.html','生成Robots');">生成Robots</li> 
+            
+            
+            <li class="item" onClick="window1('?act=displayLayout&templateFile=manageTemplates.html','模板管理');">模板管理</li> 
+            <!--
+            <li class="item" onClick="window1('?act=dispalyWebConfig','站点配置');">站点配置</li>
+            <li class="item" onClick="window1('?act=dispalyColumnManage','网站栏目管理');">网站栏目管理</li>
+            <li class="item" onClick="window1('?act=dispalyProductManage','分类信息');">分类信息</li>
+            <li class="item" onClick="window1('?act=dispalyOnePageManage','单面管理');">单页管理</li>
+            <li class="item" onClick="window1('?act=dispalyWebLayoutManage','网站布局');">网站布局2</li>
+            <li class="item" onClick="window1('?act=dispalyWebModuleManage','网站模块');">网站模块2</li>
+
+        </ul>
+    	<ul class="navwrap">
+        	<li class="didoff">导航管理</li>   
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=WebColumn','网站栏目');">网站栏目</li>
+        </ul>
+    	<ul class="navwrap">
+        	<li class="didoff">文章管理</li> 
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=ArticleDetail','分类信息');">分类信息</li>  
+        </ul> 
+    	<ul class="navwrap">
+        	<li class="didoff">单页管理</li>
+            <li class="item" onClick="window1('?act=dispalyManageHandle&actionType=OnePage','单页管理');">单页管理</li>  
+        </ul> 
+		-->    
+    </div>
+</div>
+<div class="mainright">
+	<div id="positionwrap">
+		<div class="msg">当前位置：首页</div>
+    </div>
+    
+    <div class="mg10">
+	   <div class="lbtop"><div class="lbsub">管理员信息</div></div>
+	   <div class="lbbody">
+            用户名：  {$adminusername$}&nbsp; <a href="javascript:window1('?act=addEditHandle&actionType=Admin&id=[$adminId$]','后台管理员');">修改密码</a> <br>
+            权限：   超级管理员<br>
+            表前缀：   {$DB_PREFIX$}<br> 
+       		<input type="button" class="btnclick2" value="进入在线修改模式" onClick="window.open('{$WEB_VIEWURL$}?gl=edit');" />
+	   </div>
+   </div>
+   
+   <div class="mg10">
+	   <div class="lbtop"><div class="lbsub">系统信息</div></div>
+	   <div class="lbbody">
+	        授权信息：免费开源版<br>
+       		服务器名称：{$SERVER_NAME$}(IP:{$LOCAL_ADDR$}) 端口:{$SERVER_PORT$}<br>
+            服务器版本：{$SERVER_SOFTWARE$}<br> 
+	   </div>
+	</div>
+    
+    <div class="mg10">
+	   <div class="lbtop"><div class="lbsub">最新访客信息</div></div>
+	   <div class="lbbody">
+            {$WebsiteStat$}
+	   </div>
+	</div>
+	<!--start-->
+    <div class="mg10">
+	   <div class="lbtop"><div class="lbsub">开发团队</div></div>
+	   <div class="lbbody">
+            版权所有：ASPPHPCMS<br>
+            开发与支持团队：云端(<a href="tencent://message/?uin=313801120&Site=作者云端&Menu=yes" class="ablue" rel="nofollow" title="在线与313801120交流">QQ313801120</a>)<br>
+            邮箱：313801120@qq.com<br>
+			交流群：<a href="/url.asp?title=qq群35915100" class="ablue" target="_blank">35915100</a> <br>
+            相关链接：<a href="http://sharembweb.com" target="_blank">ASPPHPCMS官网</a> <br>
+            [$officialwebsite$]
+	   </div>
+	</div>
+    <!--end-->
+
+
+
+</div>
+
+
+<script language="javascript">
+//调用
+$(function (){ 
+	//头部
+	$(".header .nav li").click(function(){
+		$(".header .nav li").removeClass('focus')
+		$(this).addClass('focus')
+	})	
+	$(".mainleft .menubody .navwrap li[class='item']").css("display",'none')
+	$(".mainleft .menubody .navwrap li[class='didon']").siblings().css("display",'block')	
+	//点击菜单导航
+	$(".header .nav li").click(function(){
+		var title=$(this).html()
+		//alert(title)
+		$(".mainleft .menubody .navwrap").each(function (index,obj){
+			var obj=$(".mainleft .menubody .navwrap:eq("+ index +") li:eq(0)")
+			var did=obj.html()
+			//alert(title+"="+did)
+			if(title==did){
+				$(this).show()
+				//子菜单展示
+				if(obj.attr("class")=="didoff"){
+					obj.click()
+				}
+				
+			}else{
+				$(this).hide()
+			}
+		})		
+	})	
+	//点击大类菜单
+	$(".mainleft .menubody .navwrap li[class='didoff'], .mainleft .menubody .navwrap li[class='didon']").click(function(){
+		if( $(this).attr('class')=="didon" ){
+			$(this).attr('class','didoff').siblings().css("display",'none') 
+			
+		}else{		
+			$(this).attr('class','didon').siblings().css("display",'block') 
+		}
+	})
+	$(".header .nav li:eq(0)").click()
+	
+	//点击子击
+	$(".mainleft .menubody .navwrap li[class='item']").click(function(){
+		$(".mainleft .menubody .navwrap li").removeClass('itemfocus')
+		$(this).addClass('itemfocus')
+	})
+	
+	
+	//ZOOM resize load
+	$(window).bind('resize load', function(){
+		$(".mainleft").height(100)		 			
+		$(".mainleft").height(  $(document).height() - $(".header").height()-2 ) 
+		//$(".mainright").html( $(document).height()  )
+		
+		$(".mainright").width( $(document).width()-$(".mainleft").width()-2 )
+	})
+	
+})
+//退出后台
+function outLogin(){
+	$.dialog({
+		id: 'testID',
+		title: '提示',
+		content: '你确认要退出后台？',
+		button: [
+			{
+				name: '同意',
+				callback: function () {
+					location.href='?act=adminOut' 
+					return true;
+				},
+				focus: true
+			},        
+			{
+				name: '关闭'
+			}
+		]
+	})
+}
+
+//打开窗口函数
+function openWind(tourl,w,h,tit){
+  $.dialog({title:tit,width:w+'px',height:h+'px',content:'url:'+tourl,fixed:false}); 
+  var sClassName = "ee"
+  var sUrl = "",oDivView="";
+  switch(sClassName){
+    case 'co2':
+      sUrl = ""// "http://rz.51g3.com/index.php?action=show&g3username=msdpx2014";
+      sSty = "height: 25px;line-height: 25px;top: 38px;";
+      break;
+    case 'co3':
+      sUrl = ""// "http://club.shenchuang.com/xinxi/product-"+ getCookie('Yxmemberid') +".html";
+      sSty = "height: 25px;line-height: 25px;top: 38px;";
+      break;
+    case 'ee': 
+      sUrl = ""//"http://www.baidu.com/";
+      sSty = "height: 25px;line-height: 25px;top: 10px;"; 
+      break;
+    default:
+      oDivView="";
+      break;
+  }
+  //fLoadIframe(document.getElementsByTagName("iframe")[0],oDivView);
+}
+
+//定义打开窗口
+function window1(url,title){
+	if(url.indexOf("?")==0){
+		url+="&lableTitle=" + title
+	}else{
+		url+="?lableTitle=" + title	
+	} 
+	openWind(url,'980','630',title)
+}
+
+//颜色
+function set_title_color(color) {
+	$('#title').css('color',color);
+	$('#style_color').val(color);
+}
+//加粗
+function input_font_bold() {
+	if($('#title').css('font-weight') == '700' || $('#title').css('font-weight')=='bold') {
+		$('#title').css('font-weight','normal');
+		$('#style_font_weight').val('');
+	} else {
+		$('#title').css('font-weight','bold');
+		$('#style_font_weight').val('bold');
+	}
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

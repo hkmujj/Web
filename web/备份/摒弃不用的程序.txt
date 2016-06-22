@@ -1,0 +1,20 @@
+'删除处理
+Sub delHandle(actionType)
+    If actionType = "WebLayout" Then
+        Call del(actionType, "网站布局") 
+    ElseIf actionType = "WebModule" Then
+        Call del(actionType, "网站模块") 
+    ElseIf actionType = "Admin" Then
+        Call del(actionType, "管理员") 
+    ElseIf actionType = "ArticleDetail" Then
+        Call del(actionType, "分类信息") 
+    ElseIf actionType = "WebColumn" Then
+        Call del(actionType, "网站栏目")
+    ElseIf actionType = "OnePage" Then
+        Call del(actionType, "单页")
+    ElseIf actionType = "OnePage" Then
+        Call del(actionType, "单页")
+    End If 
+End Sub 
+
+

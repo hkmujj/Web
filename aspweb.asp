@@ -1,5 +1,5 @@
 <!--#Include File = "Inc/_Config.Asp"-->          
-<!--#Include File = "web/function.Asp"-->    
+<!--#Include File = "web/function.asp"-->    
 <% 
 'asp服务器
 
@@ -23,6 +23,7 @@ Dim glb_downArticle                                                             
 Dim glb_aritcleRelatedTags                                                      '文章标签组
 Dim glb_aritcleSmallImage, glb_aritcleBigImage                                  '文章小图与文章大图
 Dim glb_searchKeyWord                                                           '搜索关键词
+dim cacheHtmlFilePath															'缓冲html文件路径
 
 Dim isMakeHtml                                                                  '是否生成网页
 '处理动作   ReplaceValueParam为控制字符显示方式
@@ -133,6 +134,10 @@ Function handleAction(content)
             'URL解密
             ElseIf checkFunValue(action, "unescape ") = True Then
                 action = XY_unescape(action) 
+            'asp与php版本
+            ElseIf checkFunValue(action, "EDITORTYPE ") = True Then
+                action = XY_EDITORTYPE(action)
+
 
             '暂时不屏蔽
             ElseIf checkFunValue(action, "copyTemplateMaterial ") = True Then
@@ -529,6 +534,15 @@ Function defaultListTemplate()
     defaultListTemplate = listTemplate 
 End Function 
 
+'缓冲处理20160622
+cacheHtmlFilePath="/cache/html/" & setFileName(getThisUrlFileParam()) & ".html"
+'启用缓冲
+if request("cache")<>"false" and onCacheHtml=true then
+	if checkFile(cacheHtmlFilePath)=true then
+		'call echo("读取缓冲文件","OK")
+		call rwend(getftext(cacheHtmlFilePath))
+	end if
+end if
 
 '记录表前缀
 If Request("db_PREFIX") <> "" Then
@@ -557,8 +571,8 @@ Select Case Request("act")
 		isMakeHtml = True
 	end if
 	rwend(handleAction(request("content")))		'处理动作
-	
 End Select
+
 
 '生成html
 If Request("act") = "makehtml" Then
@@ -623,7 +637,11 @@ Else
         Call checkIDSQL(Request("id")) 
         Call rw(makeWebHtml(" action actionType='" & Request("act") & "' columnName='" & Request("columnName") & "' columnType='" & Request("columnType") & "' id='" & Request("id") & "' npage='" & Request("page") & "' ")) 
     End If 
-End If 
+End If
+'开启缓冲html 
+if onCacheHtml=true then
+	call createFile(cacheHtmlFilePath,code)		'保存到缓冲文件里20160622
+end if
 '检测ID是否SQL安全
 Function checkIDSQL(id)
     If checkNumber(id) = False And id <> "" Then
@@ -1210,7 +1228,7 @@ Sub copyHtmlToWeb()
                 End If 
                 sourceUrl = cfg_webSiteUrl & s1 
                 replaceUrl = cfg_webSiteUrl & Replace(s, "/", "_") 
-                Call echo(sourceUrl, replaceUrl) 
+                'Call echo(sourceUrl, replaceUrl) 							'屏蔽  否则大量显示20160613
                 content = Replace(content, sourceUrl, replaceUrl) 
             Next 
             content = Replace(content, cfg_webSiteUrl, "")                                  '删除网址
@@ -1267,8 +1285,14 @@ Sub copyHtmlToWeb()
     Next 
 	
 	call copyFolder(webDir,toWebDir)
-	
-    Call makeHtmlWebToZip(webDir)
+	'使htmlWeb文件夹用php压缩
+	if request("isMakeZip")="1" then
+	    Call makeHtmlWebToZip(webDir) 
+	end if
+	'使网站用xml打包20160612
+	if request("isMakeXml")="1" then
+		call makeHtmlWebToXmlZip("/htmladmin/", webFolderName)
+	end if
 End Sub 
 
 '使htmlWeb文件夹用php压缩
@@ -1306,14 +1330,30 @@ Function makeHtmlWebToZip(webDir)
     Call echo("<hr>cccccccccccc", c) 
     '先判断这个文件存在20160309
     If checkFile("/myZIP.php") = True Then
-        Call echo("", XMLPost(getHost() & "/myZIP.php?webFolderName=" & webFolderName, "content=" & escape(c))) 
+        Call echo("", XMLPost(getHost() & "/myZIP.php?webFolderName=" & webFolderName , "content=" & escape(c))) 
     End If 
 
 End Function 
+'使网站用xml打包20160612
+function makeHtmlWebToXmlZip(newWebDir,rootDir)
+        Dim xmlFileName,xmlSize
+        xmlFileName = getIP() & "_update.xml" 
+
+		'newWebDir="\Templates2015\"
+		'rootDir="\sharembweb\"
+	
+        Dim objXmlZIP : Set objXmlZIP = new xmlZIP
+            Call objXmlZIP.run(handlePath(newWebDir), handlePath(newWebDir & rootDir), False, xmlFileName)  
+			call echo(handlePath(newWebDir), handlePath(newWebDir & rootDir))
+        Set objXmlZIP = Nothing 
+		doevents
+		xmlSize=getFSize(xmlFileName)
+		xmlSize=printSpaceValue(xmlSize)
+        Call echo("下载xml打包文件", "<a href=/tools/downfile.asp?act=download&downfile=" & xorEnc("/" & xmlFileName, 31380) & " title='点击下载'>点击下载" & xmlFileName & "("& xmlSize &")</a>") 
+end function
 
 
-
-'保存sitemap.xml 20160118
+'生成更新sitemap.xml 20160118
 Sub saveSiteMap()
     Dim isWebRunHtml                                                                '是否为html方式显示网站
     Dim changefreg                                                                  '更新频率

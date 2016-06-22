@@ -1,0 +1,1243 @@
+来访http://down.admin5.com/asp/131548.html
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 0:24:28
+IP:125.34.186.204
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1600x900
+用户信息=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 0:25:49
+IP:101.199.108.55
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=0x0
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 0:32:46
+IP:220.181.132.194
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=0x0
+用户信息=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.48 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 3:21:25
+IP:183.95.81.101
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 3:22:06
+IP:103.47.136.18
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 3:24:51
+IP:122.228.114.164
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 3:25:30
+IP:112.21.182.13
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 3:34:13
+IP:59.46.7.51
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 3:43:42
+IP:222.161.223.155
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 3:44:22
+IP:14.29.87.59
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 4:02:02
+IP:117.23.59.60
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 4:12:46
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 4:14:11
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196026; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/aspphpcms/
+当前：http://sharembweb.com/formatasp/
+时间：2016/3/29 4:14:23
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196111; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/29 4:14:35
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196123; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/fangzhan/
+当前：http://sharembweb.com/mobandown/
+时间：2016/3/29 4:15:19
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196135; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/mobandown/
+当前：http://sharembweb.com/
+时间：2016/3/29 4:15:23
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196179; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/asptophp/download.html
+时间：2016/3/29 4:15:40
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196183; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/download.html
+当前：http://sharembweb.com/about/contact.html
+时间：2016/3/29 4:16:35
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196200; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/about/contact.html
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 4:16:47
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196254; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/aspphpcms/
+当前：http://sharembweb.com/aspphpcms/download.html
+时间：2016/3/29 4:16:50
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459196267; ASPSESSIONIDASRCBRTD=JONHNGMAHNADAGNCCPELBFDI; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 4:38:22
+IP:124.232.137.180
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 4:46:50
+IP:119.188.113.122
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 4:51:59
+IP:182.118.9.15
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 7:07:30
+IP:123.150.186.37
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 8:22:15
+IP:10.40.246.141
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=EDDD56424687B2FAC63AC958196AA80D; pgv_pvid=3718576664; AJSTAT_ok_times=1; CNZZDATA1257109459=91088024-1452870548-http%253A%252F%252Fwww.sharembweb.com%252F%7C1458212392; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458780349,1458780488,1458780533,1459161932
+XP=Android 4.1.2
+Screen=540x960
+用户信息=Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; SAMSUNG-SM-G3819D Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/formatasp/
+时间：2016/3/29 8:23:00
+IP:10.40.246.141
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=EDDD56424687B2FAC63AC958196AA80D; pgv_pvid=3718576664; AJSTAT_ok_times=1; CNZZDATA1257109459=91088024-1452870548-http%253A%252F%252Fwww.sharembweb.com%252F%7C1458212392; ASPSESSIONIDSSTCSRQQ=HCGBLLNAKNOHPECAINBILEAL; __qc_wId=956; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458780488,1458780533,1459161932,1459210997; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459210997
+XP=Android 4.1.2
+Screen=540x960
+用户信息=Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; SAMSUNG-SM-G3819D Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+-------------------------------------------------
+
+来访http://www.thinkphp.cn/code/1792.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 8:47:13
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/29 8:47:42
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459212536; __qc_wId=871; pgv_pvid=6050955227
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/fangzhan/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 9:04:06
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459212564
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/
+时间：2016/3/29 9:04:08
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213548
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/toolslist/online-chat-robot.html
+时间：2016/3/29 9:04:13
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213550
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/toolslist/online-chat-robot.html
+当前：http://sharembweb.com/formatasp/
+时间：2016/3/29 9:04:17
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213555
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/toolslist/online-chat-robot.html
+时间：2016/3/29 9:04:19
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213559
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/toolslist/online-chat-robot.html
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 9:04:21
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213561
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/aspphpcms/
+当前：http://sharembweb.com/seo/
+时间：2016/3/29 9:04:24
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213563
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/seo/
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 9:04:25
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213566
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/aspphpcms/
+当前：http://sharembweb.com/seo/
+时间：2016/3/29 9:04:26
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213567
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/seo/
+当前：http://sharembweb.com/seo/
+时间：2016/3/29 9:04:27
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213568
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/seo/
+当前：http://sharembweb.com/mobandown/
+时间：2016/3/29 9:04:28
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213569
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/mobandown/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 9:04:30
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213570
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/29 9:04:31
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213572
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/fangzhan/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 9:04:31
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213573
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/
+时间：2016/3/29 9:04:37
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213573
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/css3/css-skills.html
+时间：2016/3/29 9:04:51
+IP:59.46.195.99
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSSTCSRQQ=PCGBLLNALGLHDHIIALNKCHJL; __qc_wId=871; pgv_pvid=6050955227; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459212536; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459213579
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 9:40:48
+IP:183.160.101.200
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=4345405496; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458365963,1459149380; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459149380; ASPSESSIONIDCSRCASQC=MMHLFMFAKPMJKDKCIMLLLGKC; __qc_wId=761
+XP=
+Screen=1440x900
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 9:49:59
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459145750,1459155120,1459155233,1459155235
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 9:55:20
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155120,1459155233,1459155235,1459216254; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459216254; ASPSESSIONIDSSTCSRQQ=BEGBLLNAGGEMOMDJNNMFMFAF; __qc_wId=351
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 9:56:49
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; ASPSESSIONIDSSTCSRQQ=BEGBLLNAGGEMOMDJNNMFMFAF; __qc_wId=351; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155120,1459155233,1459155235,1459216254; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459216575
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 9:57:26
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; ASPSESSIONIDSSTCSRQQ=BEGBLLNAGGEMOMDJNNMFMFAF; __qc_wId=351; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155120,1459155233,1459155235,1459216254; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459216664
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 9:57:31
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; ASPSESSIONIDSSTCSRQQ=BEGBLLNAGGEMOMDJNNMFMFAF; __qc_wId=351; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155120,1459155233,1459155235,1459216254; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459216701
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 9:57:37
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; ASPSESSIONIDSSTCSRQQ=BEGBLLNAGGEMOMDJNNMFMFAF; __qc_wId=351; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155120,1459155233,1459155235,1459216254; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459216706
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 10:09:59
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155120,1459155233,1459155235,1459216254
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 10:11:03
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155233,1459155235,1459216254,1459217450; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459217450; ASPSESSIONIDQQRDQTRQ=CKHLPBPADKKHFAKJJNKJPLMN; __qc_wId=921
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 10:11:52
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; ASPSESSIONIDQQRDQTRQ=CKHLPBPADKKHFAKJJNKJPLMN; __qc_wId=921; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155233,1459155235,1459216254,1459217450; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459217518
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 10:11:54
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; ASPSESSIONIDQQRDQTRQ=CKHLPBPADKKHFAKJJNKJPLMN; __qc_wId=921; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155233,1459155235,1459216254,1459217450; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459217567
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 10:12:55
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; ASPSESSIONIDQQRDQTRQ=CKHLPBPADKKHFAKJJNKJPLMN; __qc_wId=921; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155233,1459155235,1459216254,1459217450; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459217569
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 10:14:12
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; AJSTAT_ok_times=9; ASPSESSIONIDQQRDQTRQ=CKHLPBPADKKHFAKJJNKJPLMN; __qc_wId=921; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155233,1459155235,1459216254,1459217450; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459217630
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 11:04:54
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026; pgv_pvid=987546728
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/cases.html
+时间：2016/3/29 11:05:47
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026,1459220753; pgv_pvid=987546728; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459220753; ASPSESSIONIDQQRDQTRQ=CLHLPBPAHPNFFPGPJOBIABEO
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 11:05:53
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026,1459220753; pgv_pvid=987546728; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459220806; ASPSESSIONIDQQRDQTRQ=CLHLPBPAHPNFFPGPJOBIABEO
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/update.html
+时间：2016/3/29 11:05:56
+IP:112.101.99.133
+IE:[MSIE 7.0]Internet Explorer
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459196026,1459220753; pgv_pvid=987546728; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459220813; ASPSESSIONIDQQRDQTRQ=CLHLPBPAHPNFFPGPJOBIABEO
+XP=Windows 2003
+Screen=1680x1050
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 12:34:46
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/formatasp/
+时间：2016/3/29 12:35:01
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226150; ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:35:49
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226170
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/aspweb-goto-phpweb.html
+时间：2016/3/29 12:36:01
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226218
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:36:38
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226230
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/development-about.html
+时间：2016/3/29 12:36:41
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226266
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:37:12
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226269
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/cases.html
+时间：2016/3/29 12:37:15
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226301
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:37:35
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226304
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/use-rule.html
+时间：2016/3/29 12:37:43
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226323
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:37:57
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226332
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/cases.html
+时间：2016/3/29 12:37:59
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226346
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:38:01
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226348
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/use-rule.html
+时间：2016/3/29 12:38:03
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226350
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:38:14
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226352
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/help.html
+时间：2016/3/29 12:38:16
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226362
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:38:33
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226364
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/update.html
+时间：2016/3/29 12:38:37
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226381
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/formatasp/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 12:38:44
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226386
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/asptophp/about.html
+时间：2016/3/29 12:38:47
+IP:119.84.51.24
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=PIEJELPACJLLDEPDFEDKNPGN; __qc_wId=485; pgv_pvid=6325693428; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459226150; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459226392
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+-------------------------------------------------
+
+来访http://down.admin5.com/asp/131548.html
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 13:40:57
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/aspphpcms/
+当前：http://sharembweb.com/
+时间：2016/3/29 13:41:11
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230117; ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 13:41:14
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230130
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/29 13:41:14
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230133
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/fangzhan/
+当前：http://sharembweb.com/mobandown/
+时间：2016/3/29 13:41:16
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230134
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/mobandown/
+当前：http://sharembweb.com/seo/
+时间：2016/3/29 13:41:16
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230135
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/seo/
+当前：http://sharembweb.com/mobandown/
+时间：2016/3/29 13:41:18
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230136
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/mobandown/
+当前：http://sharembweb.com/mobandown/copy-ufoer.html
+时间：2016/3/29 13:41:19
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230138
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/mobandown/copy-ufoer.html
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 13:41:30
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230139
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/aspphpcms/
+当前：http://sharembweb.com/about/contact.html
+时间：2016/3/29 13:41:31
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230150
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://sharembweb.com/about/contact.html
+当前：http://sharembweb.com/
+时间：2016/3/29 13:41:34
+IP:113.221.159.44
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASQABDDB=ELEJELPAFFBOIGHICCGBLFFD; __qc_wId=45; pgv_pvid=3819855950; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459230117; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459230151
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER
+-------------------------------------------------
+
+来访http://down.admin5.com/asp/131548.html
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/29 13:51:06
+IP:221.236.194.65
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1440x900
+用户信息=Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/29 14:13:16
+IP:220.181.108.145
+IE:[Gecko] FireFox
+Cookies=
+XP=
+Screen=1600x1600
+用户信息=Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/?WebShieldDRSessionVerify=MfrgIim0Bnv1A41oeepG
+时间：2016/3/29 14:35:39
+IP:183.160.99.80
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=4345405496; ASPSESSIONIDCSRCASQC=MMHLFMFAKPMJKDKCIMLLLGKC; __qc_wId=761; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458365963,1459149380; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459215713; ASPSESSIONIDSSTCSRQQ=ODGBLLNAJKONOJEIJCCJCMHM
+XP=
+Screen=1440x900
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 15:50:13
+IP:49.77.230.130
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5408233269; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457416709; CNZZDATA1257109459=355092197-1451894244-%7C1457413177; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459155233,1459155235,1459216254,1459217450; ASPSESSIONIDQQRDQTRQ=EKHLPBPAMDEHMBPAACPACPEA; ASPSESSIONIDAQQBCCDB=LPKNNPABGBBCBIDLOBHFJLLC; tjB=1; AJSTAT_ok_pages=1; AJSTAT_ok_times=10
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/29 16:05:42
+IP:42.156.139.4
+IE:[AppleWebKit]Safari
+Cookies=
+XP=Android 4.0.2
+Screen=1024x768
+用户信息=Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+-------------------------------------------------
+
+来访http://m.baidu.com/s?wd=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE%7CASP/PHP%CD%A8%D3%C3%CB%AB%B0%E6%B1%BE%CD%F8%D5%BE%B3%CC%D0%F2%2C%D4%DA%CF%DFASP%D7%AAPHP%2C%D4%DA%CF%DF%B7%C2%D5%BE%2CASPPHPCMS
+当前：http://sharembweb.com/
+时间：2016/3/29 17:37:54
+IP:61.135.190.221
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1600x1600
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
+-------------------------------------------------
+
+来访http://www.baidu.com/s?wd=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE%7CASP/PHP%CD%A8%D3%C3%CB%AB%B0%E6%B1%BE%CD%F8%D5%BE%B3%CC%D0%F2%2C%D4%DA%CF%DFASP%D7%AAPHP%2C%D4%DA%CF%DF%B7%C2%D5%BE%2CASPPHPCMS
+当前：http://sharembweb.com/
+时间：2016/3/29 17:46:42
+IP:61.135.190.220
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1600x1600
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+-------------------------------------------------
+
+来访http://m.baidu.com/s?wd=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE%7CASP/PHP%CD%A8%D3%C3%CB%AB%B0%E6%B1%BE%CD%F8%D5%BE%B3%CC%D0%F2%2C%D4%DA%CF%DFASP%D7%AAPHP%2C%D4%DA%CF%DF%B7%C2%D5%BE%2CASPPHPCMS
+当前：http://sharembweb.com/
+时间：2016/3/29 17:54:35
+IP:61.135.190.223
+IE:[AppleWebKit]Safari
+Cookies=
+XP=Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19
+Screen=1600x1600
+用户信息=Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19
+-------------------------------------------------
+
+来访http://down.admin5.com/asp/131548.html
+当前：http://sharembweb.com/
+时间：2016/3/29 20:14:04
+IP:60.28.118.133
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/29 20:14:06
+IP:60.28.118.133
+IE:[AppleWebKit]Safari
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459253705; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459253705; ASPSESSIONIDAQSBDDCA=PJGLDFCBMFHFGMKOCLFOODGP; __qc_wId=391; pgv_pvid=7464162492
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/29 20:16:14
+IP:101.199.112.53
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=0x0
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 20:35:15
+IP:60.28.118.133
+IE:[AppleWebKit]Safari
+Cookies=CNZZDATA1257109459=387394867-1456488748-http%253A%252F%252Fwww.asp300.com%252F%7C1456488748; pgv_pvid=1760040554; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458915903,1459170080,1459173361
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/29 20:35:32
+IP:60.28.118.133
+IE:[AppleWebKit]Safari
+Cookies=CNZZDATA1257109459=387394867-1456488748-http%253A%252F%252Fwww.asp300.com%252F%7C1456488748; pgv_pvid=1760040554; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458915903,1459170080,1459173361,1459255514; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459255514; ASPSESSIONIDCQTDADCB=NJPNDKDBCIACOHDCGJLBOIAJ; __qc_wId=164
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/29 20:37:25
+IP:101.199.112.55
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=0x0
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/29 20:43:40
+IP:60.28.118.133
+IE:[AppleWebKit]Safari
+Cookies=CNZZDATA1257109459=387394867-1456488748-http%253A%252F%252Fwww.asp300.com%252F%7C1456488748; pgv_pvid=1760040554; ASPSESSIONIDCQTDADCB=NJPNDKDBCIACOHDCGJLBOIAJ; __qc_wId=164; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458915903,1459170080,1459173361,1459255514; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459255532
+XP=
+Screen=1680x1050
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访http://cn.bing.com/search?q=%E6%94%B6%E9%9B%86%E5%A4%A7%E9%87%8FCSS%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7
+当前：http://sharembweb.com/asp/csssyjq.html
+时间：2016/3/29 21:13:09
+IP:122.88.60.41
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=C2016B46F649236F6BD50A13575E5C43; Hm_lvt_77d899627e99b6602ea3864b448836cb=1456672888; AJSTAT_ok_times=1; pgv_pvid=8758139566; CNZZDATA1257109459=1122186769-1452254468-http%253A%252F%252Fwww.sharembweb.com%252F%7C1459173328; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459177376,1459177397,1459177605,1459177607
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asp/csssyjq.html
+当前：http://sharembweb.com/
+时间：2016/3/29 21:13:27
+IP:122.88.60.41
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=C2016B46F649236F6BD50A13575E5C43; Hm_lvt_77d899627e99b6602ea3864b448836cb=1456672888; AJSTAT_ok_times=1; pgv_pvid=8758139566; CNZZDATA1257109459=1122186769-1452254468-http%253A%252F%252Fwww.sharembweb.com%252F%7C1459173328; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459177397,1459177605,1459177607,1459257275; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459257275; ASPSESSIONIDCQTDADCB=JKPNDKDBMECKHHGMOBADOANI
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访http://www.thinkphp.cn/code/1792.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/29 22:57:46
+IP:182.122.44.73
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/29 23:06:07
+IP:121.42.0.71
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1024x768
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/WK10171 Safari/8536.25
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/29 23:06:15
+IP:121.42.0.60
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1024x768
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/WK10171 Safari/8536.25
+-------------------------------------------------
+

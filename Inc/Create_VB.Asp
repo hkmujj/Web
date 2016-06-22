@@ -48,7 +48,7 @@ Sub CreateVBDialog()
 	'Call CreateFolder(ConfigFolder)
 	
 	c="|Print.Asp|Access.Asp|Cai.Asp|EncDec.Asp|Function.Asp|GetWord.Asp|RegExp.Asp|StringNumber.Asp|XML.Asp|Time.Asp|URL.Asp|FSO.Asp|Check.Asp|Html.Asp|AdodbStream.Asp|Dictionary.Asp|PinYin.Asp|2014_Array.Asp|2014_Css.Asp|2014_GBUTF.Asp|2015_Formatting.Asp|2015_Param.Asp|2015_ASP.Asp|2015_Color.Asp|FunHTML.Asp|2015_PHP.Asp|2015_WebSql.Asp|2015_hexSwitch.Asp|ASPPHPAccess.Asp|2014_Author.Asp|2016_WebControl.asp|2014_News.Asp|2014_MainInfo.Asp|2014_SiteMap.Asp|2014_Template.Asp|"
-	c=c & "2014_Search.Asp|2014_Class.Asp|Incpage.Asp|2014_Banner.Asp|2014_Links.Asp|2014_Doc.Asp|URL.Asp|2015_APGeneral.Asp|2015_ToMyPHP.Asp|IE.asp|"
+	c=c & "2014_Search.Asp|2014_Class.Asp|Incpage.Asp|2014_Banner.Asp|2014_Links.Asp|2014_Doc.Asp|2015_APGeneral.Asp|2015_ToMyPHP.Asp|IE.asp|2014_Js.Asp|"
 	
 	dim searchStr,replaceStr
 	'添加模块列表
@@ -142,7 +142,7 @@ Sub CreateVBDialog()
 	FrmListStr="MDIForm1|FrmHide|FrmEdit|Login|TableDialog|Notepad|IE|-|ShareEdition2|QQShareConfig|QQShareUrl|QQShareSendUrl|-|FrmCai|CaiManage|UpDateWebConfig|-|XiCiWebDialog|XiCiWebMDB|-|CaiBaiduUrl|BaiduCai|-|#SortPlug|WebCrack|Test|DownList|IEDebug|-|AutoAddTable|Ying|-|SortPlug|PseudoOriginal|-|Scan|WebShell|Eval|WebServer|-|QQ|Qzone|-|"
 	'QQ操作 'FrmListStr="MDIForm1|FrmHide|FrmEdit|Login|TableDialog|Notepad|IE|InputLocalFile|InputSqlTable|-|HTML5CSS3|FrmCrateNewWeb|TemplateCodeCreate|-|Test|IEDebug|-|WebLog|WebIP|WebSite|-|Eval|-|FrmCai|CaiManage|UpDateWebConfig|-|SinglePage|IEAutomatic|-|SearchEngine|SearchEngineInfoList|WebAdminScan|StatisticalData|-|WebManage|WebIeBox|-|MYProgram|-|SmallTool|ColorPicker|TxtEdit|-|ShieldWebSiteList|WebSiteList|SqlServerWebUrl|WebSiteInfo|WebShell|-|FrmSortPlug|jiayuan|"
 	FrmListStr=      "MDIForm1|FrmHide|FrmEdit|Login|TableDialog|Notepad|IE|InputLocalFile|InputSqlTable|-|FrmCrateNewWeb|WebUrlScan|FrmCreateFunction|WebIeBox|-|Test|IEDebug|IEAutomatic|IEAutoHandle|-|Eval|-|FrmCai|CaiManage|-|WebAdminScan|ExcellentUrl|SmallTool|ColorPicker|TxtEdit|-|FrmSortPlug|AskDa|ZNRobot|JobWeb|JobCompany|FormJobCai|ComputerDir|analogBatchUP|" 
-	FrmListStr=FrmListStr & "|FrmCrateNewHtmlPage|SinglePage|FrameLayout|FrmWebTemplateView|FrmCreateWebLable|UserMakeNav|--2|FileScan2015|HTML5CSS3|XyWebUp|MYProgram|--2|FrmAutoAddWebDefaultInfo|--2|FrmControlDialog|FrmSqlIn|FrmProgrameTransformation|IMitationWebInGoogleSEO|WebShell|FrmEvScan|FrmTestDialog1|FrmTestDialog2|FrmDown|FrmCrateNewHtmlPageOLD|HTML5CSS3|"
+	FrmListStr=FrmListStr & "|FrmCrateNewHtmlPage|SinglePage|FrameLayout|FrmWebTemplateView|FrmCreateWebLable|UserMakeNav|--2|FileScan2015|HTML5CSS3|XyWebUp|MYProgram|--2|FrmAutoAddWebDefaultInfo|--2|FrmControlDialog|FrmSqlIn|FrmProgrameTransformation|IMitationWebInGoogleSEO|WebShell|FrmEvScan|FrmTestDialog1|FrmTestDialog2|FrmDown|FrmCrateNewHtmlPageOLD|Ying|YingZheng|"		'
 
 	nTools = 0	'工具菜单默认为零
 	SplStr=Split(FrmListStr,"|")
@@ -150,7 +150,7 @@ Sub CreateVBDialog()
 		'不为空  #不用
 		If S <> "" And Left(S,1)<>"#" Then
 			'设置操作菜单
-			If InStr("|-|IE|AutoAddTable|WebLog|WebIP|WebSite|Eval|SortPlug|Test|Share|QQShareConfig|QQShareUrl|QQShareSendUrl|ShareEdition2|FrmCai|CaiManage|UpDateWebConfig|XiCiWebDialog|XiCiWebMDB|IEDebug|IEAutomatic|IEAutoHandle|BaiduCai|CaiBaiduUrl|Ying|PseudoOriginal|Scan|WebShell|WebServer|WebCrack|DownList|QQ|QQName|QQVisitors|Qzone|BaiduZhidao|BaiduZhidaoWords|StatisticalData|BaiduZhidaoData|BaiduZhidaoWordsData|BaiduZhidaoMain|SearchEngine|SearchEngineInfoList|WebAdminScan|WebManage|WebIeBox|SinglePage|FrmSMS|SMSInfo|LocaDir|MYProgram|SmallTool|HTML5CSS3|FrmCrateNewWeb|FrmCrateNewHtmlPageOLD|TemplateCodeCreate|WebSiteList|SqlServerWebUrl|ShieldWebSiteList|AsynchDown|WebSiteInfo|FrmSortPlug|ExcellentUrl|WebUrlScan|FrmHangUp|XyWebUp|FrameLayout|FrmCreateFunction|QQJournal|AskDa|ZNRobot|JobWeb|FormJobCai|UserMakeNav|JobCompany|IMitationWebInGoogleSEO|FrmCrateNewHtmlPage|FileScan2015|FrmCreateWebLable||FrmWebTemplateView|ComputerDir|FrmAutoAddWebDefaultInfo|FrmControlDialog|FrmSqlIn|FrmProgrameTransformation|analogBatchUP|jiayuan|FrmEvScan|FrmTestDialog1|FrmTestDialog2|FrmDown|","|"& S &"|") > 0 Or Left(S,2)="--" Then
+			If InStr("|-|IE|AutoAddTable|WebLog|WebIP|WebSite|Eval|SortPlug|Test|Share|QQShareConfig|QQShareUrl|QQShareSendUrl|ShareEdition2|FrmCai|CaiManage|UpDateWebConfig|XiCiWebDialog|XiCiWebMDB|IEDebug|IEAutomatic|IEAutoHandle|BaiduCai|CaiBaiduUrl|Ying|PseudoOriginal|Scan|WebShell|WebServer|WebCrack|DownList|QQ|QQName|QQVisitors|Qzone|BaiduZhidao|BaiduZhidaoWords|StatisticalData|BaiduZhidaoData|BaiduZhidaoWordsData|BaiduZhidaoMain|SearchEngine|SearchEngineInfoList|WebAdminScan|WebManage|WebIeBox|SinglePage|FrmSMS|SMSInfo|LocaDir|MYProgram|SmallTool|HTML5CSS3|FrmCrateNewWeb|FrmCrateNewHtmlPageOLD|TemplateCodeCreate|WebSiteList|SqlServerWebUrl|ShieldWebSiteList|AsynchDown|WebSiteInfo|FrmSortPlug|ExcellentUrl|WebUrlScan|FrmHangUp|XyWebUp|FrameLayout|FrmCreateFunction|QQJournal|AskDa|ZNRobot|JobWeb|FormJobCai|UserMakeNav|JobCompany|IMitationWebInGoogleSEO|FrmCrateNewHtmlPage|FileScan2015|FrmCreateWebLable||FrmWebTemplateView|ComputerDir|FrmAutoAddWebDefaultInfo|FrmControlDialog|FrmSqlIn|FrmProgrameTransformation|analogBatchUP|jiayuan|FrmEvScan|FrmTestDialog1|FrmTestDialog2|FrmDown|YingZheng|","|"& S &"|") > 0 Or Left(S,2)="--" Then
 				MenuTitle="" : TableConfig="" : TableName="" : ThisAccessPass="" : ThisMDBPath=""
 				
 	
@@ -684,7 +684,7 @@ Sub CreateVBDialog()
 				ElseIf S = "-" Or Left(S,2)="--" Then
 					MenuTitle = "-"								
 				End If
-				
+				call echo("s",s)
 				'排除分割线 顶部显示菜单名称
 				If S <>"-" And Left(S,2) <> "--" Then 
 					ToolsMenu=ToolsMenu & "    ElseIf S = """& MenuTitle &""" Then" & vbCrlf 
@@ -717,7 +717,7 @@ Sub CreateVBDialog()
 					FormSetList = FormSetList & vbCrlf & "Set " & S & "=New TableDialog"	'加载窗体
 				End If 
 				 '这里设置下拉按钮放在哪里一组20150610
-				 If InStr("|AskDa|ZNRobot|JobWeb|JobCompany|FormJobCai|FrmTestDialog1|FrmTestDialog2|FrmDown|","|"& S &"|")>0 Then
+				 If InStr("|AskDa|ZNRobot|JobWeb|JobCompany|FormJobCai|FrmTestDialog1|FrmTestDialog2|FrmDown|Ying|YingZheng|","|"& S &"|")>0 Then
 					'工具菜单
 					If nTools2 = 0 Then
 						ToolsClick=ToolsClick & "    if checkAdminQuanXian("""& MenuTitle &""") then Frm.Tools2Menu(0).Caption = """& MenuTitle &"""" & vbCrlf

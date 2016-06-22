@@ -1,0 +1,11 @@
+来访http://aa/aspweb.asp?act=copyHtmlToWeb
+当前：http://aa/aspweb.asp?act=download&downfile=窥窦窣窺窤窺窤窺窥立竡竤竰竵章竱窺竬竹竸
+时间：2016/6/12 17:33:41
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=CNZZDATA1000475370=2059561677-1463541476-%7C1463541476; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F6%2F12 17%3A04%3A34; ASPSESSIONIDQQAAARBC=GDIBEAJCOEOOBBMKFCPAFHAE
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+

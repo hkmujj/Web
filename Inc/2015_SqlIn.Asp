@@ -18,7 +18,7 @@ sub SqlIn()
                 end if 
             next 
         next 
-    end if 
+    end if
 
     '--------Get部份------------------
     if request.form <> "" then
@@ -33,7 +33,7 @@ sub SqlIn()
     end if 
     '--------Cookies部份------------------
     '等开发
-end sub 
+end sub
 '保存Sqlin注入
 function saveSqlInInfo(str)
     dim fileName, OperatingNow, OperatingIP, myFile, MeLoadFile, fso, f 

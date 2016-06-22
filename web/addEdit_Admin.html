@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script> 
+<script src="js/runAction.js"></script>
+</head>
+<body>
+
+<div id="positionwrap">
+    <div class="msg">当前位置：[$position$]</div>
+</div>
+<form action="[$postUrl$]" method="post" name="formsubmit" onSubmit="return new xyClass().checkForm(this)">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本设置</li>  
+        <li>权限设置</li>   
+    </ul>&nbsp;
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>登录账号</td>
+                        <td align="left" style="padding:3px;"><input name="username" type="text" id="username" value="[$username$]" style='width:97%;' class="input-text" alt="请输入账号" /></td>
+                        <td>username</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>登录密码</td>
+                        <td align="left" style="padding:3px;"><input name='pwd' type='password' id='pwd' value='' style='width:97%;' class='input-text' alt="请输入密码"></td>
+                        <td>pwd</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>用户笔名</td>
+                        <td align="left" style="padding:3px;"><input name="pseudonym" type="text" id="pseudonym" value="[$pseudonym$]" style='width:97%;' class="input-text" /></td>
+                        <td>pseudonym</td>
+                    </tr>
+                </tbody> 
+                <tbody class="tbodybox">
+                   <!--超级管理员-->
+                   <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>权限</td>
+                        <td align="left" style="padding:3px;">系统管理员(拥有无上权限)
+						<input type="hidden" name="flags[$phpArray$]" value="*"></td>
+                      <td>flags</td>
+                    </tr>
+                    <!--超级管理员end-->
+                   <!--用户权限-->
+                   <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>用户权限</td>
+                        <td align="left" style="padding:3px;">[$flags$]
+						</td>
+                      <td>flags</td>
+                    </tr>
+                    <!--用户权限end-->
+                    <!--普通管理员-->
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>站点配置</td>
+                        <td align="left" style="padding:3px;">
+<label for="showwebsite"><input type="checkbox" id="showwebsite" name="flags[$phpArray$]" [$flags instr='显示站点配置' value=' checked'  $] value="显示站点配置" class="inputstyle">显示站点配置</label>
+<label for="updatewebsite"><input type="checkbox" id="updatewebsite" name="flags[$phpArray$]" [$flags instr='修改站点配置' value=' checked'  $] value="修改站点配置" class="inputstyle">修改站点配置</label>
+</td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>网站栏目</td>
+                        <td align="left" style="padding:3px;">
+<label for="showwebcolumn"><input type="checkbox" id="showwebcolumn" name="flags[$phpArray$]" [$flags instr='显示网站栏目' value=' checked'  $] value="显示网站栏目" class="inputstyle">显示网站栏目</label>
+<label for="addwebcolumn"><input type="checkbox" id="addwebcolumn" name="flags[$phpArray$]" [$flags instr='添加网站栏目' value=' checked'  $] value="添加网站栏目" class="inputstyle">添加网站栏目</label>
+<label for="delwebcolumn"><input type="checkbox" id="delwebcolumn" name="flags[$phpArray$]" [$flags instr='删除网站栏目' value=' checked'  $] value="删除网站栏目" class="inputstyle">删除网站栏目</label>&nbsp;
+<label for="updatewebcolumn"><input type="checkbox" id="updatewebcolumn" name="flags[$phpArray$]" [$flags instr='修改网站栏目' value=' checked'  $] value="修改网站栏目" class="inputstyle">修改网站栏目</label>&nbsp;
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>分类信息</td>
+                        <td align="left" style="padding:3px;">
+<label for="showarticle"><input type="checkbox" id="showarticle" name="flags[$phpArray$]" [$flags instr='显示分类信息' value=' checked'  $] value="显示分类信息" class="inputstyle">显示分类信息</label>
+<label for="addarticle"><input type="checkbox" id="addarticle" name="flags[$phpArray$]" [$flags instr='添加分类信息' value=' checked'  $] value="添加分类信息" class="inputstyle">添加分类信息</label>
+<label for="delarticle"><input type="checkbox" id="delarticle" name="flags[$phpArray$]" [$flags instr='删除分类信息' value=' checked'  $] value="删除分类信息" class="inputstyle">删除分类信息</label>&nbsp;
+<label for="updatearticle"><input type="checkbox" id="updatearticle" name="flags[$phpArray$]" [$flags instr='修改分类信息' value=' checked'  $] value="修改分类信息" class="inputstyle">修改分类信息</label>&nbsp;
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>评论</td>
+                        <td align="left" style="padding:3px;">
+<label for="showtablecomment"><input type="checkbox" id="showtablecomment" name="flags[$phpArray$]" [$flags instr='显示评论' value=' checked'  $] value="显示评论" class="inputstyle">显示评论</label>
+<label for="addtablecomment"><input type="checkbox" id="addtablecomment" name="flags[$phpArray$]" [$flags instr='添加评论' value=' checked'  $] value="添加评论" class="inputstyle">添加评论</label>
+<label for="deltablecomment"><input type="checkbox" id="deltablecomment" name="flags[$phpArray$]" [$flags instr='删除评论' value=' checked'  $] value="删除评论" class="inputstyle">删除评论</label>&nbsp;
+<label for="updatetablecomment"><input type="checkbox" id="updatetablecomment" name="flags[$phpArray$]" [$flags instr='修改评论' value=' checked'  $] value="修改评论" class="inputstyle">修改评论</label>&nbsp;
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>单页管理</td>
+                        <td align="left" style="padding:3px;">
+<label for="showonepage"><input type="checkbox" id="showonepage" name="flags[$phpArray$]" [$flags instr='显示单页管理' value=' checked'  $] value="显示单页管理" class="inputstyle">显示单页管理</label>
+<label for="addonepage"><input type="checkbox" id="addonepage" name="flags[$phpArray$]" [$flags instr='添加单页管理' value=' checked'  $] value="添加单页管理" class="inputstyle">添加单页管理</label>
+<label for="delonepage"><input type="checkbox" id="delonepage" name="flags[$phpArray$]" [$flags instr='删除单页管理' value=' checked'  $] value="删除单页管理" class="inputstyle">删除单页管理</label>&nbsp;
+<label for="updateonepage"><input type="checkbox" id="updateonepage" name="flags[$phpArray$]" [$flags instr='修改单页管理' value=' checked'  $] value="修改单页管理" class="inputstyle">修改单页管理</label>&nbsp;
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>后台管理员</td>
+                        <td align="left" style="padding:3px;">
+<label for="showadmin"><input type="checkbox" id="showadmin" name="flags[$phpArray$]" [$flags instr='显示后台管理员' value=' checked'  $] value="显示后台管理员" class="inputstyle">显示后台管理员</label>
+<label for="addadmin"><input type="checkbox" id="addadmin" name="flags[$phpArray$]" [$flags instr='添加后台管理员' value=' checked'  $] value="添加后台管理员" class="inputstyle">添加后台管理员</label>
+<label for="deladmin"><input type="checkbox" id="deladmin" name="flags[$phpArray$]" [$flags instr='删除后台管理员' value=' checked'  $] value="删除后台管理员" class="inputstyle">删除后台管理员</label>&nbsp;
+<label for="updateadmin"><input type="checkbox" id="updateadmin" name="flags[$phpArray$]" [$flags instr='修改后台管理员' value=' checked'  $] value="修改后台管理员" class="inputstyle">修改后台管理员</label>&nbsp;
+<label for="updateselfadmin"><input type="checkbox" id="updateselfadmin" name="flags[$phpArray$]" [$flags instr='修改自身' value=' checked'  $] value="修改自身" class="inputstyle">修改自身</label>&nbsp;
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>搜索统计</td>
+                        <td align="left" style="padding:3px;">
+<label for="showsearchstat"><input type="checkbox" id="showsearchstat" name="flags[$phpArray$]" [$flags instr='显示搜索统计' value=' checked'  $] value="显示搜索统计" class="inputstyle">显示搜索统计</label>
+<label for="addsearchstat"><input type="checkbox" id="addsearchstat" name="flags[$phpArray$]" [$flags instr='添加搜索统计' value=' checked'  $] value="添加搜索统计" class="inputstyle">添加搜索统计</label>
+<label for="delsearchstat"><input type="checkbox" id="delsearchstat" name="flags[$phpArray$]" [$flags instr='删除搜索统计' value=' checked'  $] value="删除搜索统计" class="inputstyle">删除搜索统计</label>
+<label for="updatesearchstat"><input type="checkbox" id="updatesearchstat" name="flags[$phpArray$]" [$flags instr='修改搜索统计' value=' checked'  $] value="修改搜索统计" class="inputstyle">修改搜索统计</label>
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>网站统计</td>
+                        <td align="left" style="padding:3px;">
+<label for="showwebstat"><input type="checkbox" id="showwebstat" name="flags[$phpArray$]" [$flags instr='显示网站统计' value=' checked'  $] value="显示网站统计" class="inputstyle">显示网站统计</label>
+<label for="addwebstat"><input type="checkbox" id="addwebstat" name="flags[$phpArray$]" [$flags instr='添加网站统计' value=' checked'  $] value="添加网站统计" class="inputstyle">添加网站统计</label>
+<label for="delwebstat"><input type="checkbox" id="delwebstat" name="flags[$phpArray$]" [$flags instr='删除网站统计' value=' checked'  $] value="删除网站统计" class="inputstyle">删除网站统计</label>
+<label for="updatewebstat"><input type="checkbox" id="updatewebstat" name="flags[$phpArray$]" [$flags instr='修改网站统计' value=' checked'  $] value="修改网站统计" class="inputstyle">修改网站统计</label>
+<label for="updatewebstatinfo"><input type="checkbox" id="updatewebstatinfo" name="flags[$phpArray$]" [$flags instr='更新网站统计' value=' checked'  $] value="更新网站统计" class="inputstyle">更新网站统计</label>
+<label for="webstatinfo"><input type="checkbox" id="webstatinfo" name="flags[$phpArray$]" [$flags instr='网站统计详细' value=' checked'  $] value="网站统计详细" class="inputstyle">网站统计详细</label>
+
+         
+               </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>生成HTML</td>
+                        <td align="left" style="padding:3px;">
+<label for="showmakehtml"><input type="checkbox" id="showmakehtml" name="flags[$phpArray$]" [$flags instr='显示生成HTML' value=' checked'  $] value="显示生成HTML" class="inputstyle">显示生成HTML</label>
+
+<label for="memakehtml"><input type="checkbox" id="memakehtml" name="flags[$phpArray$]" [$flags instr='生成HTML页面' value=' checked'  $] value="生成HTML页面" class="inputstyle">生成HTML页面</label>
+<label for="memakeallhtml"><input type="checkbox" id="memakeallhtml" name="flags[$phpArray$]" [$flags instr='生成全部HTML页面' value=' checked'  $] value="生成全部HTML页面" class="inputstyle">生成全部HTML页面</label>
+
+<label for="copymakehtml"><input type="checkbox" id="copymakehtml" name="flags[$phpArray$]" [$flags instr='复制生成HTML页面' value=' checked'  $] value="复制生成HTML页面" class="inputstyle">复制生成HTML页面</label>
+
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>生成SiteMap</td>
+                        <td align="left" style="padding:3px;">
+                        
+                        
+<label for="showsitemap"><input type="checkbox" id="showsitemap" name="flags[$phpArray$]" [$flags instr='显示生成SiteMap' value=' checked'  $] value="显示生成SiteMap" class="inputstyle">显示生成SiteMap</label>
+<label for="delsitemap"><input type="checkbox" id="delsitemap" name="flags[$phpArray$]" [$flags instr='删除生成SiteMap' value=' checked'  $] value="删除生成SiteMap" class="inputstyle">删除生成SiteMap</label>
+<label for="updatesitemap"><input type="checkbox" id="updatesitemap" name="flags[$phpArray$]" [$flags instr='修改生成SiteMap' value=' checked'  $] value="修改生成SiteMap" class="inputstyle">修改生成SiteMap</label>
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>生成Robots</td>
+                        <td align="left" style="padding:3px;">
+<label for="showrobots"><input type="checkbox" id="showrobots" name="flags[$phpArray$]" [$flags instr='显示生成Robots' value=' checked'  $] value="显示生成Robots" class="inputstyle">显示生成Robots</label>
+<label for="delrobots"><input type="checkbox" id="delrobots" name="flags[$phpArray$]" [$flags instr='删除生成Robots' value=' checked'  $] value="删除生成Robots" class="inputstyle">删除生成Robots</label>
+<label for="updaterobots"><input type="checkbox" id="updaterobots" name="flags[$phpArray$]" [$flags instr='修改生成Robots' value=' checked'  $] value="修改生成Robots" class="inputstyle">修改生成Robots</label>
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>模板管理</td>
+                        <td align="left" style="padding:3px;">
+<label for="showtemplate"><input type="checkbox" id="showtemplate" name="flags[$phpArray$]" [$flags instr='显示模板管理' value=' checked'  $] value="显示模板管理" class="inputstyle">显示模板管理</label>
+<label for="addtemplate"><input type="checkbox" id="addtemplate" name="flags[$phpArray$]" [$flags instr='添加模板文件' value=' checked'  $] value="添加模板文件" class="inputstyle">添加模板文件</label>
+<label for="deltemplate"><input type="checkbox" id="deltemplate" name="flags[$phpArray$]" [$flags instr='删除模板文件' value=' checked'  $] value="删除模板文件" class="inputstyle">删除模板文件</label>
+<label for="updatetemplate"><input type="checkbox" id="updatetemplate" name="flags[$phpArray$]" [$flags instr='修改模板文件' value=' checked'  $] value="修改模板文件" class="inputstyle">修改模板文件</label>
+<label for="ontemplate"><input type="checkbox" id="ontemplate" name="flags[$phpArray$]" [$flags instr='启用模板' value=' checked'  $] value="启用模板" class="inputstyle">启用模板</label>
+<label for="resetdatatemplate"><input type="checkbox" id="resetdatatemplate" name="flags[$phpArray$]" [$flags instr='恢复模板数据' value=' checked'  $] value="恢复模板数据" class="inputstyle">恢复模板数据</label>
+                        </td>
+                      <td>flags</td>
+                    </tr>
+                    <!--普通管理员end-->
+                </tbody> 
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="保存(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="[$switchId$]" /> 
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>    </div>
+</form>
+<script language="javascript" type="text/javascript" src="js/formBottom.js"></script>
+</body>
+</html>
+

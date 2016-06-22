@@ -1,0 +1,1111 @@
+来访
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/27 1:00:40
+IP:121.31.251.143
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=720x1280
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/27 1:08:20
+IP:121.31.251.143
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASDBSRBD=EPENMPFDCGBBGCIMDMEJHHJA; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459011705; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459011705; __qc_wId=279; pgv_pvid=3340024088
+XP=
+Screen=720x1280
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/27 1:08:22
+IP:121.31.251.143
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASDBSRBD=EPENMPFDCGBBGCIMDMEJHHJA; __qc_wId=279; pgv_pvid=3340024088; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459011705; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459012163
+XP=
+Screen=720x1280
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/aspphpcms/
+当前：http://sharembweb.com/aspweb.asp?templatedir=/Templates2015/sharembweb/
+时间：2016/3/27 1:08:56
+IP:121.31.251.143
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASDBSRBD=EPENMPFDCGBBGCIMDMEJHHJA; __qc_wId=279; pgv_pvid=3340024088; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459011705; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459012165
+XP=
+Screen=720x1280
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/?act=news&id=60
+时间：2016/3/27 1:41:46
+IP:66.249.79.92
+IE:[Bot/Crawler]GoogleBot
+Cookies=
+XP=+http://www.google.com/bot.html
+Screen=1600x1200
+用户信息=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/mobandown/mofangcncncom.html
+时间：2016/3/27 1:43:25
+IP:66.249.77.56
+IE:[Bot/Crawler]GoogleBot
+Cookies=
+XP=+http://www.google.com/bot.html
+Screen=1024x1024
+用户信息=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/mobandown/mofangcncncom.html
+时间：2016/3/27 1:43:27
+IP:66.249.77.56
+IE:[Bot/Crawler]GoogleBot
+Cookies=
+XP=+http://www.google.com/bot.html
+Screen=1600x1200
+用户信息=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 3:16:30
+IP:103.47.136.16
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 3:18:56
+IP:122.228.114.163
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 3:23:39
+IP:42.202.145.79
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 3:25:08
+IP:183.95.81.101
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 3:36:17
+IP:183.60.252.28
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 3:37:26
+IP:222.161.223.154
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 3:40:54
+IP:117.23.59.61
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 3:45:57
+IP:119.188.98.9
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 4:23:17
+IP:124.232.137.180
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 4:34:01
+IP:182.118.9.15
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 6:42:48
+IP:123.150.189.148
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 7:47:59
+IP:123.59.97.10
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Windows 2003
+Screen=800x600
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322)
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/27 9:04:48
+IP:122.88.60.41
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=C2016B46F649236F6BD50A13575E5C43; Hm_lvt_77d899627e99b6602ea3864b448836cb=1456672888; pgv_pvid=9665921314; pgv_pvid=8758139566; AJSTAT_ok_times=3; CNZZDATA1257109459=56152385-1452254468-%7C1458997949; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458911220,1458915003,1458957660,1458997954
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/?WebShieldDRSessionVerify=VhoQMePd155FMZNFzs9f
+时间：2016/3/27 12:46:37
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/?WebShieldDRSessionVerify=VhoQMePd155FMZNFzs9f
+时间：2016/3/27 12:46:46
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 12:46:47
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 12:46:47
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 12:46:47
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/?WebShieldDRSessionVerify=cm9pBjrKQ2CPzRohf45T
+时间：2016/3/27 12:46:48
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/?WebShieldDRSessionVerify=VhoQMePd155FMZNFzs9f
+时间：2016/3/27 12:46:48
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/?WebShieldDRSessionVerify=VhoQMePd155FMZNFzs9f
+时间：2016/3/27 12:46:49
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/27 12:46:51
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/formatasp/
+时间：2016/3/27 12:46:52
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/mobandown/
+时间：2016/3/27 12:46:53
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/fangzhan/?WebShieldDRSessionVerify=hyWnJKIkbH4QvAcTKFBC
+时间：2016/3/27 12:46:53
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/27 12:46:59
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/about/contact.html
+时间：2016/3/27 12:47:02
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/asptojs.html
+时间：2016/3/27 12:47:05
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/toolslist/gbtoutf.html
+时间：2016/3/27 12:47:05
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/toolslist/onlinepinyin.html
+时间：2016/3/27 12:47:06
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/toolslist/onlinejsq.html
+时间：2016/3/27 12:47:07
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/toolslist/onlinechatrobot.html
+时间：2016/3/27 12:47:11
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/page/websitenotice.html
+时间：2016/3/27 12:47:23
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/mobandown/mofangcncncom.html
+时间：2016/3/27 12:47:24
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/mobandown/mofanglegendstucom.html
+时间：2016/3/27 12:47:25
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/mobandown/mofangufoercom.html
+时间：2016/3/27 12:47:28
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/aspphpcmsdownload.html
+时间：2016/3/27 12:47:31
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/aspphpcmsabout.html
+时间：2016/3/27 12:47:37
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/aspphpcmshelp.html
+时间：2016/3/27 12:47:38
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/aspphpcmstags.html
+时间：2016/3/27 12:47:39
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/aspphpcmsupdate.html
+时间：2016/3/27 12:47:40
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/aspphpcmsauthorization.html
+时间：2016/3/27 12:47:42
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/maketags.html
+时间：2016/3/27 12:47:48
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/asptophpv1about.html
+时间：2016/3/27 12:47:49
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/asptophpv1down.html
+时间：2016/3/27 12:47:52
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/asptophpv1update.html
+时间：2016/3/27 12:47:52
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/asptophpv1help.html
+时间：2016/3/27 12:47:53
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/asptophpv1rule.html
+时间：2016/3/27 12:47:58
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/asptophpabouthelp.html
+时间：2016/3/27 12:48:00
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/ruheaspwebtophpweb.html
+时间：2016/3/27 12:48:03
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/
+时间：2016/3/27 12:48:04
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/26aztabgetvarlist.html
+时间：2016/3/27 12:48:06
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/azstrwzdl.html
+时间：2016/3/27 12:48:09
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/20aspverificationdown.html
+时间：2016/3/27 12:48:10
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/onearraysort.html
+时间：2016/3/27 12:48:16
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/cutstraspphpcode.html
+时间：2016/3/27 12:48:17
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/aspjdhelpchm.html
+时间：2016/3/27 12:48:19
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/css3/
+时间：2016/3/27 12:48:23
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/css3/csssyjq.html
+时间：2016/3/27 12:48:24
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/css3/cssdivsetname.html
+时间：2016/3/27 12:48:28
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/ask/
+时间：2016/3/27 12:48:30
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/ask/2015yerwordwd.html
+时间：2016/3/27 12:48:30
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/myworks/
+时间：2016/3/27 12:48:33
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspphpcms/?WebShieldDRSessionVerify=1ffFaKvg4IadmjOfCMXo
+时间：2016/3/27 12:53:21
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/php/
+时间：2016/3/27 12:54:18
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/php/
+时间：2016/3/27 12:54:19
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/mobandown/
+时间：2016/3/27 12:56:16
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/?WebShieldDRSessionVerify=VhoQMePd155FMZNFzs9f
+时间：2016/3/27 12:56:16
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/27 16:29:36
+IP:122.88.60.41
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=C2016B46F649236F6BD50A13575E5C43; Hm_lvt_77d899627e99b6602ea3864b448836cb=1456672888; pgv_pvid=9665921314; pgv_pvid=8758139566; AJSTAT_ok_times=3; CNZZDATA1257109459=56152385-1452254468-%7C1458997949; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458915003,1458957660,1458997954,1459040772
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/27 16:39:02
+IP:122.88.60.41
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=C2016B46F649236F6BD50A13575E5C43; Hm_lvt_77d899627e99b6602ea3864b448836cb=1456672888; pgv_pvid=9665921314; pgv_pvid=8758139566; AJSTAT_ok_times=3; CNZZDATA1257109459=56152385-1452254468-%7C1458997949; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458957660,1458997954,1459040772,1459067456; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459067456; ASPSESSIONIDASSBBSQD=EMFDEJMDOAMFLACEDGMKEOBI; __qc_wId=433
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/Tools/asptophp.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/27 18:06:44
+IP:112.12.199.154
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1280x1024
+用户信息=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/Tools/asptophp.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/3/27 18:08:11
+IP:220.181.132.200
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=0x0
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4
+-------------------------------------------------
+
+来访http://fang.mcheng.cn/?act=detail&id=330
+当前：http://sharembweb.com/
+时间：2016/3/27 18:12:55
+IP:113.104.230.116
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11072.6 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/27 18:12:57
+IP:113.104.230.116
+IE:[AppleWebKit]Safari
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459073628; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459073628; ASPSESSIONIDASSBBSQD=EBHDEJMDAHPMHEAKCAHDPEJN; __qc_wId=321; pgv_pvid=5548465466
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11072.6 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/fangzhan/
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/27 18:25:41
+IP:113.104.230.116
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASSBBSQD=EBHDEJMDAHPMHEAKCAHDPEJN; __qc_wId=321; pgv_pvid=5548465466; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459073628; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459073631
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11072.6 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/fangzhan/
+当前：http://sharembweb.com/aspphpcms/maketags.html
+时间：2016/3/27 18:35:25
+IP:113.104.230.116
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASSBBSQD=EBHDEJMDAHPMHEAKCAHDPEJN; __qc_wId=321; pgv_pvid=5548465466; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459073628; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459074394
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11072.6 Safari/537.36
+-------------------------------------------------
+
+来访http://sharembweb.com/aspphpcms/maketags.html
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/27 18:35:30
+IP:113.104.230.116
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDASSBBSQD=EBHDEJMDAHPMHEAKCAHDPEJN; __qc_wId=321; pgv_pvid=5548465466; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1459073628; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459074978
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11072.6 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/randshowstr1.html
+时间：2016/3/27 19:30:13
+IP:65.55.210.91
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=320x568
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 BingPreview/1.0b
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/27 20:46:33
+IP:122.88.60.41
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=C2016B46F649236F6BD50A13575E5C43; Hm_lvt_77d899627e99b6602ea3864b448836cb=1456672888; pgv_pvid=9665921314; pgv_pvid=8758139566; AJSTAT_ok_times=3; CNZZDATA1257109459=56152385-1452254468-%7C1458997949; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458957660,1458997954,1459040772,1459067456
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspweb.asp
+时间：2016/3/27 23:21:01
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310011,1458310037,1458310135,1458604510; AJSTAT_ok_times=7; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspweb.asp
+时间：2016/3/27 23:21:20
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=7; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092145
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspweb.asp
+时间：2016/3/27 23:21:39
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=7; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092164
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspweb.asp
+时间：2016/3/27 23:24:25
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=7; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092183
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/aspweb.asp
+时间：2016/3/27 23:30:14
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=8; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092349; tjB=1; AJSTAT_ok_pages=1
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 23:31:37
+IP:121.42.0.58
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1024x768
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/WK10171 Safari/8536.25
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/3/27 23:31:40
+IP:121.42.0.73
+IE:[MSIE 8.0]Internet Explorer
+Cookies=
+XP=Trident/4.0
+Screen=1024x768
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Trident/4.0; Windows NT 6.1; SLCC2 2.5.5231; .NET CLR 2.0.50727; .NET CLR 4.1.23457; .NET CLR 4.0.23457; Media Center PC 6.0; MS-WK 8)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/3/27 23:31:45
+IP:121.42.0.71
+IE:[AppleWebKit]Safari
+Cookies=
+XP=
+Screen=1024x768
+用户信息=Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/WK10171 Safari/8536.25
+-------------------------------------------------
+
+来访http://sharembweb.com/aspweb.asp?act=makeallhtml
+当前：http://sharembweb.com/index.html
+时间：2016/3/27 23:33:01
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=8; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; tjB=1; AJSTAT_ok_pages=1; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092698; __qc_wId=992
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://sharembweb.com/sitemap.html
+当前：http://sharembweb.com/morearticle/sublime-text3-use.html
+时间：2016/3/27 23:33:42
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=8; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; tjB=1; AJSTAT_ok_pages=1; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092865; __qc_wId=992
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://sharembweb.com/morearticle/sublime-text3-use.html
+当前：http://sharembweb.com/
+时间：2016/3/27 23:33:55
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=8; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; tjB=1; AJSTAT_ok_pages=1; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092906
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/aspphpcms/
+时间：2016/3/27 23:34:11
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=8; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; tjB=1; AJSTAT_ok_pages=1; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092919
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://sharembweb.com/morearticle/sublime-text3-use.html
+当前：http://sharembweb.com/
+时间：2016/3/27 23:34:18
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=8; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; tjB=1; AJSTAT_ok_pages=1; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092935
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://sharembweb.com/
+当前：http://sharembweb.com/toolslist/onlinepinyin.html
+时间：2016/3/27 23:34:29
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=8; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; tjB=1; AJSTAT_ok_pages=1; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092942
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://sharembweb.com/toolslist/onlinepinyin.html
+当前：http://sharembweb.com/fangzhan/
+时间：2016/3/27 23:34:32
+IP:122.88.60.41
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1458215834; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1458310037,1458310135,1458604510,1459092145; AJSTAT_ok_times=8; Hm_lvt_77d899627e99b6602ea3864b448836cb=1457142437,1458221754; pgv_pvid=7182848102; tjB=1; AJSTAT_ok_pages=1; ASPSESSIONIDCQTDBTRD=FLNBCEPDONJINHEIACBIKMBI; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1459092953
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+

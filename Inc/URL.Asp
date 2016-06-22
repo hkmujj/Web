@@ -352,7 +352,7 @@ Function getWebSite(ByVal httpUrl)
     End If 
     is_WebSite = False                                                              '是域名为假
     c = ".com.hk|.sh.cn|.com.cn|.net.cn|.org.cn" 
-    c = c & "|.com|.net|.org|.tv|.cc|.info|.cn|.tw|:81|:99|.biz|.mobi|.hk|.us|.la|.gl|.in" 
+    c = c & "|.com|.net|.org|.tv|.cc|.info|.cn|.tw|:81|:99|.biz|.mobi|.hk|.us|.la|.gl|.in|.top|.win|.vip|.pw|.me|.wiki" 
     splStr = Split(c, "|") 
     For Each s In splStr
         If s <> "" Then
@@ -1240,7 +1240,7 @@ End Function
 
 
 
-
+'注意   这里面有问题的
 
 '0 url：http://127.0.0.1/aa/4.asp?act=sdf&v=sdf
 '1 urlDir：http://127.0.0.1/
@@ -1253,6 +1253,7 @@ End Function
 
 '网址处理成数组20150124  数组  0原文件路径 1为文件路径   2为文件名称  3为去除文件类型文件名称   4为文件类型后缀名
 Function handleHttpUrlArray(ByVal url)
+	'on error resume next
     Dim urlDir, fileName, FileType, fileStr, httpAgreement, webSite, folderDir 
     url = handleHttpUrl(url) 
 
@@ -1264,8 +1265,13 @@ Function handleHttpUrlArray(ByVal url)
     FileType = Mid(fileName, InStrRev(fileName, ".") + 1) 
     httpAgreement = Mid(url, 1, InStr(url, ":") - 1) 
     webSite = getWebSite(url) 
-    Call echo("url", url) 
-    folderDir = Mid(urlDir, Len(webSite)) 
+    Call echo("url", url)
+	'域名为空则发粗获得文件夹目录20160613
+	if webSite<>"" then
+	    folderDir = Mid(urlDir, Len(webSite)) 
+	else
+		call echoYellowB("注意：不是有效网址",url)
+	end if
     'HandleHttpUrlArray = Array(url, urlDir, fileName, fileType, fileStr, HttpAgreement, webSite, folderDir)
     Dim arrayData 
     arrayData = Split(url & vbCrLf & urlDir & vbCrLf & fileName & vbCrLf & FileType & vbCrLf & fileStr & vbCrLf & httpAgreement & vbCrLf & webSite & vbCrLf & folderDir, vbCrLf) 
@@ -1290,7 +1296,7 @@ Function handleRemoteJsCssParam(content, urlList, sType)
             fileName = dataArray(2) 
             fileType = LCase(dataArray(3)) 
             fileStr = LCase(dataArray(4)) 
-            If(fileType = "js" Or fileType = "css") And InStr(fileStr, "?") > 0 Then
+            If(fileType = "js" Or fileType = "css") And InStr(fileStr, "?") > 0 and instr(fileName,".")>0 Then
                 replaceStr = Mid(url, 1, InStr(url, "?") - 1) 
                 'call echo(replaceStr,fileStr)
                 '这种替换方法还是不精准，待改进
@@ -1521,14 +1527,11 @@ function handleDifferenceWebSiteList(httpurl,urllist)
 	for each url in splstr
 		urlWebsite=lcase(getwebsite(url))
 		if urlWebsite <>"" and website<>urlWebsite and instr(vbcrlf & websiteList & vbcrlf,vbcrlf & urlWebsite & vbcrlf)=false then
-			websiteList=websiteList & urlWebsite
+			websiteList=websiteList & urlWebsite & vbcrlf
 		end if
 	next
 	handleDifferenceWebSiteList=websiteList
 end function
-
-
- 
 
 
 

@@ -1,0 +1,44 @@
+来访
+当前：http://aa/aspweb.asp
+时间：2016/5/4 15:53:25
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSAQCTDDT=GOPFJOMAHGEKODICCABMJDKK
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=nav&columnName=%D4%DA%CF%DFASP%D7%AAPHP
+时间：2016/5/4 15:53:28
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSAQCTDDT=GOPFJOMAHGEKODICCABMJDKK; __qc_wId=782; myqqqzone=qq
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=%D4%DA%CF%DFASP%D7%AAPHP
+当前：http://aa/aspweb.asp?act=detail&id=69
+时间：2016/5/4 15:53:31
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDSAQCTDDT=GOPFJOMAHGEKODICCABMJDKK; __qc_wId=782; myqqqzone=qq
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=saveSiteMap
+时间：2016/5/4 16:46:37
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F4 9%3A48%3A51; ASPSESSIONIDSAQCTDDT=KOPFJOMABHODPNMMOEDELCDN
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+

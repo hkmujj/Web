@@ -1,0 +1,24 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-18 15:51:27
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：member
+信息：添加会员
+网址：1.asp?act=saveAddEditHandle&id=&actionType=Member&lableTitle=会员&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-03-18 15:58:47
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：member
+信息：修改会员
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=Member&lableTitle=会员&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-03-18 15:58:56
+IP：127.0.0.1
+------------------------
+

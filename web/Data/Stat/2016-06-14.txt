@@ -1,0 +1,126 @@
+来访
+当前：http://aa/aspweb.asp
+时间：2016/6/14 15:11:29
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=CNZZDATA1000475370=2059561677-1463541476-%7C1463541476; ASPSESSIONIDQQQCADTT=CKOPAHNDFCFBLEEBNFMMEIKP
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://bb/aspweb.asp
+时间：2016/6/14 15:11:38
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=detail&id=45
+时间：2016/6/14 15:11:41
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN; __qc_wId=800
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=detail&id=45
+时间：2016/6/14 15:15:59
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN; __qc_wId=800
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=detail&id=45
+时间：2016/6/14 15:20:26
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN; __qc_wId=800
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=detail&id=45
+时间：2016/6/14 15:22:01
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN; __qc_wId=800
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+
+来访http://aa/web/1.php?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/phpweb.php
+时间：2016/6/14 16:03:37
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=CNZZDATA1000475370=2059561677-1463541476-%7C1463541476; ASPSESSIONIDQQQCADTT=CKOPAHNDFCFBLEEBNFMMEIKP; __qc_wId=653; ASPSESSIONIDQQSADDTS=INDBMMNDPEOACLDAEFFIMINP; PHPSESSID=14a1n5adsftv01co3f86aiv7n0
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+来访
+当前：http://bb/phpweb.php
+时间：2016/6/14 16:04:18
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN; __qc_wId=800; ASPSESSIONIDQSQACCST=HJLPHLNDFKBDLMPMEBOIPIOM; PHPSESSID=7ce8h0ied68oq3nd61ql2e13f3
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+来访http://bb/phpweb.php
+当前：http://bb/phpweb.php?act=detail&id=156
+时间：2016/6/14 16:04:27
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN; __qc_wId=800; ASPSESSIONIDQSQACCST=HJLPHLNDFKBDLMPMEBOIPIOM; PHPSESSID=7ce8h0ied68oq3nd61ql2e13f3
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+来访http://bb/phpweb.php
+当前：http://bb/phpweb.php?act=detail&id=156
+时间：2016/6/14 16:04:55
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN; __qc_wId=800; ASPSESSIONIDQSQACCST=HJLPHLNDFKBDLMPMEBOIPIOM; PHPSESSID=7ce8h0ied68oq3nd61ql2e13f3
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+来访http://aa/web/1.php?act=dispalyManageHandle&id=1&actionType=TableComment&lableTitle=%u8BC4%u8BBA&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+当前：http://aa/phpweb.php?act=detail&id=156
+时间：2016/6/14 16:05:54
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=CNZZDATA1000475370=2059561677-1463541476-%7C1463541476; ASPSESSIONIDQQQCADTT=CKOPAHNDFCFBLEEBNFMMEIKP; __qc_wId=653; ASPSESSIONIDQQSADDTS=INDBMMNDPEOACLDAEFFIMINP; PHPSESSID=14a1n5adsftv01co3f86aiv7n0
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+来访http://bb/web/1.php?act=dispalyManageHandle&actionType=TableComment&addsql=order by adddatetime desc&lableTitle=%u8BC4%u8BBA
+当前：http://bb/phpweb.php?act=detail&id=156
+时间：2016/6/14 16:06:50
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=CNZZDATA1259304367=722549346-1465806020-http%253A%252F%252Fbb%252F%7C1465806020; ASPSESSIONIDSSSBDDSS=DMOFBHNDPDHOKBPBLLIOBKGN; __qc_wId=800; ASPSESSIONIDQSQACCST=HJLPHLNDFKBDLMPMEBOIPIOM; PHPSESSID=7ce8h0ied68oq3nd61ql2e13f3
+XP=Windows NT 6.1
+Screen=2025x1139
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------

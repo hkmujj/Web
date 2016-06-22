@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>网站标题 - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+<style type="text/css">
+.search-form {
+  margin-bottom: 10px;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+
+<div class="explain-col search-form">
+支付单号  <input type="text" value="" class="input-text" name="info[trade_sn]"> 
+用户名  <input type="text" value="" class="input-text" name="info[username]"> 
+订单时间  
+
+ 			<link rel="stylesheet" type="text/css" href="js/calendar/jscal2.css"/>
+			<link rel="stylesheet" type="text/css" href="js/calendar/border-radius.css"/>
+			<link rel="stylesheet" type="text/css" href="js/calendar/win2k.css"/>
+            <script type="text/javascript" src="js/calendar/calendar.js"></script>
+            <script type="text/javascript" src="js/calendar/lang/en.js"></script>
+			<input type="text" name="info[start_addtime]" id="start_addtime" value="" size="10" class="date input-text" readonly="">&nbsp;<script type="text/javascript">
+			Calendar.setup({
+			weekNumbers: true,
+		    inputField : "start_addtime",
+		    trigger    : "start_addtime",
+		    dateFormat: "%Y-%m-%d",
+		    showTime: false,
+		    minuteStep: 1,
+		    onSelect   : function() {this.hide();}
+			});
+        </script>至   <input type="text" name="info[end_addtime]" id="end_addtime" value="" size="10" class="date input-text" readonly="">&nbsp;<script type="text/javascript">
+			Calendar.setup({
+			weekNumbers: true,
+		    inputField : "end_addtime",
+		    trigger    : "end_addtime",
+		    dateFormat: "%Y-%m-%d",
+		    showTime: false,
+		    minuteStep: 1,
+		    onSelect   : function() {this.hide();}
+			});
+        </script> 
+<select name="info[status]"><option value="" selected="">全部状态</option><option value="unpay">交易未支付</option><option value="succ">交易成功</option><option value="progress">交易处理中</option><option value="cancel">交易取消</option></select>  
+						 
+						<input type="submit" value="搜索" class="btnclick2" id="dosubmit" name="dosubmit">		 
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+

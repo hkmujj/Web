@@ -1,0 +1,707 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-03 09:29:28
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/test/
+网址：&templatename=test
+时间：2016-03-03 09:37:44
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 09:37:49
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 09:49:42
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 09:51:36
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：添加网站栏目
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebColumn&lableTitle=%CD%F8%D5%BE%C0%B8%C4%BF&nPageSize=&page=&parentid=36
+时间：2016-03-03 10:27:34
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：添加网站栏目
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebColumn&lableTitle=%CD%F8%D5%BE%C0%B8%C4%BF&nPageSize=&page=&parentid=36
+时间：2016-03-03 10:27:50
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：添加网站栏目
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebColumn&lableTitle=%CD%F8%D5%BE%C0%B8%C4%BF&nPageSize=&page=&parentid=47
+时间：2016-03-03 10:28:19
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-03 10:31:06
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：添加网站栏目
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebColumn&lableTitle=%CD%F8%D5%BE%C0%B8%C4%BF&nPageSize=&page=&parentid=48
+时间：2016-03-03 10:36:05
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：添加网站栏目
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebColumn&lableTitle=%CD%F8%D5%BE%C0%B8%C4%BF&nPageSize=&page=&parentid=49
+时间：2016-03-03 10:36:13
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:37:21
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:41:47
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:43:22
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:43:32
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:43:45
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:43:53
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:45:00
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:45:23
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:46:07
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:46:37
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 10:47:01
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:03:30
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:04:25
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:04:43
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:07:21
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:07:53
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:08:29
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:08:45
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:09:17
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:09:34
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 11:11:14
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：searchstat
+信息：修改搜索统计
+网址：1.asp?act=saveAddEditHandle&id=156&actionType=SearchStat&lableTitle=搜索统计&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 11:16:51
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：searchstat
+信息：修改搜索统计
+网址：1.asp?act=saveAddEditHandle&id=158&actionType=SearchStat&lableTitle=搜索统计&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 11:24:01
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-03 13:03:37
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：searchstat
+信息：修改搜索统计
+网址：1.asp?act=saveAddEditHandle&id=159&actionType=SearchStat&lableTitle=搜索统计&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 13:06:20
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：searchstat
+信息：修改搜索统计
+网址：1.asp?act=saveAddEditHandle&id=159&actionType=SearchStat&lableTitle=搜索统计&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 13:06:28
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:08:48
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:08:56
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:09:00
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：修改网站栏目
+网址：1.asp?act=saveAddEditHandle&id=511&actionType=WebColumn&lableTitle=网站栏目&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 13:09:49
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-03 13:11:25
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:14:11
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:14:14
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:14:24
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:14:29
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:14:37
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:14:46
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:14:50
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:14:56
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:15:02
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:15:08
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:15:11
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:16:27
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:17:08
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:17:11
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 13:17:31
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：修改网站栏目
+网址：1.asp?act=saveAddEditHandle&id=511&actionType=WebColumn&lableTitle=网站栏目&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 13:17:41
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：修改网站栏目
+网址：1.asp?act=saveAddEditHandle&id=511&switchId=1&actionType=WebColumn&lableTitle=网站栏目&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 13:17:46
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 13:20:03
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：searchstat
+信息：修改搜索统计
+网址：1.asp?act=saveAddEditHandle&id=161&actionType=SearchStat&lableTitle=搜索统计&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 13:23:12
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：searchstat
+信息：修改搜索统计
+网址：1.asp?act=saveAddEditHandle&id=162&actionType=SearchStat&lableTitle=搜索统计&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 13:23:30
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=184&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=
+时间：2016-03-03 13:27:25
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：添加分类信息
+网址：1.asp?act=saveAddEditHandle&id=&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=
+时间：2016-03-03 13:35:10
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=188&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=
+时间：2016-03-03 13:35:45
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=188&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=
+时间：2016-03-03 13:35:52
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-03 14:21:28
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-03-03 14:21:33
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 14:21:37
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 14:50:24
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 14:50:32
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 14:58:18
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 14:59:13
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 14:59:26
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 15:00:55
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=2&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 15:01:03
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-03 15:03:40
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-03 15:41:12
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/anyi/
+网址：&templatename=anyi
+时间：2016-03-03 15:48:21
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 15:48:24
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：/1.php?act=login
+时间：2016-03-03 15:52:59
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：admin
+信息：登录成功
+网址：/1.php?act=login
+时间：2016-03-03 15:53:00
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 16:28:45
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-03-03 16:28:54
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-03 16:28:58
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：webcolumn
+信息：修改网站栏目
+网址：1.asp?act=saveAddEditHandle&id=25&actionType=WebColumn&lableTitle=网站栏目&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 16:29:23
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：/&templatename=sharembweb
+时间：2016-03-03 16:32:30
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-03 16:32:36
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：webcolumn
+信息：修改网站栏目
+网址：/1.php?act=saveAddEditHandle&id=17&actionType=WebColumn&lableTitle=网站栏目&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=
+时间：2016-03-03 16:32:56
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-03 16:58:02
+IP：127.0.0.1
+------------------------
+

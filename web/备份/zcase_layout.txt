@@ -1,0 +1,19 @@
+<div class="boxwrap">
+	<div class="leftwrap">
+    
+
+		{$Module moduletype='红色' modulename='网站公告'$}
+
+    </div>
+    <div class="rightwrap">
+    
+    
+		{$Module moduletype='红色' modulename='案例展示'$}
+		{$Module moduletype='红色' modulename='产品展示'$}
+		{$Module moduletype='红色' modulename='新闻中心'$}
+    
+    </div>
+    
+    
+    
+</div>

@@ -1,6 +1,34 @@
 <% 
 'Js
 
+'删除JS注释 20160602
+function delJsNote(content)
+	dim splstr,s,c,isMultiLineNote,s2
+	isMultiLineNote=false			'多行注释默认为假
+	splstr=split(content,vbcrlf)
+	for each s in splstr
+		s2=phptrim(s)
+		if isMultiLineNote=true then
+			if len(s2)>=2 then
+				if right(s2,2)="*/" then
+					isMultiLineNote=false
+				end if
+			end if				
+			s=""
+		else	
+			if left(s2,2)="/*" then
+				if right(s2,2)<>"*/" then
+					isMultiLineNote=true
+				end if
+				s=""
+			elseif left(s2,2)="//" then
+				s=""
+			end if
+		end if
+		c=c & s & vbcrlf
+	next
+	delJsNote=c
+end function
 
 'JS转换，引用别人
 Function JsEncode__(ByVal s)

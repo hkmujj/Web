@@ -1,0 +1,110 @@
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/5/3 13:39:39
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F3 9%3A35%3A26; nLogin=1; ASPSESSIONIDQQCDCARC=BGGNLMBAFCJKADPCELCKFIMA
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp
+时间：2016/5/3 13:39:45
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQQCDCARC=CGGNLMBALANHHMFGNBFKENJO
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=detail&id=42
+时间：2016/5/3 13:39:49
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQQCDCARC=CGGNLMBALANHHMFGNBFKENJO; __qc_wId=977; myqqqzone=qq
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/5/3 15:47:45
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F3 9%3A35%3A26; nLogin=1; ASPSESSIONIDQSACBARD=GGLBMJCANONFCOLFJALEDGDO
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/5/3 15:47:52
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F3 9%3A35%3A26; nLogin=1; ASPSESSIONIDQSACBARD=GGLBMJCANONFCOLFJALEDGDO; __qc_wId=370; myqqqzone=qq
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=nav&columnName=模板下载
+时间：2016/5/3 15:47:59
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F3 9%3A35%3A26; nLogin=1; ASPSESSIONIDQSACBARD=GGLBMJCANONFCOLFJALEDGDO; __qc_wId=370; myqqqzone=qq
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/5/3 15:48:03
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F3 9%3A35%3A26; nLogin=1; ASPSESSIONIDQSACBARD=GGLBMJCANONFCOLFJALEDGDO; __qc_wId=370; myqqqzone=qq
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/5/3 15:48:45
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F3 9%3A35%3A26; nLogin=1; ASPSESSIONIDQSACBARD=GGLBMJCANONFCOLFJALEDGDO; __qc_wId=370; myqqqzone=qq
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=nav&columnName=模板下载
+时间：2016/5/3 15:48:48
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F3 9%3A35%3A26; nLogin=1; ASPSESSIONIDQSACBARD=GGLBMJCANONFCOLFJALEDGDO; __qc_wId=370; myqqqzone=qq
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/5/3 15:48:51
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F5%2F3 9%3A35%3A26; nLogin=1; ASPSESSIONIDQSACBARD=GGLBMJCANONFCOLFJALEDGDO; __qc_wId=370; myqqqzone=qq
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+

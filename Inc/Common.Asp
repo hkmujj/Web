@@ -80,11 +80,19 @@ Function echo(Word, str)
 End Function 
 '测试显示信息+红色
 Function echoRed(Word, str)
-    Response.Write("<font color=Red>" & Word & "</font>：" & str & "<br>") 
+    Response.Write("<font color=red>" & Word & "</font>：" & str & "<br>") 
 End Function 
 '测试显示信息+红色+粗
 Function echoRedB(Word, str)
-    Response.Write("<b><font color=Red>" & Word & "</font>：" & str & "</b><br>") 
+    Response.Write("<b><font color=red>" & Word & "</font>：" & str & "</b><br>") 
+End Function 
+'测试显示信息+黄色
+Function echoYellow(Word, str)
+    Response.Write("<font color=#B38704>" & Word & "</font>：" & str & "<br>") 
+End Function 
+'测试显示信息+黄色+粗
+Function echoYellowB(Word, str)
+    Response.Write("<b><font color=#B38704>" & Word & "</font>：" & str & "</b><br>") 
 End Function 
 '回显内容
 Function echoPrompt(Word, str)

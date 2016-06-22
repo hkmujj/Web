@@ -1,0 +1,110 @@
+来访
+当前：http://aa/aspweb.asp
+时间：2016/5/11 10:24:26
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCSQASBSS=NBFPGHEBDBBLNIKBFPHAFAKM
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=detail&id=1456
+时间：2016/5/11 10:24:29
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCSQASBSS=NBFPGHEBDBBLNIKBFPHAFAKM; __qc_wId=404
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=detail&id=1456
+时间：2016/5/11 10:25:02
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCSQASBSS=NBFPGHEBDBBLNIKBFPHAFAKM; __qc_wId=404
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=detail&id=1456
+当前：http://aa/aspweb.asp?act=detail&id=1561
+时间：2016/5/11 10:25:04
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCSQASBSS=NBFPGHEBDBBLNIKBFPHAFAKM; __qc_wId=404
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=detail&id=1561
+当前：http://aa/aspweb.asp?act=nav&columnName=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE
+时间：2016/5/11 10:25:22
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCSQASBSS=NBFPGHEBDBBLNIKBFPHAFAKM; __qc_wId=404
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE
+当前：http://aa/aspweb.asp?act=detail&id=1666
+时间：2016/5/11 10:25:24
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCSQASBSS=NBFPGHEBDBBLNIKBFPHAFAKM; __qc_wId=404
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/web/1.php?act=dispalyManageHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=6&mdbpath=
+当前：http://bb/web/1.php?act=runScanWebUrl&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order by id desc&page=&id=6&mdbpath=
+时间：2016/5/11 11:21:52
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1.2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1.2%A1%BF2016%2F5%2F11 11%3A12%3A14; testmobileinfo=111; PHPSESSID=mq20p4ipr475mjfpti8redijv4
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+
+来访
+当前：http://aa/atemp.asp
+时间：2016/5/11 16:00:52
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCQSDRBTS=MBOLBLGBOFPJJHFLNMEFBDOF; PHPSESSID=6mbu5npgcsbeubraaegrgrc5h1
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://aa/atemp.php
+时间：2016/5/11 16:00:56
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCQSDRBTS=MBOLBLGBOFPJJHFLNMEFBDOF; PHPSESSID=6mbu5npgcsbeubraaegrgrc5h1; __qc_wId=556
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://aa/atemp.php
+时间：2016/5/11 16:01:37
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDCQSDRBTS=MBOLBLGBOFPJJHFLNMEFBDOF; PHPSESSID=6mbu5npgcsbeubraaegrgrc5h1; __qc_wId=556
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+

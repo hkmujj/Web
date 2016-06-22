@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="gb2312">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="{$adminDir$}/Template/mobile/css/bootstrap.min.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="javascript:;">{$webVersion$}</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav ">
+          <li>
+            <a href="?act=addEditHandle&actionType=WebSite&id=*&lableTitle=站点配置" target="_blank">站点配置</a>
+          </li>
+          <li>
+            <a href="?act=dispalyManageHandle&actionType=WebColumn&addsql=order by sortrank&lableTitle=[$title escape='1' default='网站栏目'$]" target="_blank">网站栏目</a>
+          </li>
+          <li>
+            <a href="?act=dispalyManageHandle&actionType=ArticleDetail&addsql=order by sortrank&lableTitle=[$title escape='1' default='分类信息'$]" target="_blank">分类信息</a>
+          </li>
+          <li>
+            <a href="?act=dispalyManageHandle&actionType=OnePage&lableTitle=[$title escape='1' default='单页管理'$]" target="_blank">单页管理</a>
+          </li>
+          <li>
+            <a href="?act=dispalyManageHandle&actionType=Admin&lableTitle=[$title escape='1' default='后台管理员'$]" target="_blank">后台管理员</a>
+          </li>
+          <li>
+            <a href="?act=dispalyManageHandle&actionType=SystemLog&addsql=order by id desc&lableTitle=[$title escape='1' default='后台操作日志'$]" target="_blank">后台操作日志</a>
+          </li>
+          <li>
+            <a href="?act=dispalyManageHandle&actionType=WebsiteStat&addsql= order by id desc&lableTitle=网站统计" target="_blank">网站统计</a>
+          </li>
+          <li>
+            <a href="?act=displayLayout&templateFile=layout_manageMakeHtml.html&lableTitle=生成HTML" target="_blank">生成HTML</a>
+          </li>
+          
+ 
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div style="height: 60px;"></div> 
+  
+<div class="panel panel-default">
+  <div class="panel-heading">管理员信息</div>
+  <div class="panel-body">
+您好！{$adminusername$} [{$adminflags$}]<br>
+用 户 名：  {$adminusername$}&nbsp; <a href="javascript:window1('?act=addEditHandle&actionType=Admin&id=[$adminId$]','后台管理员');">修改密码</a><br>
+权限权限：   超级管理员<br>
+表前缀：   {$DB_PREFIX$}<br>  
+<button type="button" class="btn btn-default" onClick="window.open('{$WEB_VIEWURL$}?gl=edit');" >进入在线修改模式</button>
+<button type="button" class="btn btn-default" onClick="window.open('{$WEB_VIEWURL$}');" >打开首页</button>
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">系统信息</div>
+  <div class="panel-body">
+	        授权信息：免费开源版<br>
+       		服务器名称：{$SERVER_NAME$}(IP:{$LOCAL_ADDR$}) 端口:{$SERVER_PORT$}<br>
+            服务器版本：{$SERVER_SOFTWARE$}<br> 
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">最新访客信息</div>
+  <div class="panel-body"> 
+            {$WebsiteStat$}
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">开发团队</div>
+  <div class="panel-body"> 
+            版权所有：ASPPHPCMS<br>
+            开发与支持团队：云端(<a href="tencent://message/?uin=313801120&Site=作者云端&Menu=yes" class="ablue" rel="nofollow" title="在线与313801120交流">QQ313801120</a>)<br>
+            邮箱：313801120@qq.com<br>
+      交流群：<a href="/url.asp?title=qq群35915100" class="ablue" target="_blank">35915100</a><br>
+            相关链接：<a href="http://sharembweb.com" target="_blank">ASPPHPCMS官网</a><br>
+  </div>
+</div>
+
+
+ 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="{$adminDir$}/Template/mobile/js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="{$adminDir$}/Template/mobile/js/bootstrap.min.js"></script>
+</body>
+</html>

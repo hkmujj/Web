@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+<script type="text/javascript" src="js/runAction.js"></script>
+</head>
+<body>
+<div id="positionwrap">
+	<div class="msg">
+		当前位置：[$position$]
+	</div>
+</div>
+ 
+<div class="mg10">
+	<div class="atitleleft">[$lableTitle$]信息</div>
+    
+    
+    
+    <div class="atitleleft mgl10 drop_down_menu">
+    	<div class="drop_down_menu_title noselect">常用动作<span class="arrow-down">&nbsp;</span></div>
+        <div class="drop_down_menu_box" style="width:100px;">
+            <a href="javascript:clickControl('?act=function2&stype=scanCheckDomain','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')" onClick="return new xyClass().myConfirm('你确定要操作吗？\n操作需要较长时间')">检测域名有效</a>
+            
+            <a href="javascript:clickControl('?act=function2&stype=scanDomainHomePage','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')" onClick="return new xyClass().myConfirm('你确定要操作吗？\n操作需要较长时间')">Scan域名首页</a>
+            <a href="javascript:clickControl('?act=function2&stype=scanDomainHomePageSize','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')" onClick="return new xyClass().myConfirm('你确定要操作吗？\n操作需要较长时间')">Sca首页大小</a>
+            
+            <a href="javascript:clickControl('?act=displayLayout&templateFile=layout_bantchImportDomain.html','批量导入域名','批量导入域名');">批量导入域名</a>
+        </div>
+    </div>
+    <div class="atitleleft mgl10 drop_down_menu">
+    	<div class="drop_down_menu_title noselect">更多动作<span class="arrow-down">&nbsp;</span></div>
+        <div class="drop_down_menu_box" style="width:100px;">
+    		<a href="javascript:clickControl('?act=function2&stype=isthroughTrue','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')" onClick="return new xyClass().myConfirm('你确定要操作吗？\n操作需要较长时间')">审核改为真</a>
+    		<a href="javascript:clickControl('?act=function2&stype=printOKWebSite','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')">打印有效网址</a>
+    		<a href="javascript:clickControl('?act=function2&stype=printAspServerWebSite','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')">打印asp类型网站</a>
+    		<a href="javascript:clickControl('?act=function2&stype=clearAllData','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')"  onClick="return new xyClass().myConfirm('你确定要操作吗？\n操作后将不可恢复')">清除全部数据</a>
+    		<a href="javascript:clickControl('?act=function2&stype=function2test','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')">测试</a>
+            
+        </div>
+    </div>
+    
+  	<a href="javascript:addEditHandle('[$actionType$]','[$lableTitle$]','[$page$]','');" class="atitleright">添加[$lableTitle$]</a>&nbsp;
+	<div class="clear">
+    
+<!--
+    <select name="select" id="select" class="atitleleft mgl10">
+      <option>sdf</option>
+      <option>sdf</option>
+      <option>sdf</option>
+      <option>sdf</option>
+      <option>sdf</option>
+      <option>sdf</option>
+    </select>
+-->
+	</div>    
+	<div class="acontent"> 
+         <form name="listform" method="post" action="" onSubmit="refreshPage('[$actionType$]','[$lableTitle$]','[$page$]','[$id$]');return false;">     
+            <div class="explain-col">
+            <select name="searchfield" id="searchfield">
+					  <option value="website" selected>搜索字段</option> 
+					  <option value="website"[$searchfield if='website' value=' selected'$]>网址</option>
+					  <option value="webtitle"[$searchfield if='webtitle' value=' selected'$]>网站标题</option> 
+	  			      <option value="webstate"[$searchfield if='webstate' value=' selected'$]>网站响应状态</option>
+					  </select>				 <select name="addsql" id="addsql">
+					  <option value="[$addsql$]">排序方式</option>
+					  <option value="order by id" [$addsql if='order by id' value=' selected'$]>ID正排序</option>
+					  <option value="order by id desc" [$addsql if='order by id desc' value=' selected'$]>ID倒排序</option>
+					  <option value="order by sortrank" [$addsql if='order by sortrank' value=' selected'$]>顺序正排序</option>
+					  <option value="order by sortrank desc" [$addsql if='order by sortrank desc' value=' selected'$]>顺序倒排序</option>
+					  <option value="order by isthrough" [$addsql if='order by isthrough' value=' selected'$]>审核正排序</option>
+					  <option value="order by isthrough desc" [$addsql if='order by isthrough desc' value=' selected'$]>审核倒排序</option>
+					  <option value="order by webstate" [$addsql if='order by webstate' value=' selected'$]>状态正排序</option>
+					  <option value="order by webstate desc" [$addsql if='order by webstate desc' value=' selected'$]>状态倒排序</option>
+                      
+					  <option value="order by websize" [$addsql if='order by websize' value=' selected'$]>网页大小正排序</option>
+					  <option value="order by websize desc" [$addsql if='order by websize desc' value=' selected'$]>网页大小倒排序</option>
+					  <option value="order by isdomain" [$addsql if='order by isdomain' value=' selected'$]>域名有效正排序</option>
+					  <option value="order by isdomain desc" [$addsql if='order by isdomain desc' value=' selected'$]>域名有效倒排序</option>
+                      
+                      
+                      
+                      
+                      
+					  </select> 
+						关键字：				 
+						<input type="text" name="keyword" value="[$keyword$]" style="width:200px">			 
+						 
+						<input type="submit" value="搜索" class="btnclick2" id="dosubmit" name="dosubmit">		 
+
+
+        </div>
+		<table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center" style="margin-top:8px">
+		<tbody>
+		<tr bgcolor="#E7E7E7">
+			<td height="28" colspan="12" background="images/tbg.gif" style="padding-left:10px;">
+             <!--           ◆ 所有栏目>文档列表  (使用鼠标右键弹出菜单)-->			</td>
+		</tr>
+		<tr align="center" bgcolor="#FBFCE2" height="25">
+		  <td>排</td>
+          <td>ID</td>
+		  <td>选择</td>
+		  <td>域名</td>
+		  <td>网站标题</td>
+		  <td>程序脚本</td>
+		  <td>大类</td>
+		  <td>状态</td>
+		  <td>网页大小</td>
+		  <td>域名有效</td>
+		  <td>是否审核</td>
+		  <td>操作</td>
+		  </tr> 
+        [list]
+		<tr align="center" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';">
+		  <td><input name="sortrank" type="text" id="sortrank" style="text-align:center;width:50px; height:22px;line-height:22px; font-size:16px" class="nap" value="[$sortrank$]"></td>
+          <td> [$id$] </td>
+		  <td>
+          
+				<input name="idcheck" type="checkbox" class="np" value="[$id$]">
+                <input type="hidden" name="id" id="id" value="[$id$]" />          </td>
+		  <td align="left"><a href="[$website$]" target="_blank"><u>[$website  len='40'$]</u></a></td>
+		  <td  align="left"><a href="[$website$]" target="_blank" title="[$title len='255' delhtml='true'$]">[$webtitle len='20' delhtml='true'$]</a></td>
+		  <td>[$isasp if='False' elseif='0' value='' elsevalue='Asp,'$]
+          [$isaspx if='False' elseif='0' value='' elsevalue='Aspx,'$]
+          [$isphp if='False' elseif='0' value='' elsevalue='Php,'$]
+          [$isjsp if='False' elseif='0' value='' elsevalue='Jsp,'$]
+          [$ishtm if='False' elseif='0' value='' elsevalue='Htm,'$]
+          [$ishtml if='False' elseif='0' value='' elsevalue='Html,'$]
+          </td>
+		  <td>[$bigclassname$]</td>
+		  <td>[$webstate$]</td>
+		  <td>[$websize$]</td>
+		  <td><a href="javascript:updateFieldHandle('isdomain','[$isdomain if='False' elseif='0' value='1' elsevalue='0'$]','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')"><img src="Images/[$isdomain if='False' elseif='0' value='isno.gif' elsevalue='isyes.gif'$]"></a></td>
+		  <td><a href="javascript:updateFieldHandle('isthrough','[$isthrough if='False' elseif='0' value='1' elsevalue='0'$]','[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')"><img src="Images/[$isthrough if='False' elseif='0' value='isno.gif' elsevalue='isyes.gif'$]"></a></td>
+		  <td>
+			  <a href="javascript:addEditHandle('[$actionType$]','[$lableTitle$]','[$page$]','[$id$]');"><img src="images/icon/gtk-edit.png" title="编辑" alt="编辑" border="0" width="16" height="16"></a>
+			
+              <a href="javascript:delHandle('[$actionType$]','[$lableTitle$]','[$page$]','[$id$]');" title="删除" onClick="return new xyClass().myConfirm('你确定要删除吗？\n删除后将不可恢复')"><img src="images/icon/gtk-del.png" title="删除" /></a>              </td>
+		  </tr>
+        [/list] 
+		<tr bgcolor="#ffffff">
+			<td height="36" colspan="12">
+				<a href="javascript:checkmm('全选')" class="coolbg">全选</a>
+				<a href="javascript:checkmm('反选')" class="coolbg">反选</a>
+				<a href="javascript:checkmm('取消')" class="coolbg">取消</a>
+				<a href="javascript:delArc('[$actionType$]','[$lableTitle$]','[$page$]')" class="coolbg">删除</a>
+				<a href="javascript:sortArc('[$actionType$]','[$lableTitle$]','[$page$]')" class="coolbg">排序</a>
+            <!--  
+				<a href="javascript:checkArc(0)" class="coolbg"> 审核 </a>
+				<a href="javascript:adArc(0)" class="coolbg"> 推荐 </a>
+				<a href="javascript:;" onClick="moveArc(event,this,0)" class="coolbg"> 移动 </a> 
+				<a href="javascript:;" onClick="cAtts('attsAdd',event,this)" class="coolbg"> 增加属性 </a>
+				<a href="javascript:;" onClick="cAtts('attsDel',event,this)" class="coolbg"> 删除属性 </a>
+            -->
+            <select name="nPageSizeSelect" id="nPageSizeSelect" class="coolbg" onChange="refreshPage('[$actionType$]','[$lableTitle$]','[$page$]','[$id$]')">
+              <option value="10">每页显示10条</option> 
+              <option value="20"[$nPageSize if='20' value=' selected'$]>每页显示20条</option>
+              <option value="30"[$nPageSize if='30' value=' selected'$]>每页显示30条</option>
+              <option value="40"[$nPageSize if='40' value=' selected'$]>每页显示40条</option>
+              <option value="50"[$nPageSize if='50' value=' selected'$]>每页显示50条</option>
+              <option value="100"[$nPageSize if='100' value=' selected'$]>每页显示100条</option>
+              <option value="300"[$nPageSize if='300' value=' selected'$]>每页显示300条</option>
+            </select>            </td>
+		</tr> 
+		<tr align="right" bgcolor="#F9FCEF">
+			<td height="36" colspan="12" align="center">
+				[$pageInfo$]			
+                <input name="nPageSize" type="hidden" id="nPageSize" value="[$nPageSize$]"> 
+                
+                [$accessSql$]
+                </td>
+		</tr>
+		</table> 
+ 
+      </form>
+	</div>
+</div> 
+</body>
+</html>

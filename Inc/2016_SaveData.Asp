@@ -10,40 +10,33 @@ Function saveData(sType)
 	if session("yzm")<>request.Form("yzm") then
 		call eerr("提示","验证码错误")
 	end if
+	session("yzm")=""			'清空验证码
 	 
 
     '保存文章评论
-    If sType = "articlecomment" Then 
-		if request.Form("content")="" then
-			call eerr("提示","评论为空")
-		end if
-        Call saveArticleComment(Request("itemid"), ADSql(Request("content")))
+    If sType = "articlecomment" Then 		
+		call autoSavePostData("", "tablecomment", "tablename||ArticleDetail,adddatetime|now,itemid||"& request("itemid") &",adddatetime,ip||"& getip())
+    	Call echo("提示", "评论提交成功，等待管理员审核") 
+		
     ElseIf sType = "feedback" Then
 		if request.Form("guestname")="" then
 			call eerr("提示","姓名为空")
 		end if
-		call autoSavePostData("", "feedback", "isthrough|numb|0,ip||"& getip() &",columnid||" & request.QueryString("columnid"))
+		call autoSavePostData("", "feedback", "isthrough|numb|0,adddatetime|now,ip||"& getip() &",columnid||" & request.QueryString("columnid"))
 		Call echo("提示", "反馈提交成功，等待管理员审核") 
-    ElseIf sType = "guestbook" Then
-		
+    ElseIf sType = "guestbook" Then		
 		if request.Form("guestname")="" then
 			call eerr("提示","姓名为空")
-		end if
-	
-		call autoSavePostData("", "guestbook", "isthrough|numb|0,ip||"& getip() &",columnid||" & request.QueryString("columnid"))
+		end if	
+		call autoSavePostData("", "guestbook", "isthrough|numb|0,adddatetime|now,ip||"& getip() &",columnid||" & request.QueryString("columnid"))
 		Call echo("提示", "留言提交成功，等待管理员审核")
 	
 	 ElseIf sType = "articledetail" Then	
-		call autoSavePostData("", "articledetail", "title|bodycontent,ip||"& getip())
+		call autoSavePostData("", "articledetail", "title|bodycontent,adddatetime|now,ip||"& getip())
 		Call echo("提示", "文章提交成功")		
     End If 
 	response.End()
-End Function 
-'保存文章评论 20160129
-Function saveArticleComment(itemid, bodycontent) 
-    conn.Execute("insert into " & db_PREFIX & "tablecomment (tableName,itemid,ip,bodycontent,adddatetime) values('ArticleDetail'," & itemid & ",'" & getIP() & "','" & bodycontent & "','" & Now() & "')") 
-    Call echo("提示", "评论提交成功，等待管理员审核") 
-End Function
+End Function  
 '自动保存POST数据到表
 function autoSavePostData(id, tableName, fieldNameList)
 	dim sql 
@@ -116,11 +109,18 @@ Function getPostSql(id, tableName, fieldNameList)
 
                 fieldValue = "'" & fieldValue & "'" 
 
+            '为时间
+            ElseIf fieldSetType = "time" or fieldSetType = "now" Then
+                If fieldValue = "" Then
+                    fieldValue = now() 
+                End If 
+                fieldValue = "'" & fieldValue & "'" 
             '为时期
             ElseIf fieldSetType = "date" Then
                 If fieldValue = "" Then
                     fieldValue = Date() 
                 End If 
+                fieldValue = "'" & fieldValue & "'" 
 
             Else
                 fieldValue = "'" & fieldValue & "'" 
@@ -148,7 +148,19 @@ Function getPostSql(id, tableName, fieldNameList)
             fieldValue = splxx(2)                                                           '默认字段值
 
             If InStr(systemFieldList, "," & fieldName & "|") > 0 And InStr("," & fieldList & ",", "," & fieldName & ",") = False Then
-                If fieldSetType <> "yesno" And fieldSetType <> "numb" Then
+			
+			
+			
+			
+			
+			 
+			
+                if fieldSetType = "date" and fieldValue="" then
+                    fieldValue = Date() 
+                elseif (fieldSetType = "time" or fieldSetType = "now") and fieldValue="" then
+                    fieldValue = Now() 
+				end if
+				If fieldSetType <> "yesno" And fieldSetType <> "numb" Then
                     fieldValue = "'" & fieldValue & "'" 
                 End If 
                 If fieldList <> "" Then

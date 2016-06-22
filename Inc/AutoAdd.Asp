@@ -981,7 +981,7 @@ Sub classToAddProduct(DataFolderPath, did, sid, tid)
             rsx("Title") = rs("ThreeClassName") 
             content = GetFText(DataFolderPath & "/Product/数据/默认文章.txt") 
             content = content & Replace(Replace(content, vbCrLf, "<br>"), "    ", "&nbsp;&nbsp;&nbsp;&nbsp;") 
-            rsx("Content") = content 
+            rsx("Content") = content
             rsx("FileName") = AotuGetProductFileName(rs("ThreeClassName")) 
             rsx.Update 
         End If : rsx.Close 

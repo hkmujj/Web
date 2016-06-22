@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>后台地图</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<style>
+.map-menu{
+font: 12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;
+color:#444;
+}
+.map-menu a {
+text-decoration: none;
+color: #444;
+}
+.map-menu a:hover {
+text-decoration:underline;
+}
+.map-menu ul {
+margin: 4px;
+width: 186px;
+border: 1px solid #A4C0F7;
+}
+.map-menu ul li {
+padding: 4px;
+padding-left: 14px;
+}
+.map-menu ul li.title {
+background: #EDF2F8;
+font-weight: bold;
+padding-left: 5px;
+}
+.map-menu ul li.title2 {
+font-weight: bold;
+padding-left: 10px;
+}
+</style>
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+</head>
+<body>
+
+[$adminmapbody$]
+<!--
+<div class="map-menu fl">
+    <ul>
+        <li class="title">系统管理</li>
+        <div>
+            <li><a href="WebSiteConfig.Asp">网站配置</a></li><li><a href="AdminManage.Asp">账号管理</a></li><li><a href="Robots.Asp">Robots在线修改</a></li><li><a href="Create404.Asp">404页在线修改</a></li><li><a href="WebSiteSpaceStat.Asp">网站空间统计</a></li><li><a href="Data.Asp?act=BackUp">数据库备份</a></li><li><a href="Data.Asp?act=Resume">恢复库备份</a></li><li><a href="SqlIn">SQL防注入</a></li><li><a href="WebSiteStatus.Asp">网站状态</a></li><li><a href="OnLineQQManage.Asp">在线QQ聊天</a></li><li><a href="QQMSN.Asp">浮动QQ面板</a></li><li><a href="VoteManage.Asp">投票管理</a></li><li><a href="Createhtml.Asp">生成HTML</a></li><li><a href="http://t.cn/agGbue">帮助中心</a></li><li><a href="Admin_UploadFileManage.Asp">上传管理</a></li><li><a href="TableManage.Asp?TableName=TemplateModule">模板模块管理</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">导航管理</li>
+        <div>
+            <li><a href="NavManage.Asp">导航列表</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">单面管理</li>
+        <div>
+            <li><a href="MainInfo.Asp">单页列表</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">总信息管理</li>
+        <div>
+            <li><a href="Product.Asp?act=ShowAdd">添加信息</a></li><li><a href="ProductManage.Asp">信息管理</a></li><li><a href="ProductClassManage.Asp">类别管理</a></li><li><a href="OrderManage.Asp">订单信息</a></li><li><a href="MemberManage.Asp">会员信息</a></li><li><a href="PParameterGl.Asp">产品参数设置</a></li><li><a href="SearchGl.Asp">产品搜索</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">招聘管理</li>
+        <div>
+            <li><a href="JobManage.Asp?act=ShowJob">添加招聘职位</a></li><li><a href="JobManage.Asp">招聘职位管理</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">留言管理</li>
+        <div>
+            <li><a href="GuestBook.Asp">浏览留言</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">友情链接</li>
+        <div>
+            <li><a href="FriendLink.Asp">友情链接管理</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">前台配置</li>
+        <div>
+            <li><a href="Front.Asp?NavName=首页产品">首页产品</a></li><li><a href="Front.Asp?NavName=首页新闻">首页新闻</a></li><li><a href="Front.Asp?NavName=滚动图片">滚动图片</a></li><li><a href="Front.Asp?NavName=Flash图片">Flash图片</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">在线反馈</li>
+        <div>
+            <li><a href="FeedbackManage.Asp">反馈信息管理</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">生成HTML</li>
+        <div>
+            <li><a href="../Inc/Create_Html.Asp?act=default">HTML管理</a></li><li><a href="../Inc/Create_Html.Asp?act=ShowNavList">生成导航</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">图片水印管理</li>
+        <div>
+            <li><a href="WaterMark.Asp?act=ShowDialog">添中水印配置</a></li><li><a href="WaterMarkManage.Asp">图片水印管理</a></li><li><a href="WaterMark.Asp">给图片加水印</a></li>
+        </div>
+    </ul>
+</div>
+
+<div class="map-menu fl">
+    <ul>
+        <li class="title">表单管理</li>
+        <div>
+            <li><a href="TableManage.Asp?TableName=InputConfig">表单配置管理</a></li><li><a href="TableManage.Asp?TableName=InputValue">表单内容管理</a></li><li><a href="TableManage.Asp?TableName=InputValue&ClassName=会员注册">【会员注册】</a> | <a href="/Inc/Create_Html.Asp?act=Nav&NavDidType=首页&MackHtml=False&Debug=True&Template=表单验证&Did=会员注册&formedit=true" target='_blank'>在线演示</a></li><li><a href="TableManage.Asp?TableName=InputValue&ClassName=会员登录">【会员登录】</a> | <a href="/Inc/Create_Html.Asp?act=Nav&NavDidType=首页&MackHtml=False&Debug=True&Template=表单验证&Did=会员登录&formedit=true" target='_blank'>在线演示</a></li><li><a href="TableManage.Asp?TableName=InputValue&ClassName=在线反馈">【在线反馈】</a> | <a href="/Inc/Create_Html.Asp?act=Nav&NavDidType=首页&MackHtml=False&Debug=True&Template=表单验证&Did=在线反馈&formedit=true" target='_blank'>在线演示</a></li><li><a href="TableManage.Asp?TableName=InputValue&ClassName=给我们留言">【给我们留言】</a> | <a href="/Inc/Create_Html.Asp?act=Nav&NavDidType=首页&MackHtml=False&Debug=True&Template=表单验证&Did=给我们留言&formedit=true" target='_blank'>在线演示</a></li><li><a href="TableManage.Asp?TableName=InputValue&ClassName=获得方案">【获得方案】</a> | <a href="/Inc/Create_Html.Asp?act=Nav&NavDidType=首页&MackHtml=False&Debug=True&Template=表单验证&Did=获得方案&formedit=true" target='_blank'>在线演示</a></li>
+        </div>
+    </ul>
+</div> 
+-->
+<script>
+$(document).ready(function(){
+	$(".map-menu div").hover(function() {
+		$(this).css("background-color","#F6F6F6");
+	},function() {
+		$(this).css("background-color","");
+	}).trigger("mouseleave");
+})
+</script>
+
+</body>
+</html>
+
+

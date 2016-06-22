@@ -1,0 +1,132 @@
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/4/27 13:10:44
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F4%2F27 10%3A40%3A39; ASPSESSIONIDSATDTBQA=FOKBEMAAHHCAIKJNJALGGEBM; ASPSESSIONIDQCQAQDRA=KILNNECALOJNAMFIKBHONPCK
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=nav&columnName=网站作品
+时间：2016/4/27 13:10:48
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F4%2F27 10%3A40%3A39; ASPSESSIONIDSATDTBQA=FOKBEMAAHHCAIKJNJALGGEBM; ASPSESSIONIDQCQAQDRA=KILNNECALOJNAMFIKBHONPCK; __qc_wId=47
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/4/27 14:30:03
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDSATDTBQA=FOKBEMAAHHCAIKJNJALGGEBM; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F4%2F27 10%3A40%3A39; ASPSESSIONIDQCQAQDRA=KILNNECALOJNAMFIKBHONPCK; __qc_wId=47; ASPSESSIONIDQARCSCQB=ADPFMMCAOBLBLEKHMHLGLEIO
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=nav&columnName=CSS3
+时间：2016/4/27 14:30:07
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDSATDTBQA=FOKBEMAAHHCAIKJNJALGGEBM; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F4%2F27 10%3A40%3A39; ASPSESSIONIDQCQAQDRA=KILNNECALOJNAMFIKBHONPCK; __qc_wId=47; ASPSESSIONIDQARCSCQB=ADPFMMCAOBLBLEKHMHLGLEIO
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=nav&columnName=CSS3
+时间：2016/4/27 14:30:18
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQARCSCQB=BDPFMMCAIBOIGFFGPPCKOIFP
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=CSS3
+当前：http://aa/aspweb.asp?act=detail&id=368
+时间：2016/4/27 14:30:20
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQARCSCQB=BDPFMMCAIBOIGFFGPPCKOIFP; __qc_wId=683
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=detail&id=368
+当前：http://aa/aspweb.asp?act=nav&columnName=CSS3
+时间：2016/4/27 14:31:14
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQARCSCQB=BDPFMMCAIBOIGFFGPPCKOIFP; __qc_wId=683
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=CSS3
+当前：http://aa/aspweb.asp?act=detail&id=470
+时间：2016/4/27 14:31:15
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQARCSCQB=BDPFMMCAIBOIGFFGPPCKOIFP; __qc_wId=683
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=detail&id=470
+当前：http://aa/aspweb.asp?act=nav&columnName=CSS3
+时间：2016/4/27 14:32:26
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQARCSCQB=BDPFMMCAIBOIGFFGPPCKOIFP; __qc_wId=683
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=CSS3
+当前：http://aa/aspweb.asp?act=detail&id=572
+时间：2016/4/27 14:32:28
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQARCSCQB=BDPFMMCAIBOIGFFGPPCKOIFP; __qc_wId=683
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp
+时间：2016/4/27 14:54:02
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQARCSCQB=BDPFMMCAIBOIGFFGPPCKOIFP; __qc_wId=683
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=detail&id=718
+时间：2016/4/27 14:54:04
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=ASPSESSIONIDQARCSCQB=BDPFMMCAIBOIGFFGPPCKOIFP; __qc_wId=683
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+

@@ -1,0 +1,128 @@
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-22 09:56:23
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-22 09:57:04
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webcolumn
+信息：修改网站栏目
+网址：1.asp?act=saveAddEditHandle&id=228&actionType=WebColumn&lableTitle=网站栏目&nPageSize=10&parentid=&searchfield=&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-22 10:07:34
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：caiweb
+信息：添加采集网站
+网址：1.asp?act=saveAddEditHandle&id=&actionType=CaiWeb&lableTitle=采集网站&nPageSize=10&parentid=&searchfield=&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-06-22 11:18:50
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：caiweb
+信息：添加采集网站
+网址：1.asp?act=saveAddEditHandle&id=&actionType=CaiWeb&lableTitle=采集网站&nPageSize=10&parentid=&searchfield=&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-06-22 11:20:29
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：caiweb
+信息：添加采集网站
+网址：1.asp?act=saveAddEditHandle&id=&actionType=CaiWeb&lableTitle=采集网站&nPageSize=10&parentid=&searchfield=&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-06-22 11:21:02
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：caiweb
+信息：修改采集网站
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=CaiWeb&lableTitle=采集网站&nPageSize=10&parentid=&searchfield=&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-06-22 11:22:22
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：caiweb
+信息：添加采集网站
+网址：1.asp?act=saveAddEditHandle&id=&actionType=CaiWeb&lableTitle=采集网站&nPageSize=10&parentid=&searchfield=&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-06-22 11:25:02
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：caiweb
+信息：删除采集网站
+网址：1.asp?act=delHandle&actionType=CaiWeb&lableTitle=采集网站&nPageSize=10&parentid=&searchfield=&keyword=&addsql=order%20by%20id%20desc&page=&id=0&mdbpath=
+时间：2016-06-22 11:25:57
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/test/
+网址：&templatename=test
+时间：2016-06-22 11:37:49
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-06-22 11:37:53
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-22 11:37:58
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-22 13:12:55
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-22 13:17:01
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-22 13:18:18
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：更新网站统计
+网址：1.asp?act=function&stype=updateTodayWebStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-06-22 13:23:48
+IP：127.0.0.1
+------------------------
+

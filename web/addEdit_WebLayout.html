@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script src="js/runAction.js"></script>
+</head>
+<body>
+
+<div id="positionwrap">
+    <div class="msg">当前位置：[$position$]</div>
+</div>
+<form action="[$postUrl$]" method="post" name="formsubmit" onSubmit="return new xyClass().checkForm(this)">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本设置</li> 
+        <li>内容编辑</li>
+    </ul>&nbsp;
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>布局名称</td>
+                        <td align="left" style="padding:3px;">[$input_layoutname$]</td>
+                        <td>layoutname</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>被替换内容</td>
+                        <td align="left" style="padding:3px;">[$input_sourcestr$]</td>
+                        <td>sourcestr</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>替换内容</td>
+                        <td align="left" style="padding:3px;">[$input_replacestr$]</td>
+                        <td>replacestr</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>动作内容</td>
+                        <td align="left" style="padding:3px;">[$input_actioncontent$]</td>
+                        <td>actioncontent</td>
+                    </tr>
+                </tbody>            
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>简要内容</td>
+                        <td align="left" style="padding:3px;">[$input_aboutcontent$]</td>
+                        <td>aboutcontent</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>详细内容</td>
+                        <td align="left" style="padding:3px;">[$input_bodycontent$]</td>
+                        <td>bodycontent</td>
+                    </tr> 
+                </tbody>
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="保存(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="[$switchId$]" /> 
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>    </div>
+</form>
+<script language="javascript" type="text/javascript" src="js/formBottom.js"></script>
+</body>
+</html>

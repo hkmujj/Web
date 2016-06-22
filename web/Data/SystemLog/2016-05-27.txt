@@ -1,0 +1,96 @@
+姓名：ASPPHPCMS
+表：webdomain
+信息：修改网站域名
+网址：1.asp?act=saveAddEditHandle&id=920&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=website&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-05-27 09:44:16
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/预售专题/
+网址：&templatename=预售专题
+时间：2016-05-27 15:12:44
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-27 15:12:49
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-27 15:13:37
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-05-27 15:21:28
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-05-27 15:21:43
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-05-27 15:23:27
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-05-27 15:30:08
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-05-27 15:30:11
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-05-27 15:35:22
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-05-27 15:49:21
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-05-27 15:49:23
+IP：127.0.0.1
+------------------------
+

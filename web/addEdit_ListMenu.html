@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script src="js/runAction.js"></script>
+</head>
+<body>
+<script charset="utf-8" src="Keditor/kindeditor.js"></script> 
+<script charset="utf-8" src="Keditor/lang/zh_CN.js"></script>
+<link rel="stylesheet" href="Keditor/themes/default/default.css" />
+<script language="javascript">
+KindEditor.ready(function(K) {
+	//<!--#editor start#-->
+	var editor1 = K.create('textarea[name="bodycontent"]', {		//处理让文本域
+		cssPath : 'Keditor/plugins/code/prettify.css',
+		uploadJson : 'Keditor/{$EDITORTYPE$}/upload_json.{$EDITORTYPE$}',
+		fileManagerJson : 'Keditor/{$EDITORTYPE$}/file_manager_json.{$EDITORTYPE$}',
+		allowFileManager : true,
+		afterCreate : function() {
+			var self = this;
+			K.ctrl(document, 13, function() {
+				self.sync();
+				K('form[name=example]')[0].submit();
+			});
+			K.ctrl(self.edit.doc, 13, function() {
+				self.sync();
+				K('form[name=example]')[0].submit();
+			});  
+		}
+	}); 
+	//<!--#editor end#-->
+	
+	var editor2 = K.editor({
+		uploadJson : 'Keditor/{$EDITORTYPE$}/upload_json.{$EDITORTYPE$}',
+		fileManagerJson : 'Keditor/{$EDITORTYPE$}/file_manager_json.{$EDITORTYPE$}',
+		allowFileManager : true
+	});
+
+
+	K('#btnsmallimage').click(function() {
+		editor2.loadPlugin('image', function() {
+			editor2.plugin.imageDialog({
+				showRemote : false,
+				imageUrl : K('#smallimage').val(),
+				clickFn : function(url, title, width, height, border, align) {
+					K('#smallimage').val(url);
+					editor2.hideDialog();
+				}
+			});
+		});
+	});
+	K('#btnbigimage').click(function() {
+		editor2.loadPlugin('image', function() {
+			editor2.plugin.imageDialog({
+				showRemote : false,
+				imageUrl : K('#bigimage').val(),
+				clickFn : function(url, title, width, height, border, align) {
+					K('#bigimage').val(url);
+					editor2.hideDialog();
+				}
+			});
+		});
+	});
+	K('#btnbannerimage').click(function() {
+		editor2.loadPlugin('image', function() {
+			editor2.plugin.imageDialog({
+				showRemote : false,
+				imageUrl : K('#bannerimage').val(),
+				clickFn : function(url, title, width, height, border, align) {
+					K('#bannerimage').val(url);
+					editor2.hideDialog();
+				}
+			});
+		});
+	}); 
+}); 
+</script> 
+ 
+
+<div id="positionwrap">
+    <div class="msg">当前位置：[$position$]</div>
+</div>
+<form action="[$postUrl$]" method="post" name="formsubmit" onSubmit="return new xyClass().checkForm(this)">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本设置</li> 
+    </ul>&nbsp;    
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr> 
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>请选择模型</td>
+                      <td align="left" style="padding:3px;">[$input_parentid$]</td>
+                        <td>parentid</td>
+                    </tr>
+                    
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>标题</td>
+                        <td align="left" style="padding:3px;">[$input_title$]</td>
+                        <td>title</td>
+                    </tr>  
+                    
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                      <td>标签名称</td>
+                      <td align="left" style="padding:3px;">[$input_lablename$]</td>
+                      <td>lablename</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>网址</td>
+                      <td align="left" style="padding:3px;">[$input_customaurl$]</td>
+                      <td>customaurl</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>排序</td>
+                        <td align="left" style="padding:3px;"><input name="sortrank" type="text" id="sortrank" value="[$sortrank$]" style="width:80px; text-align:center;" class="input-text"></td>
+                        <td>sortrank</td>
+                    </tr> 
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>是否显示</td>
+                      <td align="left" style="padding:3px;"><label for="isdisplay"><input type="checkbox" name="isdisplay" id="isdisplay"[$isdisplay if='1' value=' checked'$] value="1" class="inputstyle">显示内容</label></td>
+                      <td>isdisplay</td>
+                    </tr>
+                </tbody> 
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="保存(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="[$switchId$]" /> 
+            <input name="fieldNameList" type="hidden" id="fieldNameList" value="[$fieldNameList$]" />  
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>    </div>
+</form>
+<script language="javascript" type="text/javascript" src="js/formBottom.js"></script>
+</body>
+</html> 

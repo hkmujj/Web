@@ -1,0 +1,128 @@
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData&login=out
+时间：2016-06-15 09:52:38
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：tablecomment
+信息：修改评论
+网址：1.asp?act=saveAddEditHandle&id=3&actionType=TableComment&lableTitle=评论&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 10:25:39
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：tablecomment
+信息：删除评论
+网址：/1.php?act=delHandle&actionType=TableComment&lableTitle=%C6%C0%C2%DB&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=1,2,3&mdbpath=
+时间：2016-06-15 10:52:05
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：tablecomment
+信息：删除评论
+网址：/1.php?act=delHandle&actionType=TableComment&lableTitle=%C6%C0%C2%DB&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=5,4&mdbpath=
+时间：2016-06-15 10:53:05
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：tablecomment
+信息：修改评论
+网址：/1.php?act=saveAddEditHandle&id=6&actionType=TableComment&lableTitle=%C6%C0%C2%DB&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 10:56:25
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：guestbook
+信息：修改留言
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=GuestBook&lableTitle=%C1%F4%D1%D4&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 10:57:23
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：guestbook
+信息：添加留言
+网址：1.asp?act=saveAddEditHandle&id=&actionType=GuestBook&lableTitle=留言&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 11:06:58
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：guestbook
+信息：修改留言
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=GuestBook&lableTitle=留言&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 11:07:12
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：guestbook
+信息：修改留言
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=GuestBook&lableTitle=留言&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 11:09:32
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：guestbook
+信息：修改留言
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=GuestBook&lableTitle=留言&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 11:17:46
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：guestbook
+信息：修改留言
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=GuestBook&lableTitle=留言&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 11:18:00
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：feedback
+信息：添加反馈
+网址：1.asp?act=saveAddEditHandle&id=&actionType=Feedback&lableTitle=反馈&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-15 11:43:28
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：清空网站统计
+网址：/1.php?act=function&stype=clearWebsiteStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-06-15 13:50:28
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：更新网站统计
+网址：/1.php?act=function&stype=updateTodayWebStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-06-15 13:50:35
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-06-15 13:50:57
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-15 15:14:57
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-06-15 15:16:19
+IP：127.0.0.1
+------------------------
+

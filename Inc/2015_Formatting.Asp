@@ -181,8 +181,7 @@ Function formatting(content, action)
                 labelName = Mid(s, 1, InStr(s & " ", " ") - 1) 
                 labelName = LCase(labelName) 
 
-
-                'call echo("labelName",labelName)
+				'call echo("labelName",labelName)
                 If labelName = "a" Then
                     isA = True 
                 ElseIf labelName = "/a" Then
@@ -202,8 +201,7 @@ Function formatting(content, action)
                 ElseIf labelName = "pre" Then
                     isPre = True 
                 ElseIf labelName = "/pre" Then
-                    isPre = False 
-
+                    isPre = False
                 End If 
 
                 endLabelStr = endLabel 
@@ -216,6 +214,11 @@ Function formatting(content, action)
                         End If 
                     End If 
                 End If 
+				'单标签最后加个 /   20160615
+				if instr("|br|hr|img|input|param|meta|link|","|" & labelName & "|")>0 then
+					s=s & " /"
+				end if
+				
                 s = startLabel & s & endLabelStr 
                 '不为压缩HTML
                 If InStr(action, "|ziphtml|") = False And isPre = False Then

@@ -1,0 +1,32 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-29 10:20:50
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-29 10:20:56
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-29 15:44:59
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：清空网站统计
+网址：1.asp?act=clearWebsiteStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=&mdbpath=
+时间：2016-03-29 15:45:06
+IP：127.0.0.1
+------------------------
+

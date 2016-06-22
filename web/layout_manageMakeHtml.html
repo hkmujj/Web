@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+<script type="text/javascript" src="js/runAction.js"></script> 
+</head>
+<body>
+<div id="positionwrap">
+	<div class="msg">
+		当前位置：[$position$]
+	</div>
+</div>
+<div class="mg10">
+    <div class="atitleleft">生成html</div>
+
+    <div class="clear">
+    </div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：
+      </div>
+        <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center" style="margin-top:8px">
+            <tr bgcolor="#E7E7E7">
+                <td height="28" colspan="2" background="images/tbg.gif" style="padding-left:10px;">
+                    <!--           ◆ 所有栏目>单页管理 -->                </td>
+            </tr>
+            <tr align="center" bgcolor="#FBFCE2" height="25">
+                <td width="14%">ID</td>
+                <td width="86%">操作</td>
+            </tr>
+            <form name="listform" method="post" action="{$WEB_VIEWURL$}?act=makeallhtml">
+                <tr align="center" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';">
+
+                    <td>生成栏目</td>
+                    <td><select name="id" id="id">
+                        [$columnList$]
+                        </select>
+                        <input type="submit" name="button" class="btnclick2" id="button" value="提交">                    </td>
+                </tr>
+            </form>
+            <tr align="center" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';">
+                <td> </td>
+                <td><a href="{$WEB_VIEWURL$}?act=makeallhtml" target="_blank" onClick="return new xyClass().myConfirm('你确定要生成全部HTML吗？')">生成全部HTML页面</a> |
+                    <a href="?act=deleteAllMakeHtml" target="_blank" onClick="return new xyClass().myConfirm('你确定要删除吗？\n删除后将不可恢复')">删除全部HTML页面</a>                </td>
+            </tr>
+
+            <tr align="center" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';">
+                <td> </td>
+                <td>
+                	<!--
+                	<a href="{$WEB_VIEWURL$}?act=copyHtmlToWeb" target="_blank">复制生成HTML页面</a> |
+                    <a href="{$WEB_VIEWURL$}?act=copyHtmlToWeb&setcode=utf-8" target="_blank">复制生成HTML页面(utf-8)</a>
+					-->
+
+                  <form name="listform" method="post" action="{$WEB_VIEWURL$}?act=copyHtmlToWeb">
+                      <select name="setcode" id="setcode">
+                        <option>选择生成编码</option>
+                        <option value="utf-8" selected>生成utf-8编码</option>
+                    </select>
+                      <label for="isMakeZip"><input type="checkbox" name="isMakeZip" id="isMakeZip" value="1">打包成Zip</label>
+                      <label for="isMakeXml"><input type="checkbox" name="isMakeXml" id="isMakeXml" value="1">打包成Xml</label>
+                      <input type="submit" name="button" class="btnclick2" id="button" value="提交">         
+                  </form>                
+            	</td>
+            </tr>
+
+            <tr align="right" bgcolor="#F9FCEF">
+                <td height="36" colspan="6" align="center"> 				</td>
+            </tr>
+        </table>
+  </div>
+</div>
+
+
+</body>
+</html>

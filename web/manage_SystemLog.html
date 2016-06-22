@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+<script type="text/javascript" src="js/runAction.js"></script>
+</head>
+<body>
+<div id="positionwrap">
+	<div class="msg">
+		当前位置：[$position$]
+	</div>
+</div>
+<div class="mg10">
+	<div class="atitleleft">[$lableTitle$]信息</div>&nbsp;
+	<div class="clear">
+	</div>
+	<div class="acontent">
+       <form name="listform" method="post" action="" onSubmit="refreshPage('[$actionType$]','[$lableTitle$]','[$page$]','[$id$]');return false;">
+		<table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center" style="margin-top:8px">
+		<tbody>
+		<tr bgcolor="#E7E7E7">
+			<td height="28" colspan="5" background="images/tbg.gif" style="padding-left:10px;">
+             <!--           ◆ 所有栏目>文档列表  (使用鼠标右键弹出菜单)-->			</td>
+		</tr>
+		<tr align="center" bgcolor="#FBFCE2" height="25">
+		  <td>用户名</td>
+		  <td>表</td>
+		  <td>信息</td>
+		  <td>时间</td>
+		  <td>IP</td>
+		  </tr> 
+        [list]
+		<tr align="center" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';">
+		  <td align="center">[$adminname$]</td>
+          <td>[$tablename$]</td>
+                        <td align="left">[$msgstr$]</td>
+                        <td>[$adddatetime$] </td>
+                        <td>[$ip$]&nbsp;</td>
+          </tr>
+        [/list] 
+		<tr bgcolor="#ffffff">
+			<td height="36" colspan="7">  
+            <select name="nPageSizeSelect" id="nPageSizeSelect" class="coolbg" onChange="refreshPage('[$actionType$]','[$lableTitle$]','[$page$]','{$id$}')">
+              <option value="10">每页显示10条</option> 
+              <option value="20"[$nPageSize if='20' value=' selected'$]>每页显示20条</option>
+              <option value="30"[$nPageSize if='30' value=' selected'$]>每页显示30条</option>
+              <option value="40"[$nPageSize if='40' value=' selected'$]>每页显示40条</option>
+              <option value="50"[$nPageSize if='50' value=' selected'$]>每页显示50条</option>
+            </select>            </td>
+		</tr> 
+		<tr align="right" bgcolor="#F9FCEF">
+			<td height="36" colspan="5" align="center">	
+                [$pageInfo$]				
+                <input name="nPageSize" type="hidden" id="nPageSize" value="[$nPageSize$]">
+                </td>
+                </tr>
+		</table>
+      </form>
+	</div>
+</div> 
+</body>
+</html>

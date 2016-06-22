@@ -1,0 +1,120 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-18 10:21:16
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-18 10:21:49
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成当前HTML页面
+网址：aspweb.asp?act=nav&id=763&isMakeHtml=1&isSave=1
+时间：2016-04-18 10:21:54
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成当前HTML页面
+网址：aspweb.asp?act=nav&id=763&isMakeHtml=1&isSave=1
+时间：2016-04-18 10:23:09
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成当前HTML页面
+网址：aspweb.asp?act=nav&id=763&isMakeHtml=1&isSave=1
+时间：2016-04-18 10:24:08
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成当前HTML页面
+网址：aspweb.asp?act=nav&id=763&isMakeHtml=1&isSave=1
+时间：2016-04-18 10:26:26
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-18 13:38:49
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/youandme/
+网址：&templatename=youandme
+时间：2016-04-18 13:39:08
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-18 13:39:12
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-18 15:38:47
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：删除分类信息
+网址：1.asp?act=delHandle&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&id=3112,3111,3110,3109,3108,3107,3101,3100,3102,3103&mdbpath=
+时间：2016-04-18 15:39:00
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：删除分类信息
+网址：1.asp?act=delHandle&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&id=3104,3105,3106,3099&mdbpath=
+时间：2016-04-18 15:39:04
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-18 16:05:58
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：删除分类信息
+网址：1.asp?act=delHandle&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&id=3126,3125,3124,3123,3122,3121,3120,3119,3118,3117&mdbpath=
+时间：2016-04-18 16:21:05
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：删除分类信息
+网址：1.asp?act=delHandle&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&id=3116,3115,3114,3113&mdbpath=
+时间：2016-04-18 16:21:13
+IP：127.0.0.1
+------------------------
+

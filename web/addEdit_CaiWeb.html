@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script src="js/runAction.js"></script>
+</head>
+<body>
+<!--#editor start#-->
+<script charset="utf-8" src="Keditor/kindeditor.js"></script> 
+<script charset="utf-8" src="Keditor/lang/zh_CN.js"></script>  
+<script language="javascript">
+KindEditor.ready(function(K) {
+	var editor1 = K.create('textarea[name="bodycontent"]', {		//处理让文本域
+		cssPath : 'Keditor/plugins/code/prettify.css',
+		uploadJson : 'Keditor/asp/upload_json.asp',
+		fileManagerJson : 'Keditor/asp/file_manager_json.asp',
+		allowFileManager : true,
+		afterCreate : function() {
+			var self = this;
+			K.ctrl(document, 13, function() {
+				self.sync();
+				K('form[name=example]')[0].submit();
+			});
+			K.ctrl(self.edit.doc, 13, function() {
+				self.sync();
+				K('form[name=example]')[0].submit();
+			});
+		}
+	});
+	//prettyPrint();				//因为这个出错，所以给它注释掉 2013,12,12
+});
+</script>
+<!--#editor end#-->
+<div id="positionwrap">
+    <div class="msg">当前位置：[$position$]</div>
+</div>
+<form action="[$postUrl$]" method="post" name="formsubmit" onSubmit="return new xyClass().checkForm(this)">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本设置</li>
+        <li>更多设置</li>
+    </ul>&nbsp;
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>大类名称</td>
+                        <td align="left" style="padding:3px;">[$input_bigclassname$]</td>
+                        <td>bigclassname</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>首页网址</td>
+                      <td align="left" style="padding:3px;">[$input_httpurl$]</td>
+                      <td>httpurl</td>
+                    </tr> 
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>更多网址</td>
+                      <td align="left" style="padding:3px;">[$input_morepageurl$]</td>
+                      <td>morepageurl</td>
+                    </tr> 
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>编码</td>
+                      <td align="left" style="padding:3px;"><select name="charset" id="target"> 
+<option value="gb2312">gb2312</option>
+<option value="utf-8"[$charset if='utf-8' value=' selected'$]>utf-8</option>
+</select></td>
+                      <td>charset</td>
+                    </tr> 
+                  
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>开始页数</td>
+                        <td align="left" style="padding:3px;">[$input_thispage$]</td>
+                        <td>thispage</td>
+                    </tr> 
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                      <td>总页数</td>
+                      <td align="left" style="padding:3px;">[$input_countpage$]</td>
+                      <td>countpage</td>
+                    </tr>
+                </tbody>            
+          
+  
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>title描述</td>
+                        <td align="left" style="padding:3px;"></td>
+                        <td></td>
+                    </tr>
+                   
+                </tbody>
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="保存(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="[$switchId$]" /> 
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>    </div>
+</form>
+<script language="javascript" type="text/javascript" src="js/formBottom.js"></script>
+</body>
+</html>

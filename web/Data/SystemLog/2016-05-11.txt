@@ -1,0 +1,244 @@
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-11 10:24:20
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-11 10:24:58
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-11 10:25:20
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=2,1&mdbpath=
+时间：2016-05-11 10:48:04
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=3&mdbpath=
+时间：2016-05-11 11:04:04
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=4&mdbpath=
+时间：2016-05-11 11:12:56
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：1.asp?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=300&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=105,104,103,102,101,100,99,98,97,96,95,94,93,92,91,90,89,88,87,86,85,84,83,82,81,80,79,78,77,76,75,74,73,72,71,70,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0&mdbpath=
+时间：2016-05-11 11:18:13
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=5&mdbpath=
+时间：2016-05-11 11:19:05
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=6&mdbpath=
+时间：2016-05-11 11:21:40
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=7&mdbpath=
+时间：2016-05-11 11:23:48
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=8&mdbpath=
+时间：2016-05-11 11:24:21
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=9&mdbpath=
+时间：2016-05-11 11:25:55
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=10&mdbpath=
+时间：2016-05-11 11:26:28
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=11&mdbpath=
+时间：2016-05-11 14:51:12
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：1.asp?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=300&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=211,210,209,208,207,206,205,204,203,202,201,200,199,198,197,196,195,194,193,192,191,190,189,188,187,186,185,184,183,182,181,180,179,178,177,176,175,174,173,172,171,170,169,168,167,166,165,164,163,162,161,160,159,158,157,156,155,154,153,152,151,150,149,148,147,146,145,144,143,142,141,140,139,138,137,136,135,134,133,132,131,130,129,128,127,126,125,124,123,122,121,120,119,118,117,116,115,114,113,112,111,110,109,108,107,106&mdbpath=
+时间：2016-05-11 14:52:47
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=300&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=65,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12&mdbpath=
+时间：2016-05-11 14:53:46
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=300&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=133,132,131,130,129,128,127,126,125,124,123,122,121,120,119,118,117,116,115,114,113,112,111,110,109,108,107,106,105,104,103,102,101,100,99,98,97,96,95,94,93,92,91,90,89,88,87,86,85,84,83,82,81,80,79,78,77,76,75,74,73,72,71,70,69,68,67,66&mdbpath=
+时间：2016-05-11 15:21:16
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=300&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=231,230,229,228,227,226,225,224,223,222,221,220,219,218,217,216,215,214,213,212,211,210,209,208,207,206,205,204,203,202,201,200,199,198,197,196,195,194,193,192,191,190,189,188,187,186,185,184,183,182,181,180,179,178,177,176,175,174,173,172,171,170,169,168,167,166,165,164,163,162,161,160,159,158,157,156,155,154,153,152,151,150,149,148,147,146,145,144,143,142,141,140,139,138,137,136,135,134&mdbpath=
+时间：2016-05-11 15:26:24
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=300&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,304,303,302,301,300,299,298,297,296,295,294,293,292,291,290,289,288,287,286,285,284,283,282,281,280,279,278,277,276,275,274,273,272,271,270,269,268,267,266,265,264,263,262,261,260,259,258,257,256,255,254,253,252,251,250,249,248,247,246,245,244,243,242,241,240,239,238,237,236,235,234,233,232&mdbpath=
+时间：2016-05-11 15:52:54
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=320&mdbpath=
+时间：2016-05-11 15:53:16
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=321&mdbpath=
+时间：2016-05-11 15:55:08
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=322&mdbpath=
+时间：2016-05-11 15:55:51
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=323&mdbpath=
+时间：2016-05-11 15:58:38
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=324&mdbpath=
+时间：2016-05-11 15:58:52
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：weburlscan
+信息：删除网址扫描
+网址：/1.php?act=delHandle&actionType=WebUrlScan&lableTitle=网址扫描&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=325&mdbpath=
+时间：2016-05-11 16:06:04
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：webdomain
+信息：添加网站域名
+网址：1.asp?act=saveAddEditHandle&id=&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-05-11 17:01:10
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webdomain
+信息：修改网站域名
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-05-11 17:01:17
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webdomain
+信息：修改网站域名
+网址：1.asp?act=saveAddEditHandle&id=0&switchId=0&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-05-11 17:02:40
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webdomain
+信息：修改网站域名
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-05-11 17:04:42
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-05-11 17:18:31
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-11 17:18:38
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-05-11 17:18:45
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-05-11 17:19:52
+IP：127.0.0.1
+------------------------
+

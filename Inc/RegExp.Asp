@@ -58,7 +58,8 @@ Function delHtml(ByVal strHtml)
         delHtml = strOutput 
     Set Rep = Nothing 
     If Err Then Call doError(Err.Description, "DelHtml É¾³ýHTML±êÇ© º¯Êý³ö´í£¬") 
-End Function 
+End Function
+
 'É¾³ýHTML±êÇ© (¸¨Öú)
 Function regExp_DelHtml(strHtml)
     regExp_DelHtml = delHtml(strHtml)

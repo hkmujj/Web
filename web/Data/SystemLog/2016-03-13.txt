@@ -1,0 +1,176 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-13 15:36:42
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=0&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 16:21:13
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=0&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 16:21:31
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-13 16:56:21
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=9,8,7,6,5,4,3,2,1,0&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:18:08
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=10,11&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:24:17
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=10,11&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:24:34
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=13&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:37:51
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=12&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:37:59
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=12&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:38:26
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=14&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:39:27
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=15&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:39:32
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=18&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 19:41:59
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：Data.mdb
+时间：2016-03-13 19:42:10
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：Data.mdb
+时间：2016-03-13 19:43:29
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-13 22:00:51
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=30,29,28,27,26,25,24,23,22,21&mdbpath=\DataDir\VB模块\dll\Data.mdb
+时间：2016-03-13 22:00:59
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：Data.mdb
+时间：2016-03-13 22:01:03
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-03-13 22:56:26
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：1.asp?act=delHandle&actionType=UserLoginLog&lableTitle=用户登录日志&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&id=46,45,44,43,42,41,40,39,38,37&mdbpath=\DataDir\dll\Data.mdb
+时间：2016-03-13 23:03:31
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：Data.mdb
+时间：2016-03-13 23:03:36
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：userloginlog
+信息：删除用户登录日志
+网址：Data.mdb
+时间：2016-03-13 23:07:47
+IP：127.0.0.1
+------------------------
+

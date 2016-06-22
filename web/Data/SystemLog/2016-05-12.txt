@@ -1,0 +1,154 @@
+姓名：ASPPHPCMS
+表：webdomain
+信息：修改网站域名
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-05-12 09:50:19
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webdomain
+信息：添加网站域名
+网址：/1.php?act=saveAddEditHandle&id=&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&mdbpath=
+时间：2016-05-12 09:59:37
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：webdomain
+信息：删除网站域名
+网址：/1.php?act=delHandle&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=1&mdbpath=
+时间：2016-05-12 10:02:34
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：webdomain
+信息：删除网站域名
+网址：/1.php?act=delHandle&actionType=WebDomain&lableTitle=网站域名&nPageSize=100&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2&mdbpath=
+时间：2016-05-12 10:16:17
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：webdomain
+信息：删除网站域名
+网址：1.asp?act=delHandle&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=1,0&mdbpath=
+时间：2016-05-12 11:27:30
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webdomain
+信息：删除网站域名
+网址：1.asp?act=delHandle&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=24,23,22,21,20,19,18,17,16,15&mdbpath=
+时间：2016-05-12 11:31:58
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webdomain
+信息：删除网站域名
+网址：1.asp?act=delHandle&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=14,13,12,11,10,9,8,7,6,5&mdbpath=
+时间：2016-05-12 11:32:07
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webdomain
+信息：删除网站域名
+网址：1.asp?act=delHandle&actionType=WebDomain&lableTitle=网站域名&nPageSize=300&parentid=&searchfield=httpurl&keyword=&addsql=order%20by%20id%20desc&page=&id=44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,4,3,2&mdbpath=
+时间：2016-05-12 11:33:25
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：webdomain
+信息：排序网站域名
+网址：1.asp?act=sortHandle&actionType=WebDomain&lableTitle=网站域名&nPageSize=10&parentid=&searchfield=httpurl&keyword=&page=&id=66,65,64,63,62,61,60,59,58,57&value=0,0,0,0,0,0,0,0,0,0
+时间：2016-05-12 13:21:05
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-05-12 14:24:10
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-12 14:24:39
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/B站页面设计/
+网址：&templatename=B站页面设计
+时间：2016-05-12 14:24:42
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/B站页面设计/
+网址：&templatename=B站页面设计
+时间：2016-05-12 14:25:09
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-05-12 14:25:46
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-12 14:28:36
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-12 14:29:06
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-05-12 15:48:31
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：/&templatename=sharembweb
+时间：2016-05-12 16:11:50
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-05-12 16:11:58
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-05-12 16:12:10
+IP：127.0.0.1
+------------------------

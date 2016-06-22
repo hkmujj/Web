@@ -1,0 +1,143 @@
+来访http://bb/web/1.asp?act=adminIndex
+当前：http://bb/aspweb.asp
+时间：2016/6/17 13:48:55
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=detail&id=442
+时间：2016/6/17 13:49:06
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://bb/aspweb.asp
+时间：2016/6/17 13:52:15
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=detail&id=560
+时间：2016/6/17 13:52:20
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp?act=detail&id=560
+当前：http://bb/aspweb.asp?act=nav&columnName=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE
+时间：2016/6/17 13:58:55
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp?act=nav&columnName=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE
+当前：http://bb/aspweb.asp?act=detail&id=515
+时间：2016/6/17 13:59:03
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp?act=nav&columnName=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE
+当前：http://bb/aspweb.asp?act=detail&id=501
+时间：2016/6/17 13:59:12
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp?act=nav&columnName=%B7%D6%CF%ED%C4%A3%B0%E5%CD%F8%D5%BE
+当前：http://bb/aspweb.asp?act=detail&id=560
+时间：2016/6/17 13:59:17
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://bb/aspweb.asp
+时间：2016/6/17 13:59:44
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=detail&id=633
+时间：2016/6/17 13:59:48
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp?act=detail&id=633
+当前：http://bb/aspweb.asp?act=nav&columnName=wordpress
+时间：2016/6/17 13:59:53
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp?act=nav&columnName=wordpress
+当前：http://bb/aspweb.asp?act=detail&id=619
+时间：2016/6/17 14:00:01
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=detail&id=678
+时间：2016/6/17 14:00:09
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=bdshare_firstime=1465375005611; ASPSESSIONIDQQSRTRAQ=LIJHJHMBONMCFLCOMHKLBMBI; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F17 13%3A48%3A51; __qc_wId=725
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+

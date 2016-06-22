@@ -1,0 +1,11 @@
+来访
+当前：http://127.0.0.1/index.html
+时间：2016/5/16 10:57:01
+IP:127.0.0.1
+IE:[AppleWebKit]Safari
+Cookies=pgv_pvid=5590973755; Hm_lvt_5563ede7d59ea4b9e071a9cf63ebd1fc=1462513994; ASPSESSIONIDCSDBQQSD=DADHNBJAMBBBNOEGOMGNFCCD
+XP=
+Screen=1920x1080
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+-------------------------------------------------
+

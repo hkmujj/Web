@@ -1,0 +1,511 @@
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-26 10:03:18
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 10:51:54
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=4227&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&mdbpath=
+时间：2016-04-26 11:05:07
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 11:06:54
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 11:22:47
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 11:22:53
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 11:23:22
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-26 13:11:59
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 13:12:06
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=4240&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&mdbpath=
+时间：2016-04-26 13:15:41
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=4240&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&mdbpath=
+时间：2016-04-26 13:15:58
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=4240&switchId=3&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&mdbpath=
+时间：2016-04-26 13:16:02
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=4240&switchId=3&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&mdbpath=
+时间：2016-04-26 13:16:08
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 13:16:39
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 13:18:34
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 13:21:19
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 13:22:22
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 13:23:54
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 13:25:33
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 13:25:35
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 13:33:44
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 13:33:47
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 13:36:46
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 13:36:54
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 13:39:35
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 13:39:37
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 13:40:17
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 13:41:01
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 13:48:25
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 13:48:38
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/2016五一活动/
+网址：&templatename=2016五一活动
+时间：2016-04-26 13:55:54
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 13:55:58
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：articledetail
+信息：修改分类信息
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&mdbpath=
+时间：2016-04-26 13:56:10
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：articledetail
+信息：添加分类信息
+网址：/1.php?act=saveAddEditHandle&id=&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&parentid=&searchfield=title&keyword=&addsql=order%20by%20sortrank&page=&mdbpath=
+时间：2016-04-26 14:01:15
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-26 15:22:27
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/2016五一活动首页/
+网址：&templatename=2016五一活动首页
+时间：2016-04-26 15:22:33
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 15:22:36
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 15:23:12
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：1.asp?act=login
+时间：2016-04-26 16:48:50
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 16:49:04
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 16:49:09
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/2016五一活动/
+网址：&templatename=2016五一活动
+时间：2016-04-26 17:00:46
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 17:00:49
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 17:06:33
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 17:06:37
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 17:07:11
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 17:07:31
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 17:07:35
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 17:07:46
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 17:08:28
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 17:10:27
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 17:10:33
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成当前HTML页面
+网址：aspweb.asp?act=nav&id=8&isMakeHtml=1&isSave=1
+时间：2016-04-26 17:11:20
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 17:12:17
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：生成全部HTML页面
+网址：aspweb.asp?act=makeallhtml
+时间：2016-04-26 17:12:23
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 17:12:32
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：复制生成HTML页面
+网址：aspweb.asp?act=copyHtmlToWeb&setcode=utf-8
+时间：2016-04-26 17:19:43
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/test3/
+网址：&templatename=test3
+时间：2016-04-26 17:34:02
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 17:34:08
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/test3/
+网址：&templatename=test3
+时间：2016-04-26 17:34:24
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 17:34:33
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/test3/
+网址：&templatename=test3
+时间：2016-04-26 17:34:45
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：应用模板/Templates2015/东方紫3/
+网址：&templatename=东方紫3
+时间：2016-04-26 17:40:55
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-04-26 17:40:59
+IP：127.0.0.1
+------------------------
+

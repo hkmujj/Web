@@ -1,0 +1,33 @@
+
+cfg_ 打开为全局变量
+{$cfg_webtitle$}      为要替换的网站变量，不可带参数
+[$cfg_webtitle fontcolor='red'$]      为要替换的网站变量，可带参数 如 trim|len|fontcolor|delhtml
+
+
+
+
+
+            	[$detailContent$]
+                <ul class=""updownarticlewrap"">
+                <li>{$glb_upArticle$}</li>
+                <li>{$glb_downArticle$}</li>
+                </ul>
+
+新闻列表
+[$detailContent$]
+<!--#list
+[list]<li>
+            <div class="newsleft"><a href="[$url$]"><img src="[$smallimage$]" width="190" height="90"></a></div>
+            <div class="newsright">
+                <a href="[$url$]" class="itemtitle">[$title$]</a>
+                <div class="itemcontent">[$aboutcontent$]</div>
+            </div>
+            <div class="clear20"></div>
+        </li>
+[/list]
+ 
+[page]
+[sPageStart]首页部分[/sPageStart]
+[/page]
+#--> 
+ 

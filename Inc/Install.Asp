@@ -26,7 +26,7 @@ Sub defaultDisplay()
     Dim s 
     s = "<b>创建数据库2016</b><hr>" 
     s = s & "<a href='?act=web&DB_PREFIX=xy_' target='_blank'>点击创建(本地Access)</a> | <a href='?act=addwebtable&DB_PREFIX=test_' target='_blank'>追加test_前缀表</a>" 
-    s = s & " | <a href='?act=addwebtable' target='_blank'>追加前缀表</a>" 
+    s = s & " | <a href='?act=addwebtable' target='_blank'>追加前缀表</a>"
     Call echo("创建网站数据库", s) 
 End Sub
 '创建远程SqlServer数据库
@@ -63,7 +63,7 @@ Class ClassAccess
     Sub webData()
         DB_PREFIX = Request("DB_PREFIX") 
         Call echo("DB_PREFIX", DB_PREFIX) 
-        '网站栏目-------------------------------
+        '网站栏目表-------------------------------
         tableName = DB_PREFIX & "WebColumn" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -119,7 +119,7 @@ Class ClassAccess
             conn.Execute sql 
         End If 
 
-        '文章信息-------------------------------
+        '文章信息表-------------------------------
         tableName = DB_PREFIX & "ArticleDetail" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -204,7 +204,7 @@ Class ClassAccess
             conn.Execute sql 
         End If 
 
-        '单页-------------------------------
+        '单页表-------------------------------
         tableName = DB_PREFIX & "OnePage" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -242,7 +242,7 @@ Class ClassAccess
             conn.Execute sql 
         End If 
 
-        '表评论 20160129-------------------------------
+        '文章评论表 20160129-------------------------------
         tableName = DB_PREFIX & "TableComment" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -266,63 +266,8 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-
-        '网站统计 20160203-------------------------------
-        tableName = DB_PREFIX & "WebSiteStat" 
-        If showIsTable(tableName) = False Then
-            sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
-            sql = sql & "visiturl Text Default """","                                 '来访网址
-            sql = sql & "viewurl Text Default """","                                  '浏览网址
-            sql = sql & "browser VarChar Default """","                               '浏览器版本
-            sql = sql & "operatingSystem VarChar Default """","                       '操作系统
-            sql = sql & "screenWH VarChar Default """","                              '屏幕宽高
-            sql = sql & "moreInfo Text Default """","                                 '更多信息
-            sql = sql & "viewDateTime DateTime Default Now(),"                        '访问时间
-            sql = sql & "ip VarChar Default """","                                    '访问IP
-
-            sql = sql & "dateClass VarChar Default """","                             '日期分类
-
-            sql = sql & "addDateTime DateTime Default Now(),"                         '创建时间
-            sql = sql & "upDateTime DateTime Default Date(),"                         '修改时间
-
-
-
-            sql = sql & "isThrough Int Default 0,"                                    '是否通过
-            sql = sql & "noteInfo Text Default """","                                 '笔记信息
-            sql = sql & "bodycontent Text Default """")"                              '备注
-            If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
-            conn.Execute sql 
-        End If 
-
-        '管理员-------------------------------
-        tableName = DB_PREFIX & "Admin" 
-        If showIsTable(tableName) = False Then
-            sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
-            sql = sql & "userName VarChar Default """","                              '账号
-            sql = sql & "pwd VarChar Default """","                                   '密码
-            sql = sql & "pseudonym VarChar Default """","                             '笔名
-
-
-            sql = sql & "addDateTime DateTime Default Now(),"                         '创建时间
-            sql = sql & "upDateTime DateTime Default Date(),"                         '修改时间
-
-            sql = sql & "regIP VarChar Default """","                                 '注册IP
-            sql = sql & "upIP VarChar Default """","                                  '修改IP
-
-
-            sql = sql & "quanXian Text Default """","                                 '管理权限
-            sql = sql & "verificationMode Int Default 1,"                             '验证方式，1为Session
-            sql = sql & "adminLevel VarChar Default """","                            '级别
-            sql = sql & "channel VarChar Default """","                               '频道
-            sql = sql & "mtest YesNo Default No,"                                     '修改后更新HTML
-            sql = sql & "flags VarChar Default """","                                 '旗        只有这个后台做了处理
-
-
-            sql = sql & "bodycontent Text Default """")"                              '备注
-            If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
-            conn.Execute sql 
-        End If 
-        '网站信息-------------------------------
+		
+        '网站信息表-------------------------------
         tableName = DB_PREFIX & "WebSite" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -391,25 +336,35 @@ Class ClassAccess
             conn.Execute sql 
         End If 
 
-        '系统日志-------------------------------
-        tableName = DB_PREFIX & "SystemLog" 
+        '管理员表-------------------------------
+        tableName = DB_PREFIX & "Admin" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
-            sql = sql & "msgStr Text Default """","                                   '信息内容
-            sql = sql & "tableName VarChar Default """","                             '表名 也可以说module模块
-            sql = sql & "url Text Default """","                                   '动作
-            sql = sql & "adminId int Default 0,"                                      '管理员id
-            sql = sql & "adminName VarChar Default 0,"                                '管理员名称
-            sql = sql & "IP VarChar Default """","                                    'IP地址
+            sql = sql & "userName VarChar Default """","                              '账号
+            sql = sql & "pwd VarChar Default """","                                   '密码
+            sql = sql & "pseudonym VarChar Default """","                             '笔名
 
 
             sql = sql & "addDateTime DateTime Default Now(),"                         '创建时间
+            sql = sql & "upDateTime DateTime Default Date(),"                         '修改时间
+
+            sql = sql & "regIP VarChar Default """","                                 '注册IP
+            sql = sql & "upIP VarChar Default """","                                  '修改IP
+
+
+            sql = sql & "quanXian Text Default """","                                 '管理权限
+            sql = sql & "verificationMode Int Default 1,"                             '验证方式，1为Session
+            sql = sql & "adminLevel VarChar Default """","                            '级别
+            sql = sql & "channel VarChar Default """","                               '频道
+            sql = sql & "mtest YesNo Default No,"                                     '修改后更新HTML
+            sql = sql & "flags VarChar Default """","                                 '旗        只有这个后台做了处理
+
+
             sql = sql & "bodycontent Text Default """")"                              '备注
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-
-        '搜索统计-------------------------------
+        '搜索统计表-------------------------------
         tableName = DB_PREFIX & "SearchStat" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -440,9 +395,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-
-
-        '友情链接-------------------------------
+		'友情链接表-------------------------------
         tableName = DB_PREFIX & "FriendLink" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -487,7 +440,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '招聘-------------------------------
+        '招聘表-------------------------------
         tableName = DB_PREFIX & "Job" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -527,7 +480,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '留言-------------------------------
+        '留言表-------------------------------
         tableName = DB_PREFIX & "GuestBook" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -570,7 +523,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '反馈-------------------------------
+        '反馈表-------------------------------
         tableName = DB_PREFIX & "Feedback" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -613,7 +566,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '后台菜单-------------------------------
+        '后台菜单表-------------------------------
         tableName = DB_PREFIX & "ListMenu" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -630,7 +583,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '在线LineQQ-------------------------------
+        '在线QQ表------------------------------
         tableName = DB_PREFIX & "LineQQ" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -646,7 +599,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '投票-------------------------------
+        '投票表-------------------------------
         tableName = DB_PREFIX & "LineVote" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -682,7 +635,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '会员-------------------------------
+        '会员表-------------------------------
         tableName = DB_PREFIX & "Member" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -730,7 +683,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '付款方式，订单信息-------------------------------
+        '付款信息表-------------------------------
         tableName = DB_PREFIX & "Payment" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -754,7 +707,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '购物信息-------------------------------
+        '购物信息表-------------------------------
         tableName = DB_PREFIX & "Previeworder" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -772,7 +725,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '产品评论-------------------------------
+        '产品评论表-------------------------------
         tableName = DB_PREFIX & "ProductComment" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -790,9 +743,107 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
+        '网站统计表 20160203-------------------------------
+        tableName = DB_PREFIX & "WebSiteStat" 
+        If showIsTable(tableName) = False Then
+            sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
+            sql = sql & "visiturl Text Default """","                                 '来访网址
+            sql = sql & "viewurl Text Default """","                                  '浏览网址
+            sql = sql & "browser VarChar Default """","                               '浏览器版本
+            sql = sql & "operatingSystem VarChar Default """","                       '操作系统
+            sql = sql & "screenWH VarChar Default """","                              '屏幕宽高
+            sql = sql & "moreInfo Text Default """","                                 '更多信息
+            sql = sql & "viewDateTime DateTime Default Now(),"                        '访问时间
+            sql = sql & "ip VarChar Default """","                                    '访问IP
+
+            sql = sql & "dateClass VarChar Default """","                             '日期分类
+
+            sql = sql & "addDateTime DateTime Default Now(),"                         '创建时间
+            sql = sql & "upDateTime DateTime Default Date(),"                         '修改时间
 
 
-        '布局 20151228-------------------------------
+
+            sql = sql & "isThrough Int Default 0,"                                    '是否通过
+            sql = sql & "noteInfo Text Default """","                                 '笔记信息
+            sql = sql & "bodycontent Text Default """")"                              '备注
+            If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
+            conn.Execute sql 
+        End If 
+        '系统日志表-------------------------------
+        tableName = DB_PREFIX & "SystemLog" 
+        If showIsTable(tableName) = False Then
+            sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
+            sql = sql & "msgStr Text Default """","                                   '信息内容
+            sql = sql & "tableName VarChar Default """","                             '表名 也可以说module模块
+            sql = sql & "url Text Default """","                                   '动作
+            sql = sql & "adminId int Default 0,"                                      '管理员id
+            sql = sql & "adminName VarChar Default 0,"                                '管理员名称
+            sql = sql & "IP VarChar Default """","                                    'IP地址
+
+
+            sql = sql & "addDateTime DateTime Default Now(),"                         '创建时间
+            sql = sql & "bodycontent Text Default """")"                              '备注
+            If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
+            conn.Execute sql 
+        End If 
+		'采集网站表-------------------------------
+        tableName = DB_PREFIX & "CaiWeb" 
+        If showIsTable(tableName) = False Then
+            sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
+            sql = sql & "BigClassName VarChar Default """","                          '大类名称		
+            sql = sql & "httpurl VarChar Default """","                            	  '网址
+            sql = sql & "morePageUrl VarChar Default """","                           '更多页配置  {*}		为i页
+            sql = sql & "charset VarChar Default """","                            	  '字符编码
+            sql = sql & "thisPage int Default 0,"                                      '当前页数
+            sql = sql & "countPage int Default 0,"                                      '总页数 
+            sql = sql & "sType VarChar Default """","                          		  '类型	
+            sql = sql & "sortRank int Default 0,"                                     '排序编号
+
+            sql = sql & "addDateTime DateTime Default Now(),"                         '创建时间
+            sql = sql & "upDateTime DateTime Default Date(),"                         '修改时间
+            sql = sql & "IP VarChar Default """","                                    'IP地址
+            sql = sql & "bodycontent Text Default """")"                              '备注
+            If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
+            conn.Execute sql 
+        End If
+        '采集配置表-------------------------------
+        tableName = DB_PREFIX & "CaiConfig" 
+        If showIsTable(tableName) = False Then
+            sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
+            sql = sql & "BigClassName VarChar Default """","                          '大类名称
+            sql = sql & "sType VarChar Default """","                          		  '类型
+            sql = sql & "startStr VarChar Default """","                          	  '开始截取字符
+            sql = sql & "endStr VarChar Default """","                          	  '结束截取字符			
+            sql = sql & "startAddStr VarChar Default """","                           '开始截取字符前面追加字符
+            sql = sql & "endAddStr VarChar Default """","                          	  '结束截取字符后台追加字符
+			
+            sql = sql & "sortRank int Default 0,"                                     '排序编号 
+
+
+            sql = sql & "addDateTime DateTime Default Now(),"                         '创建时间
+            sql = sql & "upDateTime DateTime Default Date(),"                         '修改时间
+            sql = sql & "IP VarChar Default """","                                    'IP地址
+            sql = sql & "bodycontent Text Default """")"                              '备注
+            If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
+            conn.Execute sql 
+        End If
+        '采集数据表-------------------------------
+        tableName = DB_PREFIX & "CaiData" 
+        If showIsTable(tableName) = False Then
+            sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
+            sql = sql & "BigClassName VarChar Default """","                          '大类名称
+            sql = sql & "sType VarChar Default """","                          		  '类型
+
+            sql = sql & "sortRank int Default 0,"                                     '排序编号
+            sql = sql & "addDateTime DateTime Default Now(),"                         '创建时间
+            sql = sql & "upDateTime DateTime Default Date(),"                         '修改时间
+            sql = sql & "IP VarChar Default """","                                    'IP地址
+            sql = sql & "bodycontent Text Default """")"                              '备注
+            If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
+            conn.Execute sql 
+        End If
+		
+        '布局表 20151228-------------------------------
         tableName = DB_PREFIX & "webLayout" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -819,7 +870,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '模块 20151228-------------------------------
+        '模块表 20151228-------------------------------
         tableName = DB_PREFIX & "webModule" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -841,7 +892,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If 
-        '竞价(百度竞价) 20151228-------------------------------
+        '竞价表(百度竞价) 20151228-------------------------------
         tableName = DB_PREFIX & "Bidding" 
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key," 
@@ -864,7 +915,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql 
         End If
-		'网站URL扫描 20160428-------------------------------
+		'网站URL扫描表 20160428-------------------------------
         tableName = DB_PREFIX & "WebUrlScan"
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key,"
@@ -889,7 +940,7 @@ Class ClassAccess
             If MDBPath = "" Then sql = handleSqlServer(sql)                           '把Access数据库类型转成SqlServer数据库类型
             conn.Execute sql
         End If
-		'网站域名 20160511-------------------------------
+		'网站域名表 20160511-------------------------------
         tableName = DB_PREFIX & "WebDomain"
         If showIsTable(tableName) = False Then
             sql = "Create Table " & tableName & " (Id int Identity(0,1) Primary Key,"
@@ -973,8 +1024,8 @@ Class ClassAccess
             nCount = 0 
             For Each s In splStr
                 tempS = s 
-                s = Trim(s) 
-                If tempS <> "" Then
+                s = Trim(s)
+                If tempS <> "" and left(phptrim(s)&" ",1)<>"#" Then
                     nCount = nCount + 1         '总数
                     If Left(tempS, 4) = "    " Then
                     Else

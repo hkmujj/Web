@@ -10,8 +10,10 @@ End Function
 
 '写入系统操作日志
 Function writeSystemLog(tableName, msgStr)
-    Dim logFile, s, url, ip, addDateTime 
-    logFile = webDir & adminDir & "/data/systemLog/" & format_Time(Now(), 2) & ".txt" 
+    Dim logFile, s, url, ip, addDateTime,logDir
+	logDir= webDir & adminDir & "/data/systemLog/"
+	call createDirFolder(logDir)		'创建文件夹
+    logFile =logDir & "/" & format_Time(Now(), 2) & ".txt" 
     url = ADSql(getThisUrlFileParam())
     addDateTime = format_Time(Now(), 1) 
     ip = getIP() 

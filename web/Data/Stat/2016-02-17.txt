@@ -1,0 +1,121 @@
+来访http://sharembweb.com/Tools/asptophp.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/2/17 20:20:22
+IP:113.86.191.239
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=16B6495CE12DA25C2D86B18114D77C28; CNZZDATA1257109459=547113869-1455711654-http%253A%252F%252Fsharembweb.com%252F%7C1455711654
+XP=Android 5.0.2
+Screen=1080x1920
+用户信息=Mozilla/5.0 (Linux; U; Android 5.0.2; zh-CN; Redmi Note 2 Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.9.4.728 U3/0.8.0 Mobile Safari/534.30
+-------------------------------------------------
+
+来访http://www.sogou.com/link?url=LeoKdSZoUyBvqKgS4DzY0yIurkmE9rPT0G4Q7CAv4SWt5pUc3zy0dg..&query=site%3Asharembweb.com
+当前：http://sharembweb.com/formatasp/
+时间：2016/2/17 21:29:23
+IP:122.94.240.93
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1455715797; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1455631570,1455632062,1455632696,1455634732; safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; tjB=1
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://www.sogou.com/link?url=LeoKdSZoUyBvqKgS4DzY05LWXEj9jlpohcFhqU20_vs.&query=site%3Asharembweb.com
+当前：http://sharembweb.com/fangzhan/
+时间：2016/2/17 21:29:28
+IP:122.94.240.93
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1455715797; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1455632062,1455632696,1455634732,1455715802; safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; tjB=1; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1455715802; ASPSESSIONIDCABTTTQT=GFJFPHDCPKDDKGHFFCPFMNON
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://www.sogou.com/link?url=LeoKdSZoUyBvqKgS4DzY06ApUGi_oh0TXUR1JQOrbyU.&query=site%3Asharembweb.com
+当前：http://sharembweb.com/asptophp/
+时间：2016/2/17 21:29:54
+IP:122.94.240.93
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1455715797; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1455632696,1455634732,1455715802,1455715809; safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; tjB=1; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1455715809; ASPSESSIONIDCABTTTQT=GFJFPHDCPKDDKGHFFCPFMNON
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://www.sogou.com/link?url=LeoKdSZoUyBvqKgS4DzY0yIurkmE9rPT0G4Q7CAv4SWt5pUc3zy0dg..&query=site%3Asharembweb.com
+当前：http://sharembweb.com/formatasp/
+时间：2016/2/17 21:30:04
+IP:122.94.240.93
+IE:[Gecko] Mozilla Series
+Cookies=CNZZDATA1257109459=1991412801-1451908627-%7C1455715797; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1455634732,1455715802,1455715809,1455715835; safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; tjB=1; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1455715835; ASPSESSIONIDCABTTTQT=GFJFPHDCPKDDKGHFFCPFMNON
+XP=Trident/7.0
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko
+-------------------------------------------------
+
+来访http://ylwap.cn/thread-65.htm
+当前：http://sharembweb.com/asptophp/
+时间：2016/2/17 23:08:08
+IP:112.192.80.94
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; CNZZDATA1257109459=696803207-1455721722-http%253A%252F%252Fylwap.cn%252F%7C1455721722
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 SE 2.X MetaSr 1.0
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/
+时间：2016/2/17 23:08:48
+IP:112.192.80.94
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; ASPSESSIONIDCABTTTQT=BJJFPHDCGMHCOJGFNPCGDNJJ; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1455721726; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1455721726; CNZZDATA1257109459=696803207-1455721722-http%253A%252F%252Fylwap.cn%252F%7C1455721722
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 SE 2.X MetaSr 1.0
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/2/17 23:09:01
+IP:121.42.0.59
+IE:[MSIE 8.0]Internet Explorer
+Cookies=safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; CNZZDATA1257109459=431326019-1455721777-%7C1455721777
+XP=Trident/4.0
+Screen=1024x768
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Trident/4.0; Windows NT 6.1; SLCC2 2.5.5231; .NET CLR 2.0.50727; .NET CLR 4.1.23457; .NET CLR 4.0.23457; Media Center PC 6.0; MS-WK 8)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/2/17 23:09:03
+IP:121.42.0.56
+IE:[MSIE 8.0]Internet Explorer
+Cookies=safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; CNZZDATA1257109459=2137878683-1455721777-%7C1455721777
+XP=Trident/4.0
+Screen=1024x768
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Trident/4.0; Windows NT 6.1; SLCC2 2.5.5231; .NET CLR 2.0.50727; .NET CLR 4.1.23457; .NET CLR 4.0.23457; Media Center PC 6.0; MS-WK 8)
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/2/17 23:09:12
+IP:121.42.0.73
+IE:[MSIE 8.0]Internet Explorer
+Cookies=safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; CNZZDATA1257109459=1523880866-1455721777-%7C1455721777
+XP=Trident/4.0
+Screen=1024x768
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Trident/4.0; Windows NT 6.1; SLCC2 2.5.5231; .NET CLR 2.0.50727; .NET CLR 4.1.23457; .NET CLR 4.0.23457; Media Center PC 6.0; MS-WK 8)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/2/17 23:09:19
+IP:121.42.0.66
+IE:[MSIE 8.0]Internet Explorer
+Cookies=safedog-flow-item=65DCC4C6F902CAE3ADAAD15AC5A1F54C; CNZZDATA1257109459=1582076381-1455721777-%7C1455721777
+XP=Trident/4.0
+Screen=1024x768
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Trident/4.0; Windows NT 6.1; SLCC2 2.5.5231; .NET CLR 2.0.50727; .NET CLR 4.1.23457; .NET CLR 4.0.23457; Media Center PC 6.0; MS-WK 8)
+-------------------------------------------------
+

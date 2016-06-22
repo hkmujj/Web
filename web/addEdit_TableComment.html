@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script src="js/runAction.js"></script>
+</head>
+<body>
+<!--#editor start#-->
+<script charset="utf-8" src="Keditor/kindeditor.js"></script> 
+<script charset="utf-8" src="Keditor/lang/zh_CN.js"></script>  
+<script language="javascript">
+KindEditor.ready(function(K) {
+	var editor1 = K.create('textarea[name="bodycontent"]', {		//处理让文本域
+		cssPath : 'Keditor/plugins/code/prettify.css',
+		uploadJson : 'Keditor/asp/upload_json.asp',
+		fileManagerJson : 'Keditor/asp/file_manager_json.asp',
+		allowFileManager : true,
+		afterCreate : function() {
+			var self = this;
+			K.ctrl(document, 13, function() {
+				self.sync();
+				K('form[name=example]')[0].submit();
+			});
+			K.ctrl(self.edit.doc, 13, function() {
+				self.sync();
+				K('form[name=example]')[0].submit();
+			});
+		}
+	});
+	//prettyPrint();				//因为这个出错，所以给它注释掉 2013,12,12
+});
+</script>
+<!--#editor end#-->
+<div id="positionwrap">
+    <div class="msg">当前位置：[$position$]</div>
+</div>
+<form action="[$postUrl$]" method="post" name="formsubmit" onSubmit="return new xyClass().checkForm(this)">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本设置</li>
+        <li>更多设置</li>
+    </ul>&nbsp;
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>会员名称</td>
+                        <td align="left" style="padding:3px;">[$username$]</td>
+                        <td>username</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>项目ID</td>
+                      <td align="left" style="padding:3px;">[$input_itemid$]</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>IP</td>
+                      <td align="left" style="padding:3px;">[$input_ip$]</td>
+                      <td>ip</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>评论内容</td>
+                        <td align="left" style="padding:3px;">[$input_bodycontent$]</td>
+                        <td>bodycontent</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>回复内容</td>
+                        <td align="left" style="padding:3px;">[$input_reply$]</td>
+                        <td>reply</td>
+                    </tr> 
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>审核</td>
+                        <td align="left" style="padding:3px;">
+                        <label for='isthrough'><input type='checkbox' name='isthrough' id='isthrough' [$isthrough if='False' elseif='0' value='' elsevalue=' checked'$]  value='1'>审核通过</label>                        </td>
+                        <td>isthrough</td>
+                    </tr>
+                </tbody>  
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>添加时间</td>
+                      <td align="left" style="padding:3px;">
+ 			<link rel="stylesheet" type="text/css" href="js/calendar/jscal2.css"/>
+			<link rel="stylesheet" type="text/css" href="js/calendar/border-radius.css"/>
+			<link rel="stylesheet" type="text/css" href="js/calendar/win2k.css"/>
+            <script type="text/javascript" src="js/calendar/calendar.js"></script>
+            <script type="text/javascript" src="js/calendar/lang/en.js"></script>
+            <input type="text" name="adddatetime" id="adddatetime" value="[$adddatetime$]" size="21" class="date input-text" readonly="">
+			<script type="text/javascript">
+			Calendar.setup({
+			weekNumbers: true,
+		    inputField : "adddatetime",
+		    trigger    : "adddatetime",
+		    dateFormat: "%Y-%m-%d %H:%M:%S",
+		    showTime: true,
+		    minuteStep: 1,
+		    onSelect   : function() {this.hide();}
+			});
+        </script> 
+                      </td>
+                      <td>adddatetime</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>帮助信息</td>
+                        <td align="left" style="padding:3px;"> </td>
+                        <td> 要</td>
+                    </tr>
+                </tbody>
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="保存(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="[$switchId$]" /> 
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>    </div>
+</form>
+<script language="javascript" type="text/javascript" src="js/formBottom.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-06-14 16:03:17
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-06-14 16:04:50
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：tablecomment
+信息：修改评论
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=TableComment&lableTitle=评论&nPageSize=10&parentid=&searchfield=bodycontent&keyword=&addsql=&page=&mdbpath=
+时间：2016-06-14 16:05:46
+IP：127.0.0.1
+------------------------

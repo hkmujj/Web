@@ -1,0 +1,660 @@
+来访http://aa/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://aa/aspweb.asp
+时间：2016/6/22 9:56:25
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp
+当前：http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 9:56:27
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?act=detail&id=967
+时间：2016/6/22 9:56:30
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=detail&id=967
+当前：http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 9:57:08
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?act=detail&id=1085
+时间：2016/6/22 9:57:09
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=detail&id=1085&aa=bb
+时间：2016/6/22 10:04:51
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=detail&id=1085&aa=bb
+时间：2016/6/22 10:04:52
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=detail&id=1085&aa=bb
+时间：2016/6/22 10:05:12
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=detail&id=1085&aa=bb
+时间：2016/6/22 10:06:35
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=detail&id=1085&aa=bb
+时间：2016/6/22 10:06:36
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=detail&id=1085&aa=bb
+时间：2016/6/22 10:06:37
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp?act=detail&id=1085&aa=bb
+时间：2016/6/22 10:06:37
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=detail&id=1085&aa=bb
+当前：http://aa/aspweb.asp?act=nav&columnName=SEO
+时间：2016/6/22 10:07:00
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=SEO
+当前：http://aa/aspweb.asp?act=nav&columnName=SEO
+时间：2016/6/22 10:07:03
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=SEO
+当前：http://aa/aspweb.asp?act=nav&columnName=SEO
+时间：2016/6/22 10:07:04
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=SEO
+当前：http://aa/aspweb.asp?act=nav&columnName=SEO
+时间：2016/6/22 10:07:05
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=SEO
+当前：http://aa/aspweb.asp?act=nav&columnName=模板下载
+时间：2016/6/22 10:07:07
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=模板下载
+当前：http://aa/aspweb.asp?act=nav&columnName=在线仿站
+时间：2016/6/22 10:07:09
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:07:11
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+当前：http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:18
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+当前：http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:35
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+当前：http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:37
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+当前：http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:38
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+当前：http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:44
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=2&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:46
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=2&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:47
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=2&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:49
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=2&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:55
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=2&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:56
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:07:59
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:02
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:03
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:11
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:11
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:12
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:12
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:13
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:14
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:08:15
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:11:08
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:11:09
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=5&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+时间：2016/6/22 10:11:12
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?act=nav&columnName=联系作者
+时间：2016/6/22 10:11:13
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?page=4&act=nav&columnName=ASPPHPCMS
+当前：http://aa/aspweb.asp?act=nav&columnName=联系作者
+时间：2016/6/22 10:11:14
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=联系作者
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:15
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+当前：http://aa/aspweb.asp?act=nav&columnName=在线仿站
+时间：2016/6/22 10:11:18
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:19
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:31
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:31
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:32
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:33
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:33
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:34
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:35
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:45
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:46
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:47
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:47
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访http://aa/aspweb.asp?act=nav&columnName=在线仿站
+当前：http://aa/aspweb.asp?act=nav&columnName=在线ASP转PHP
+时间：2016/6/22 10:11:48
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+
+来访
+当前：http://aa/aspweb.asp
+时间：2016/6/22 10:20:34
+IP:127.0.0.1
+IE:[MSIE 7.0]Internet Explorer
+Cookies=ASPSESSIONIDQSARTCTA=PAOPAIPAILDFKLBIHFJBCFCA; ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E5%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E5%A1%BF2016%2F6%2F22 9%3A56%3A09; __qc_wId=136
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)
+-------------------------------------------------
+

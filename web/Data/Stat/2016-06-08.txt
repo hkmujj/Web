@@ -1,0 +1,33 @@
+来访http://bb/web/1.asp?act=setAccess&webdataDir=/Templates2015/sharembweb/WebData
+当前：http://bb/aspweb.asp
+时间：2016/6/8 15:41:17
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F6%2F8 15%3A41%3A01; ASPSESSIONIDCSCRSAQQ=HOPBPFODEFAPDMJBOLJPCJKA
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=nav&columnName=联系作者
+时间：2016/6/8 15:41:19
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F6%2F8 15%3A41%3A01; ASPSESSIONIDCSCRSAQQ=HOPBPFODEFAPDMJBOLJPCJKA
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+
+来访http://bb/aspweb.asp
+当前：http://bb/aspweb.asp?act=nav&columnName=联系作者
+时间：2016/6/8 15:41:22
+IP:127.0.0.1
+IE:[MSIE 9.0]Internet Explorer
+Cookies=ASPPHPCMSGW=%B9%D9%CD%F8%D0%C5%CF%A2%A3%BA%B5%B1%C7%B0%CA%B9%D3%C3%B0%E6%B1%BE%A1%BEASPPHPCMS v1%2E2%A1%BF%D7%EE%D0%C2%B0%E6%B1%BE%CE%AA%A1%BEASPPHPCMS v1%2E2%A1%BF2016%2F6%2F8 15%3A41%3A01; ASPSESSIONIDCSCRSAQQ=HOPBPFODEFAPDMJBOLJPCJKA; __qc_wId=309
+XP=Windows NT 6.1
+Screen=1920x1080
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+-------------------------------------------------
+

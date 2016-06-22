@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>网站标题 - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+ 
+<style type="text/css">
+
+</style>
+<script type="text/javascript" src="js/ckeditor/ckeditor.js"></script><script type="text/javascript">
+$(function(){\nCKEDITOR.replace( 'websitebottom',{height:300,pages:false,subtitle:false,textareaid:'websitebottom',module:'websitebottom',catid:'11',
+flashupload:true,alowuploadexts:'',allowbrowser:'1',allowuploadnum:'10',authkey:'34d6b48f3227d5cc631e5557b4e47117',
+filebrowserUploadUrl : 'index.php?m=attachment&c=attachments&a=upload&module=content&catid=11&dosubmit=1',
+toolbar :
+[
+['Source','-','Templates'],
+		    ['Cut','Copy','Paste','PasteText','PasteFromWord','-','Print'],
+		    ['Undo','Redo','-','Find','Replace','-','SelectAll','RemoveFormat'],['ShowBlocks'],['Image','Capture','Flash','flashplayer','MyVideo'],['Maximize'],
+		    '/',
+		    ['Bold','Italic','Underline','Strike','-'],
+		    ['Subscript','Superscript','-'],
+		    ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
+		    ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
+		    ['Link','Unlink','Anchor'],
+		    ['Table','HorizontalRule','Smiley','SpecialChar','PageBreak'],
+		    '/',
+		    ['Styles','Format','Font','FontSize'],
+		    ['TextColor','BGColor'],
+		    ['attachment'],
+]
+});
+})</script> 
+</head>
+<body>
+
+<div id="positionwrap">
+    <div class="msg">当前位置：系统管理 > 站点管理</div>
+</div>
+
+<form action="?act=dispalyWebConfig" method="post" name="form1">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本配置</li>
+        <li>SEO设置</li>
+        <li>内容编辑</li>
+    </ul>
+    
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>网站地址</td>
+                        <td align="left" style="padding:3px;"><input name="websiteurl" type="text" id="websiteurl" value="" style='width:99%;' class="input-text" />
+</td>
+                        <td>cfg_websiteurl</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>模板路径</td>
+                        <td align="left" style="padding:3px;"><input name="webtemplate" type="text" id="webtemplate" value="" style='width:99%;' class="input-text" />
+</td>
+                        <td>cfg_webtemplate</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>Images路径</td>
+                        <td align="left" style="padding:3px;"><input name="webimages" type="text" id="webimages" value="" style='width:99%;' class="input-text" />
+</td>
+                        <td>cfg_webimages</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>Css路径</td>
+                        <td align="left" style="padding:3px;"><input name="webcss" type="text" id="webcss" value="" style='width:99%;' class="input-text" />
+</td>
+                        <td>cfg_webcss</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>Js路径</td>
+                        <td align="left" style="padding:3px;"><input name="webjs" type="text" id="webjs" value="" style='width:99%;' class="input-text" />
+</td>
+                        <td>cfg_webjs</td>
+                    </tr>                   
+                </tbody>            
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>META Title（栏目标题）<br /><span class="crgray">针对搜索引擎设置的标题</span></td>
+                        <td align="left" style="padding:3px;"><input name="webtitle" type="text" id="webtitle" value="" style='width:99%;' class="input-text" />
+</td>
+                        <td>cfg_webtitle</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>META Keywords（栏目关键词）<br /><span class="crgray">关键字中间用半角逗号隔开</span></td>
+                        <td align="left" style="padding:3px;"><input name="webkeywords" type="text" id="webkeywords" value="" style='width:99%;' class="input-text" />
+</td>
+                        <td>cfg_webkeywords</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>META Description（栏目描述）<br /><span class="crgray">针对搜索引擎设置的网页描述</span></td>
+                        <td align="left" style="padding:3px;"><input name="webdescription" type="text" id="webdescription" value="" style='width:99%;' class="input-text" />
+</td>
+                        <td>cfg_webdescription</td>
+                    </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>网站底部</td>
+                        <td align="left" style="padding:3px;"><textarea name="websitebottom" type="text" id="websitebottom" style='width:99%;height:120px;;' class="input-text" /></textarea>
+</td>
+                        <td>cfg_websitebottom</td>
+                    </tr>
+                </tbody>
+            
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="保存(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="2" />
+ 
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>
+    </div>
+    [$inputId$]
+</form>
+<script language="javascript" type="text/javascript" src="js/hotkeys.js"></script>
+<script language="javascript" type="text/javascript" src="js/cookie.js"></script>
+<script type="text/javascript">
+$(function(){
+	jQuery(document).bind('keydown', 'Alt+s', function (){alert('保存')})	
+	if($(".tabbut li").length>0){
+		$(".tabbut li").click(function(){
+			$(".tabbut li").attr("class","atitleleftclick mgr6").css("cursor","pointer")
+			$(this).attr("class","atitlefocus mgr6").css("cursor","default")
+			$(".inputtable .tbodybox").css("display","none")
+			var index = $(".tabbut li").index(this)		//获得索引
+			$(".inputtable .tbodybox:eq("+ index +")").css("display","")		
+			$("#switchId").val(index)
+		})
+		var swtichId='' 
+		if(swtichId==''){
+			swtichId='0'
+		}
+		$(".tabbut li:eq("+ swtichId +")").click()
+	}
+})
+</script>
+
+
+</body>
+</html>
+

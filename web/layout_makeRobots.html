@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script> 
+<script src="js/runAction.js"></script>
+</head>
+<body>
+
+<div id="positionwrap">
+    <div class="msg">当前位置：[$position$]</div>
+</div>
+<form action="?act=saveRobots" method="post" name="formsubmit" onSubmit="return new xyClass().checkForm(this)">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本设置</li>   
+        <li>帮助信息</li>   
+    </ul>&nbsp;
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>内容</td>
+                      <td align="left" style="padding:3px;">
+
+<textarea name="bodycontent" type="text" id="bodycontent" style='width:97%;height:300px;;' class="input-text">
+[$bodycontent$]
+</textarea>
+
+                      </td>
+                        <td>bodycontent</td>
+                    </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>帮助文档</td>
+                      	<td align="left" style="padding:3px;">
+<pre>
+1、允许所有的robot访问
+User-agent: * 
+Allow:
+/ 或者
+User-agent: * 
+Disallow:
+
+2、禁止访问目录与网址
+Disallow: /admin/
+
+3、允许访问目录或网址
+Allow: /UploadFiles
+
+4、更多更全关于robots.txt帮助文档请上百度
+网址：<a href="http://www.baidu.com/search/robots.html" target="_blank">http://www.baidu.com/search/robots.html</a>
+</pre>						</td>
+                        <td>robots.txt</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>默认robots</td>
+                      	<td align="left" style="padding:3px;">
+<pre>
+User-agent: * 
+Disallow: /Admin
+Disallow: /Inc
+Disallow: /Jquery
+Disallow: /Templates
+Disallow: /Skins
+Disallow: /Images
+Disallow: /UploadFiles
+Disallow: /AspBox
+Disallow: /Editor
+
+Sitemap: http://127.0.0.1/sitemap.xml
+</pre>						</td>
+                        <td>robots.txt</td>
+                    </tr>
+                    
+                    
+                    
+                    
+
+
+                    
+                    
+                    
+                </tbody> 
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="生成robots(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="0" /> 
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>
+    </div> 
+</form>
+<script language="javascript" type="text/javascript" src="js/formBottom.js"></script>
+</body>
+</html>
+

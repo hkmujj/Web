@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet"  type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script src="js/runAction.js"></script>
+</head>
+<body> 
+<!--#editor start#-->
+<script charset="utf-8" src="Keditor/kindeditor.js"></script> 
+<script charset="utf-8" src="Keditor/lang/zh_CN.js"></script>  
+<script language="javascript">
+KindEditor.ready(function(K) {
+	var editor1 = K.create('textarea[name="websitebottom"]', {		//处理让文本域
+		cssPath : 'Keditor/plugins/code/prettify.css',
+		uploadJson : 'Keditor/asp/upload_json.asp',
+		fileManagerJson : 'Keditor/asp/file_manager_json.asp',
+		allowFileManager : true,
+		afterCreate : function() {
+			var self = this;
+			K.ctrl(document, 13, function() {
+				self.sync();
+				K('form[name=example]')[0].submit();
+			});
+			K.ctrl(self.edit.doc, 13, function() {
+				self.sync();
+				K('form[name=example]')[0].submit();
+			});
+		}
+	});
+	//prettyPrint();				//因为这个出错，所以给它注释掉 2013,12,12
+});
+</script>
+<!--#editor end#-->
+<div id="positionwrap">
+    <div class="msg">当前位置：[$position$]</div>
+</div>
+<form action="[$postUrl$]" method="post" name="formsubmit" onSubmit="return new xyClass().checkForm(this)">
+<div class="mg10">
+	<ul class="tabbut noselect">
+        <li>基本设置</li>
+        <li>SEO设置</li>
+        <li>内容编辑</li>
+        <li>更多设置</li>
+    </ul>&nbsp;
+    <div class="clear"></div>
+    <div class="acontent">
+        <div class="explain-col">
+            温馨提示：<font color="#FF0000">*</font>星号为必填
+        </div>
+        <table width="100%" class="mgu10 inputtable" id="tablelist" border="0" cellspacing="1" cellpadding="1" bgcolor="#cfcfcf">
+            	<tbody>
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                   <td width="220">参数说明</td>
+                  <td>参数值</td>
+                   <td width="180">变量名</td>
+                </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>网站地址</td>
+                        <td align="left" style="padding:3px;">[$input_websiteurl$]</td>
+                        <td align="center">cfg_websiteurl</td>
+                  </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>模板路径</td>
+                        <td align="left" style="padding:3px;">[$input_webtemplate$]</td>
+                        <td>cfg_webtemplate</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>Images路径</td>
+                        <td align="left" style="padding:3px;">[$input_webimages$]</td>
+                        <td>cfg_webimages</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>Css路径</td>
+                        <td align="left" style="padding:3px;">[$input_webcss$]</td>
+                        <td>cfg_webcss</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>Js路径</td>
+                        <td align="left" style="padding:3px;">[$input_webjs$]</td>
+                        <td>cfg_webjs</td>
+                    </tr>                   
+                </tbody>            
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>META Title（栏目标题）<br /><span class="crgray">针对搜索引擎设置的标题</span></td>
+                        <td align="left" style="padding:3px;">[$input_webtitle$]</td>
+                        <td>cfg_webtitle</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                        <td>META Keywords（栏目关键词）<br /><span class="crgray">关键字中间用半角逗号隔开</span></td>
+                        <td align="left" style="padding:3px;">[$input_webkeywords$]</td>
+                        <td>cfg_webkeywords</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>META Description（栏目描述）<br /><span class="crgray">针对搜索引擎设置的网页描述</span></td>
+                        <td align="left" style="padding:3px;">[$input_webdescription$]</td>
+                        <td>cfg_webdescription</td>
+                    </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>网站底部</td>
+                        <td align="left" style="padding:3px;">[$input_websitebottom$]
+                        <span class="onHelp">[$aoutadd$]等于自动赋值</span> </td>
+                        <td>cfg_websitebottom<br>                        </td>
+                    </tr>
+                </tbody>
+                <tbody class="tbodybox">
+                    <tr align="center" height="25" bgcolor="#ffffff">
+                        <td>控制选择</td>
+                        <td align="left" style="padding:3px;">
+<label for='flags0'><input type='checkbox' name='flags[$phpArray$]' id='flags0' [$flags instr='|addwebsite|' value=' checked'$] value='addwebsite'>URL前添加域名(addwebsite)<div class="onShow">前台</div></label><br>
+
+<label for='flags3'><input type='checkbox' name='flags[$phpArray$]' id='flags3' [$flags instr='|labelclose|' value=' checked'$] value='labelclose'>闭合网页标签(labelclose)<div class="onShow">前台</div></label><br>
+<label for='flags1'><input type='checkbox' name='flags[$phpArray$]' id='flags1' [$flags instr='|updatehtml|' value=' checked'$] value='updatehtml'>修改后更新(updatehtml)<div class="onShow">后台</div></label><br>
+<label for='flags4'><input type='checkbox' name='flags[$phpArray$]' id='flags4' [$flags instr='|cntoen|' value=' checked'$] value='cntoen'>html文件名中汉字转拼音(cntoen)<div class="onShow">后台</div></label><br>
+<label for='flags5'><input type='checkbox' name='flags[$phpArray$]' id='flags5' [$flags instr='|iscloseeditor|' value=' checked'$] value='iscloseeditor'>是否关闭编辑器(iscloseeditor)<div class="onShow">后台</div></label><br>                        </td>
+                        <td>cfg_flags</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>HTML处理</td>
+                      <td align="left" style="padding:3px;">
+                      
+                      <label for='flags2'>
+                      <select name="flags[$phpArray$]">
+                        <option value="">选择HTML处理方式</option>
+                        <option value="formattinghtml" [$flags instr='|formattinghtml|' value=' selected'$]>格式化生成后的HTML(formattinghtml)</option>
+                        <option value="formattinghtmltow" [$flags instr='|formattinghtmltow|' value=' selected'$]>格式化生成后的HTML和二种(formattinghtmltow)</option>
+                        <option value="ziphtml" [$flags instr='|ziphtml|' value=' selected'$]>压缩HTML(ziphtml)</option>
+                      </select><div class="onShow">前台</div></label>
+                      
+                      
+                      </td>
+                      <td>flags <br>formattinghtml<br>formattinghtmltow<br>ziphtml</td>
+                    </tr>
+                    <tr align="center" height="25" bgcolor="#F9FCEF">
+                      <td>动静转换</td>
+                      <td align="left" style="padding:3px;">
+<label for='flags6'><input type='checkbox' name='flags[$phpArray$]' id='flags6' [$flags instr='|htmlrun|' value=' checked'$] value='htmlrun'>以html纯静态方法运行网站(htmlrun)</label>                      </td>
+                      <td>cfg_flags</td>
+                    </tr>
+                </tbody>
+        </table>
+    </div>
+</div>
+
+	<div class="height60"></div>
+    <div class="fixed-but">
+        <div class="buttonwrap" >
+            <input name="提交" type="submit" class="mybtn2 radius5" value="保存(S)"  />
+            <input name="switchId" type="hidden" id="switchId" value="[$switchId$]" /> 
+            <input name="重置" type="reset" class="mybtn2 radius5" value="重置"  />
+        </div>    </div>
+</form>
+<script language="javascript" type="text/javascript" src="js/formBottom.js"></script>
+</body>
+</html>
+

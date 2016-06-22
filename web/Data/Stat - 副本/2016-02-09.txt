@@ -1,0 +1,385 @@
+来访
+当前：http://sharembweb.com/index.html
+时间：2016/2/9 7:58:01
+IP:10.207.121.13
+IE:[AppleWebKit]Safari
+Cookies=safedog-flow-item=EDDD56424687B2FAC63AC958196AA80D; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1454060752,1454096441,1454287362,1454374593; CNZZDATA1257109459=91088024-1452870548-http%253A%252F%252Fwww.sharembweb.com%252F%7C1454975922
+XP=Android 4.1.2
+Screen=540x960
+用户信息=Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; SAMSUNG-SM-G3819D Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/2/9 8:32:02
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=477051334-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/fangzhan/
+时间：2016/2/9 8:32:54
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=351471617-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/index.html
+时间：2016/2/9 8:32:57
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=2137764137-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/contact/
+时间：2016/2/9 8:33:09
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=200363394-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/mobandown/mofangufoercom.html
+时间：2016/2/9 8:33:20
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1233572024-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/formatasp/
+时间：2016/2/9 8:33:22
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1779492748-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asptophp/
+时间：2016/2/9 8:33:37
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1755603171-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/26aztabgetvarlist.html
+时间：2016/2/9 8:34:21
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1856262539-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/templatesdown/
+时间：2016/2/9 8:34:22
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=179050447-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/formatasp/
+时间：2016/2/9 8:34:23
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1117762063-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/
+时间：2016/2/9 8:34:30
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1004386839-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/page/websitenotice.html
+时间：2016/2/9 8:35:01
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=420542378-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/css3/
+时间：2016/2/9 8:35:12
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=142260645-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/csssyjq.html
+时间：2016/2/9 8:35:47
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=191911372-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/cssdivsetname.html
+时间：2016/2/9 8:36:01
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=775058326-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/onearraysort.html
+时间：2016/2/9 8:36:12
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=413007109-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/cutstraspphpcode.html
+时间：2016/2/9 8:36:30
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1925672307-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/azstrwzdl.html
+时间：2016/2/9 8:36:32
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1352877041-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/asp/aspjdhelpchm.html
+时间：2016/2/9 8:36:39
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1371111919-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/ask/2015yerwordwd.html
+时间：2016/2/9 8:36:39
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=924591600-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/myworks/
+时间：2016/2/9 8:36:47
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=262899196-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/tencent://message/?uin=313801120&Site=%D7%F7%D5%DF%D4%C6%B6%CB&Menu=yes
+时间：2016/2/9 8:38:03
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=946545109-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/html5/onlinehtmlspecial.html
+时间：2016/2/9 8:38:20
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=886882956-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/3C/span
+时间：2016/2/9 8:39:06
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=705137980-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/ask/
+时间：2016/2/9 8:39:23
+IP:180.97.106.161
+IE:[Bot/Crawler]Other Unknown
+Cookies=safedog-flow-item=8571347C575BE8C74F3715158AA4D918; CNZZDATA1257109459=1347607074-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/s95.cnzz.com/z_stat.php
+时间：2016/2/9 8:39:41
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=1159381611-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com//sharembweb.com/index.html
+时间：2016/2/9 8:40:03
+IP:180.97.106.36
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=2101025244-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/s95.cnzz.com/z_stat.php
+时间：2016/2/9 8:40:11
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=574400594-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/fangzhan/3C/script
+时间：2016/2/9 8:40:20
+IP:180.97.106.37
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=1857512679-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/fangzhan/s95.cnzz.com/z_stat.php
+时间：2016/2/9 8:40:24
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=1330799025-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com//sharembweb.com/fangzhan/
+时间：2016/2/9 8:40:35
+IP:180.97.106.162
+IE:[Bot/Crawler]Other Unknown
+Cookies=CNZZDATA1257109459=1154759246-1454977901-%7C1454977901
+XP=
+Screen=640x480
+用户信息=Baidu-YunGuanCe-ScanBot(ce.baidu.com)
+-------------------------------------------------
+
+来访http://down.admin5.com/asp/130795.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/2/9 11:37:20
+IP:120.84.10.206
+IE:[AppleWebKit]Safari-TheWorld(世界之窗浏览器)
+Cookies=safedog-flow-item=706629D1B1EDE1AC2284C9089B7DE661; CNZZDATA1257109459=2112226071-1454989080-http%253A%252F%252Fdown.admin5.com%252F%7C1454989080
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 TheWorld 6
+-------------------------------------------------
+
+来访http://sharembweb.com/asptophp/
+当前：http://sharembweb.com/formatasp/
+时间：2016/2/9 11:39:11
+IP:120.84.10.206
+IE:[AppleWebKit]Safari-TheWorld(世界之窗浏览器)
+Cookies=safedog-flow-item=706629D1B1EDE1AC2284C9089B7DE661; Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1454989112; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1454989112; ASPSESSIONIDCSAQSCRC=HFOBPGKAKLOILCCBKLJNEOML; CNZZDATA1257109459=2112226071-1454989080-http%253A%252F%252Fdown.admin5.com%252F%7C1454989080
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 TheWorld 6
+-------------------------------------------------
+
+来访http://sharembweb.com/Tools/asptophp.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/2/9 23:44:51
+IP:113.86.79.68
+IE:[MSIE 9.0]Internet Explorer
+Cookies=safedog-flow-item=CAA1FF037B6F6FFD699650FEE109B916; CNZZDATA1257109459=171869915-1455032730-http%253A%252F%252Fsharembweb.com%252F%7C1455032730
+XP=Windows NT 6.1
+Screen=1366x768
+用户信息=Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+-------------------------------------------------
+

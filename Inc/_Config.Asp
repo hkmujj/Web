@@ -59,7 +59,7 @@
 <!--#Include File = "2016_Log.Asp"-->      
 <!--#Include File = "SystemInfo.Asp"-->    
 <!--#Include File = "Json.Asp"-->
-
+<!--#Include File = "2016_PackXML.Asp"--> 
 <% 
 
  
@@ -90,6 +90,7 @@ If checkFile(MDBPath) = False Then
     MDBPath = webDir & "/Data/Data.mdb" 
 'call echo(webDir,mdbpath)
 End If
+dim onCacheHtml:onCacheHtml=true
 '=========
 
 
@@ -108,7 +109,7 @@ dim adminDir :adminDir="/web/"							'后台目录
 Dim openErrorLog : openErrorLog = true                                             '开启错误日志
 Dim openWriteSystemLog : openWriteSystemLog = "|txt|database|"                                             '开启写系统日志 txt写入文本 database写入数据库
 dim isTestEcho: isTestEcho=true											'开关测试回显
-Dim webVersion : webVersion="ASPPHPCMS v1.2"												'网站版本
+Dim webVersion : webVersion="ASPPHPCMS v1.5"												'网站版本
 
  
 dim WEB_CACHEFile : WEB_CACHEFile=webDir & "/web/"& EDITORTYPE &"cachedata.txt"								'缓冲文件

@@ -1,0 +1,44 @@
+来访http://sharembweb.com/Tools/asptophp.html
+当前：http://sharembweb.com/asptophp/
+时间：2016/2/13 0:12:53
+IP:118.253.98.17
+IE:[AppleWebKit]Safari
+Cookies=Hm_lvt_264b5983ea28c76339deeaebdca84ed6=1455286381; Hm_lpvt_264b5983ea28c76339deeaebdca84ed6=1455286381; ASPSESSIONIDAQCTSCSD=GACHNPNCPLPEHKJDIMMMMNFJ; CNZZDATA1257109459=1192823356-1455286593-http%253A%252F%252Fsharembweb.com%252F%7C1455293610
+XP=
+Screen=1366x768
+用户信息=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/2/13 23:32:43
+IP:121.42.0.61
+IE:[MSIE 8.0]Internet Explorer
+Cookies=safedog-flow-item=ADED2356BF159F0EB2C207C23484AF62; CNZZDATA1257109459=1598952479-1455377599-%7C1455377599
+XP=Trident/4.0
+Screen=1024x768
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Trident/4.0; Windows NT 6.1; SLCC2 2.5.5231; .NET CLR 2.0.50727; .NET CLR 4.1.23457; .NET CLR 4.0.23457; Media Center PC 6.0; MS-WK 8)
+-------------------------------------------------
+
+来访
+当前：http://sharembweb.com/
+时间：2016/2/13 23:32:46
+IP:121.42.0.56
+IE:[MSIE 8.0]Internet Explorer
+Cookies=safedog-flow-item=ADED2356BF159F0EB2C207C23484AF62; CNZZDATA1257109459=1214977435-1455377599-%7C1455377599
+XP=Trident/4.0
+Screen=1024x768
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Trident/4.0; Windows NT 6.1; SLCC2 2.5.5231; .NET CLR 2.0.50727; .NET CLR 4.1.23457; .NET CLR 4.0.23457; Media Center PC 6.0; MS-WK 8)
+-------------------------------------------------
+
+来访
+当前：http://www.sharembweb.com/
+时间：2016/2/13 23:32:47
+IP:121.42.0.56
+IE:[MSIE 8.0]Internet Explorer
+Cookies=safedog-flow-item=ADED2356BF159F0EB2C207C23484AF62; CNZZDATA1257109459=932390148-1455377599-%7C1455377599
+XP=Trident/4.0
+Screen=1024x768
+用户信息=Mozilla/4.0 (compatible; MSIE 8.0; Trident/4.0; Windows NT 6.1; SLCC2 2.5.5231; .NET CLR 2.0.50727; .NET CLR 4.1.23457; .NET CLR 4.0.23457; Media Center PC 6.0; MS-WK 8)
+-------------------------------------------------
+

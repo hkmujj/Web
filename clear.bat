@@ -72,7 +72,8 @@ taskkill /f /im RAVCpl64.exe
 taskkill /f /im wpscloudsvr.exe
 taskkill /f /im PresentationFontCache.exe
 
-
+#系统自带的播放器
+taskkill wmpnetwk.exe
 
 
 start D:\"Program Files (x86)"\Adobe\"Adobe Dreamweaver CS3"\Dreamweaver.exe

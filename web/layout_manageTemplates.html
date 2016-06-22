@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>{$Web_Title$} - :::企业后台管理系统,QQ:313801120:::</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../Jquery/Jquery.Min.js"></script>
+<script type="text/javascript" src="../Jquery/lhgdialog.min.js"></script>
+<script type="text/javascript" src="js/runAction.js"></script> 
+</head>
+<body>
+<div id="positionwrap">
+	<div class="msg">
+		当前位置：[$position$]
+	</div>
+</div>
+<div class="mg10">
+	<div class="atitleleft">[$lableTitle$]信息</div>
+ 
+	<div class="clear">
+	</div>
+	<div class="acontent">
+        <div class="explain-col">
+            温馨提示： 
+        </div>
+         <form name="listform" method="post" action="" onSubmit="refreshPage('[$actionType$]','[$lableTitle$]','[$page$]','[$id$]');return false;">
+		<table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center" style="margin-top:8px">
+		<tbody>
+		<tr bgcolor="#E7E7E7">
+			<td height="28" colspan="3" background="images/tbg.gif" style="padding-left:10px;"></tr>
+		<tr align="center" bgcolor="#FBFCE2" height="25">
+			<td>模板名称</td>
+			<td>模板路径</td>
+		  <td>操作</td>
+		</tr> 
+        [list]
+		<tr align="center" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';">
+		  <td>[$templatename$] </td>
+		  <td><a href="template.{$EDITORTYPE$}?act=templateFileList&dir=[$templatepath$]">[$templatepath2$]</a></td>
+		  <td><a href="?act=isOpenTemplate&templatepath=[$templatepath$]&templatename=[$templatename$]">启用</a> 
+          <a href="{$WEB_VIEWURL$}?templatedir=[$templatepath$]" target="_blank"><img src="images/icon/part-list.gif" title="预览" alt="预览" style="cursor:pointer" border="0" width="16" height="16"></a>
+          <a href="?act=setAccess&webdataDir=[$templatepath$]WebData"  onClick="return new xyClass().myConfirm('你确定要恢复默认数据吗？\n操作后将不可恢复')">恢复数据</a> 
+           
+          </td>
+		  </tr>
+		[/list]  
+		<tr bgcolor="#ffffff">
+			<td height="36" colspan="7">&nbsp;</td>
+		</tr>
+		<tr align="right" bgcolor="#F9FCEF">
+			<td height="36" colspan="7" align="center">&nbsp;				</td>
+		</tr>
+		</table>
+      </form>
+	</div>
+</div> 
+</body>
+</html>

@@ -1,0 +1,6 @@
+#表列表[]# start|xy_admin|xy_articledetail|xy_bidding|xy_caiconfig|xy_caidata|xy_caiweb|xy_feedback|xy_friendlink|xy_guestbook|xy_job|xy_lineqq|xy_linevote|xy_listmenu|xy_member|xy_onepage|xy_payment|xy_previeworder|xy_productcomment|xy_searchstat|xy_systemlog|xy_tablecomment|xy_webcolumn|xy_webdomain|xy_weblayout|xy_webmodule|xy_website|xy_websitestat|xy_weburlscan|#表列表[]# end
+#访客信息# start#访客信息# end
+#xy_caiweb字段列表# start,bigclassname,httpurl,morepageurl,charset,thispage,countpage,stype,sortrank,adddatetime,updatetime,ip,bodycontent,#xy_caiweb字段列表# end
+#xy_caiweb字段配置列表# start,bigclassname||,httpurl||,morepageurl||,charset||,thispage|numb|0,countpage|numb|0,stype||,sortrank|numb|0,adddatetime|time|,updatetime|time|,ip||,bodycontent|textarea|,#xy_caiweb字段配置列表# end
+#xy_weburlscan字段列表# start,bigclassname,linktype,website,title,httpurl,totitle,tohttpurl,webstate,openspeed,charset,content_type,link_count,websize,sortrank,adddatetime,updatetime,isthrough,#xy_weburlscan字段列表# end
+#xy_websitestat字段列表# start,visiturl,viewurl,browser,operatingsystem,screenwh,moreinfo,viewdatetime,ip,dateclass,adddatetime,updatetime,isthrough,noteinfo,bodycontent,#xy_websitestat字段列表# end

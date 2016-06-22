@@ -1,0 +1,375 @@
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData&login=out
+时间：2016-03-05 08:59:53
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates/cncn/
+网址：/&templatename=cncn
+时间：2016-03-05 09:00:14
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 09:00:29
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：生成当前HTML页面
+网址：/phpweb.php?act=nav&columnName=首页&isMakeHtml=1&isSave=1
+时间：2016-03-05 15:56:32
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：/&templatename=sharembweb
+时间：2016-03-05 15:56:48
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 15:57:06
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 19:25:09
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：更新网站统计
+网址：1.asp?act=updateWebsiteStat&actionType=WebsiteStat&lableTitle=网站统计&nPageSize=10&parentid=&searchfield=visiturl&keyword=&addsql=%20order%20by%20id%20desc&page=&id=
+时间：2016-03-05 19:25:19
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：生成当前HTML页面
+网址：/phpweb.php?act=nav&columnName=分享模板网站&isMakeHtml=1&isSave=1
+时间：2016-03-05 19:25:42
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 19:33:55
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 19:35:40
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:06:01
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:08:43
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:11:15
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:12:06
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:13:08
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:14:41
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 21:16:57
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:17:06
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:17:30
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:19:38
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:19:59
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&switchId=3&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:20:30
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates/cncn/
+网址：/&templatename=cncn
+时间：2016-03-05 21:35:16
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 21:35:30
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:35:37
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates/cncn/
+网址：&templatename=cncn
+时间：2016-03-05 21:36:08
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 21:36:11
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：website
+信息：修改站点配置
+网址：1.asp?act=saveAddEditHandle&id=0&actionType=WebSite&lableTitle=站点配置
+时间：2016-03-05 21:36:15
+IP：127.0.0.1
+------------------------
+
+姓名：admin
+表：admin
+信息：登录成功
+网址：/1.php?act=login
+时间：2016-03-05 21:53:45
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：/&templatename=sharembweb
+时间：2016-03-05 21:53:54
+IP：127.0.0.1
+------------------------
+姓名：admin
+表：website
+信息：修改站点配置
+网址：/1.php?act=saveAddEditHandle&id=1&actionType=WebSite&lableTitle=%D5%BE%B5%E3%C5%E4%D6%C3
+时间：2016-03-05 21:54:33
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 22:18:46
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 22:26:01
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 22:27:45
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 22:29:57
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 22:32:03
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：/WebData
+时间：2016-03-05 22:37:57
+IP：127.0.0.1
+------------------------
+姓名：ASPPHPCMS
+表：
+信息：应用模板/Templates2015/sharembweb/
+网址：&templatename=sharembweb
+时间：2016-03-05 22:39:20
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 22:39:25
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 22:40:27
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 22:42:17
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 22:53:08
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 22:53:31
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 22:53:56
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 22:54:15
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 23:11:49
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 23:13:49
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 23:15:30
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 23:15:59
+IP：127.0.0.1
+------------------------
+
+姓名：ASPPHPCMS
+表：
+信息：恢复默认数据xy_
+网址：WebData
+时间：2016-03-05 23:16:48
+IP：127.0.0.1
+------------------------
+
