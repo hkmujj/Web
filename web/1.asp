@@ -11,7 +11,7 @@ Dim ROOT_PATH : ROOT_PATH = handlePath("./")
 '=========
 Dim cfg_webSiteUrl, cfg_webTitle, cfg_flags, cfg_webtemplate 
 
-
+  
 
 'º”‘ÿÕ¯÷∑≈‰÷√
 Sub loadWebConfig()
