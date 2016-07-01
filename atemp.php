@@ -55,23 +55,22 @@ $ModuleReplaceArray=''; //替换模块数组，暂时没用，但是要留着，要不出错了
 //=========
 ?><?PHP
 
-$code='';
-$s='';$i='';
-if( 1==1 ){
-    $code=getftext('1.html');
-    $code= ziphtml($code); //自定义
-    rw($code);
-
-
-}else{
-
-    $s='123中国abc';
-    ASPEcho($s,len($s));
-    for( $i= 1 ; $i<= len($s); $i++){
-        ASPEcho($i,mid($s,$i,1));
+//Xor加密
+function xorEnc($code, $n){
+    $c=''; $s1=''; $s2=''; $s3=''; $i ='';
+    $c= $code;
+    $s1= Len($c) ; $s3= '';
+    for( $i= 0 ; $i<= $s1 - 1; $i++){
+        $s2= AscW(Right($c, $s1 - $i)) ^ $n;
+        $s3= $s3 . chr(Int($s2));
     }
-
+    //Chr(34) 就是等于(") 防止出错 因为"在ASP里出错
+    $s3= Replace($s3, chr(34), 'ㄨ');
+    $xorEnc= $s3;
+    return @$xorEnc;
 }
+
+rw(xorEnc('313801120',2));
 ?>
 
 

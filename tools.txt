@@ -36,3 +36,38 @@ chatrobot=含山天气
 chatrobot=含山天气
 chatrobot=含山天气
 chatrobot=含山天气
+jsCodeConfusion=<script type="text/javascript">
+function testfun(title,about,content){
+    var aa='',bb="",dd='asdf';
+    var authorName=''
+    var authorQQ='';
+    var aabbcc
+    authorName='云端';
+    authorQQ='313801120';
+    aabbcc="eeeeee11\"11eeee";
+    document.write('title=' + title + '<br />');
+    document.write('about=' + about + '<br />');
+    document.write('content=' + content + '<br />');
+    document.write('authorName=' + authorName + '<br />');
+    document.write('authorQQ=' + authorQQ + '<br />');
+    document.write('aabbcc=' + aabbcc + '<br />');
+ 
+}
+testfun('测试标题','关于我们','更多内容');
+</script>
+  
+phpCodeConfusion=<?PHP
+function testfun($title,$about,$content){
+    $authorName='';$authorQQ='';
+    $authorName='云端';
+    $authorQQ='313801120';
+    echo('title=' . $title . '<br />');
+    echo('about=' . $about . '<br />');
+    echo('content=' . $content . '<br />');
+    echo('authorName=' . $authorName . '<br />');
+    echo('authorQQ=' . $authorQQ . '<br />');
+
+}
+testfun('测试标题','关于我们','更多内容');
+?>
+  

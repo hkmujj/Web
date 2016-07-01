@@ -138,6 +138,10 @@ Function handleAction(content)
             ElseIf checkFunValue(action, "EDITORTYPE ") = True Then
                 action = XY_EDITORTYPE(action)
 
+            '获得网址
+            ElseIf checkFunValue(action, "getUrl ") = True Then
+                action = XY_getUrl(action)
+
 
             '暂时不屏蔽
             ElseIf checkFunValue(action, "copyTemplateMaterial ") = True Then
@@ -349,9 +353,9 @@ End Function
 '显示管理列表
 Function getDetailList(action, content, actionName, lableTitle, ByVal fieldNameList, nPageSize, nPage, addSql)
     Call openconn() 
-    Dim defaultList, i, s, c, tableName, j, splxx, sql 
+    Dim defaultStr, i, s, c, tableName, j, splxx, sql 
     Dim x, url, nCount 
-    Dim pageInfo 
+    Dim pageInfo,modI,startStr,endStr
 
     Dim fieldName                                                                   '字段名称
     Dim splFieldName                                                                '分割字段
@@ -376,12 +380,16 @@ Function getDetailList(action, content, actionName, lableTitle, ByVal fieldNameL
     fieldNameList = specialStrReplace(fieldNameList)                                '特殊字符处理
     splFieldName = Split(fieldNameList, ",")                                        '字段分割成数组
 
+ 
+    defaultStr = getStrCut(content, "<!--#body start#-->", "<!--#body end#-->", 2) 
 
-    defaultList = getStrCut(content, "[list]", "[/list]", 2) 
+				
+				
     pageInfo = getStrCut(content, "[page]", "[/page]", 1) 
     If pageInfo <> "" Then
         content = Replace(content, pageInfo, "") 
-    End If 
+    End If
+	'call eerr("pageInfo",pageInfo)
 
     sql = "select * from " & db_PREFIX & tableName & " " & addSql 
     '检测SQL
@@ -417,75 +425,101 @@ Function getDetailList(action, content, actionName, lableTitle, ByVal fieldNameL
     For i = 1 To x
         '【PHP】$rs=mysql_fetch_array($rsObj);                                            //给PHP用，因为在 asptophp转换不完善
 
-        s = defaultList 
-        s = Replace(s, "[$id$]", rs("id")) 
-        For j = 0 To UBound(splFieldName)
-            If splFieldName(j) <> "" Then
-                splxx = Split(splFieldName(j) & "|||", "|") 
-                fieldName = splxx(0) 
-                replaceStr = rs(fieldName) & ""
-                s = replaceValueParam(s, fieldName, replaceStr)
-            End If 
+		startStr = "[list-" & i & "]" : endStr = "[/list-" & i & "]" 
+ 
+        '在最后时排序当前交点20160202
+        If i = x Then
+            startStr = "[list-end]" : endStr = "[/list-end]" 
+        End If 
 
-            If isMakeHtml = True Then
-                url = getHandleRsUrl(rs("fileName"), rs("customAUrl"), "/detail/detail" & rs("id")) 
-            Else
-                url = handleWebUrl("?act=detail&id=" & rs("id")) 
-                If rs("customAUrl") <> "" Then
-                    url = rs("customAUrl") 					 
-                End If 
-            End If
-
-            'A链接添加颜色
-            abcolorStr = "" 
-            If InStr(fieldNameList, ",titlecolor,") > 0 Then
-                'A链接颜色
-                If rs("titlecolor") <> "" Then
-                    abcolorStr = "color:" & rs("titlecolor") & ";" 
-                End If 
-            End If
-            If InStr(fieldNameList, ",flags,") > 0 Then
-                'A链接加粗
-                If InStr(rs("flags"), "|b|") > 0 Then
-                    abcolorStr = abcolorStr & "font-weight:bold;" 
+        '例[list-mod2]  [/list-mod2]    20150112
+        For modI = 6 To 2 Step - 1
+            If InStr(defaultStr, startStr) = False And i Mod modI = 0 Then
+                startStr = "[list-mod" & modI & "]" : endStr = "[/list-mod" & modI & "]" 
+                If InStr(defaultStr, startStr) > 0 Then
+                    Exit For 
                 End If 
             End If 
-            If abcolorStr <> "" Then
-                abcolorStr = " style=""" & abcolorStr & """" 
-            End If 
-
-            '打开方式2016
-            If InStr(fieldNameList, ",target,") > 0 Then
-                atargetStr = IIF(rs("target") <> "", " target=""" & rs("target") & """", "")
-            End If 
-
-            'A的title
-            If InStr(fieldNameList, ",title,") > 0 Then
-                atitleStr = IIF(rs("title") <> "", " title=""" & rs("title") & """", "") 
-            End If 
-
-            'A的nofollow
-            If InStr(fieldNameList, ",nofollow,") > 0 Then
-                anofollowStr = IIF(rs("nofollow") <> 0, " rel=""nofollow""", "") 
-            End If 
-
-
-
-            s = replaceValueParam(s, "url", url) 
-            s = replaceValueParam(s, "abcolor", abcolorStr)                                 'A链接加颜色与加粗
-            s = replaceValueParam(s, "atitle", atitleStr)                                   'A链接title
-            s = replaceValueParam(s, "anofollow", anofollowStr)                             'A链接nofollow
-            s = replaceValueParam(s, "atarget", atargetStr)                                 'A链接打开方式
-
-
         Next 
+
+        '没有则用默认
+        If InStr(defaultStr, startStr) = False or startStr="" Then
+            startStr = "[list]" : endStr = "[/list]" 
+        End If  
+
+        If InStr(defaultStr, startStr) > 0 And InStr(defaultStr, endStr) > 0 Then
+            s = strCut(defaultStr, startStr, endStr, 2) 
+				
+			's = defaultStr 
+			s = Replace(s, "[$id$]", rs("id")) 
+			For j = 0 To UBound(splFieldName)
+				If splFieldName(j) <> "" Then
+					splxx = Split(splFieldName(j) & "|||", "|") 
+					fieldName = splxx(0) 
+					replaceStr = rs(fieldName) & ""
+					s = replaceValueParam(s, fieldName, replaceStr)
+				End If 
+	
+				If isMakeHtml = True Then
+					url = getHandleRsUrl(rs("fileName"), rs("customAUrl"), "/detail/detail" & rs("id")) 
+				Else
+					url = handleWebUrl("?act=detail&id=" & rs("id")) 
+					If rs("customAUrl") <> "" Then
+						url = rs("customAUrl") 					 
+					End If 
+				End If
+	
+				'A链接添加颜色
+				abcolorStr = "" 
+				If InStr(fieldNameList, ",titlecolor,") > 0 Then
+					'A链接颜色
+					If rs("titlecolor") <> "" Then
+						abcolorStr = "color:" & rs("titlecolor") & ";" 
+					End If 
+				End If
+				If InStr(fieldNameList, ",flags,") > 0 Then
+					'A链接加粗
+					If InStr(rs("flags"), "|b|") > 0 Then
+						abcolorStr = abcolorStr & "font-weight:bold;" 
+					End If 
+				End If 
+				If abcolorStr <> "" Then
+					abcolorStr = " style=""" & abcolorStr & """" 
+				End If 
+	
+				'打开方式2016
+				If InStr(fieldNameList, ",target,") > 0 Then
+					atargetStr = IIF(rs("target") <> "", " target=""" & rs("target") & """", "")
+				End If 
+	
+				'A的title
+				If InStr(fieldNameList, ",title,") > 0 Then
+					atitleStr = IIF(rs("title") <> "", " title=""" & rs("title") & """", "") 
+				End If 
+	
+				'A的nofollow
+				If InStr(fieldNameList, ",nofollow,") > 0 Then
+					anofollowStr = IIF(rs("nofollow") <> 0, " rel=""nofollow""", "") 
+				End If 
+	
+	
+	
+				s = replaceValueParam(s, "url", url) 
+				s = replaceValueParam(s, "abcolor", abcolorStr)                                 'A链接加颜色与加粗
+				s = replaceValueParam(s, "atitle", atitleStr)                                   'A链接title
+				s = replaceValueParam(s, "anofollow", anofollowStr)                             'A链接nofollow
+				s = replaceValueParam(s, "atarget", atargetStr)                                 'A链接打开方式
+	
+	
+			Next 
+		end if
         '文章列表加在线编辑
         url = WEB_ADMINURL & "?act=addEditHandle&actionType=ArticleDetail&lableTitle=分类信息&nPageSize=10&page=&parentid=&id=" & rs("id") & "&n=" & getRnd(11) 
         s = handleDisplayOnlineEditDialog(url, s, "", "div|li|span") 
 
         c = c & s 
     rs.MoveNext : Next : rs.Close 
-    content = Replace(content, "[list]" & defaultList & "[/list]", c) 
+    content = Replace(content, "<!--#body start#-->" & defaultStr & "<!--#body end#-->", c) 
 
     If isMakeHtml = True Then
         url = "" 
@@ -503,14 +537,25 @@ End Function
 
 '****************************************************
 '默认列表模板
-Function defaultListTemplate()
-    Dim c, templateHtml, listTemplate, lableName, startStr, endStr 
+Function defaultListTemplate(sType,sName)
+    Dim c, templateHtml, listTemplate,  startStr, endStr ,lableName
 
     templateHtml = getFText(cfg_webTemplate & "/" & templateName) 
-
-    lableName = "list" 
+	'从栏目名称搜索，到栏目类型，到默认20160630
+	lableName=sName & "list"
     startStr = "<!--#" & lableName & " start#-->" 
-    endStr = "<!--#" & lableName & " end#-->" 
+    endStr = "<!--#" & lableName & " end#-->"
+	If InStr(templateHtml, startStr) =false or InStr(templateHtml, endStr) =false Then
+		lableName=sType & "list"
+		startStr = "<!--#" & lableName & " start#-->" 
+		endStr = "<!--#" & lableName & " end#-->"
+	end if
+	If InStr(templateHtml, startStr) =false or InStr(templateHtml, endStr) =false Then
+		lableName="list"
+		startStr = "<!--#" & lableName & " start#-->" 
+		endStr = "<!--#" & lableName & " end#-->"
+	end if
+	
     'call rwend(templateHtml)
     If InStr(templateHtml, startStr) > 0 And InStr(templateHtml, endStr) > 0 Then
         listTemplate = strCut(templateHtml, startStr, endStr, 2) 
@@ -522,14 +567,15 @@ Function defaultListTemplate()
         End If 
     End If 
     If listTemplate = "" Then
-        c = "<ul class=""list"">" & vbCrLf 
-        c = c & "[list]    <li><a href=""[$url$]""[$atitle$][$atarget$][$abcolor$][$anofollow$]>[$title$]</a><span class=""time"">[$adddatetime format_time='7'$]</span></li>" & vbCrLf 
-        c = c & "[/list]" & vbCrLf 
+        c = "<ul class=""list""><!--#list start#-->" & vbCrLf 
+        c = c & "[list]    <li><a href=""[$url$]""[$atitle$][$atarget$][$abcolor$][$anofollow$]>[$title$]</a><span class=""time"">[$adddatetime format_time='1'$]</span></li>" & vbCrLf 
+        c = c & "[/list]<!--#list end#-->" & vbCrLf 
         c = c & "</ul>" & vbCrLf 
         c = c & "<div class=""clear10""></div>" & vbCrLf 
         c = c & "<div>[$pageInfo$]</div>" & vbCrLf 
         listTemplate = c 
     End If 
+	'call rwend(listTemplate)
 
     defaultListTemplate = listTemplate 
 End Function 
@@ -656,7 +702,7 @@ End Function
 'http://127.0.0.1/aspweb.asp?act=detail&id=75
 '生成html静态页
 Function makeWebHtml(action)
-    Dim actionType, npagesize, npage, url, addSql, sortSql 
+    Dim actionType, npagesize, npage, url, addSql, sortSql ,sortFieldName,ascOrDesc
     actionType = RParam(action, "actionType") 
     npage = RParam(action, "npage") 
     npage = getnumber(npage) 
@@ -717,10 +763,10 @@ Function makeWebHtml(action)
 
         '文章类列表
         If InStr("|产品|新闻|视频|下载|案例|", "|" & glb_columnType & "|") > 0 Then
-            glb_bodyContent = getDetailList(action, defaultListTemplate(), "ArticleDetail", "栏目列表", "*", npagesize, npage, "where parentid=" & glb_columnId & sortSql) 
+            glb_bodyContent = getDetailList(action, defaultListTemplate(glb_columnType,glb_columnName), "ArticleDetail", "栏目列表", "*", npagesize, npage, "where parentid=" & glb_columnId & sortSql) 
         '留言类列表
         ElseIf InStr("|留言|", "|" & glb_columnType & "|") > 0 Then
-            glb_bodyContent = getDetailList(action, defaultListTemplate(), "GuestBook", "留言列表", "*", npagesize, npage, " where isthrough<>0 " & sortSql) 
+            glb_bodyContent = getDetailList(action, defaultListTemplate(glb_columnType,glb_columnName), "GuestBook", "留言列表", "*", npagesize, npage, " where isthrough<>0 " & sortSql) 
         ElseIf glb_columnType = "文本" Then
             '航行栏目加管理
             If Request("gl") = "edit" Then
@@ -756,10 +802,20 @@ Function makeWebHtml(action)
                 cfg_webDescription = rs("webDescription")                                       '网站描述
             End If 
 
+			'改进20160628
+    		sortFieldName="id"
+			ascOrDesc="asc"
+			addsql=trim(getWebColumnSortSql(rs("parentid")))
+			if addsql<>"" then
+				 sortFieldName=trim(replace(replace(replace(addsql,"order by","")," desc","")," asc",""))
+				 if instr(addsql," desc")>0 then
+				 	ascOrDesc="desc"
+				 end if
+			end if
             glb_artitleAuthor = rs("author") 
             glb_artitleAdddatetime = rs("adddatetime") 
-            glb_upArticle = upArticle(rs("parentid"), "sortrank", rs("sortrank")) 
-            glb_downArticle = downArticle(rs("parentid"), "sortrank", rs("sortrank")) 
+            glb_upArticle = upArticle(rs("parentid"), sortFieldName, rs(sortFieldName),ascOrDesc) 
+            glb_downArticle = downArticle(rs("parentid"), sortFieldName, rs(sortFieldName),ascOrDesc) 
             glb_aritcleRelatedTags = aritcleRelatedTags(rs("relatedtags")) 
             glb_aritcleSmallImage = rs("smallimage") 
             glb_aritcleBigImage = rs("bigimage") 
@@ -841,7 +897,7 @@ Function makeWebHtml(action)
         addSql = " where title like '%" & glb_searchKeyWord & "%'" 
         npagesize = 20 
         'call echo(npagesize, npage)
-        glb_bodyContent = getDetailList(action, defaultListTemplate(), "ArticleDetail", "网站栏目", "*", npagesize, npage, addSql) 
+        glb_bodyContent = getDetailList(action, defaultListTemplate(glb_columnType,glb_columnName), "ArticleDetail", "网站栏目", "*", npagesize, npage, addSql) 
 
     '加载等待
     ElseIf actionType = "loading" Then

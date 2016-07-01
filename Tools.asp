@@ -26,7 +26,32 @@ sub mydd3()
 		content = htmlFormatting(content)                                                     '简单			
 		content=replace(content,"<","&lt;")
 		call rw(content)
-		
+	'asp代码混淆
+	elseif request("act")="aspCodeConfusion" then 
+		call rw("<pre>")	
+		content=aspCodeConfusion(content)
+		content=replace(content,"<","&lt;")
+		call rwend(content)
+	'js代码混淆
+	elseif request("act")="jsCodeConfusion" then 
+		call rw("<pre>")	
+		content=jsCodeConfusion(content)
+		content=replace(content,"<","&lt;")
+		call rwend(content)
+	'php代码混淆
+	elseif request("act")="phpCodeConfusion" then 
+		call rw("<pre>")	
+		content=phpCodeConfusion(content)
+		content=replace(content,"<","&lt;")
+		call rwend(content)		
+	'简体与繁体互换
+	elseif request("act")="simplifiedTab" then 
+		'为简体转繁体
+		if request("isFan")="1" then		
+			call rwend(simplifiedTransfer(content))
+		else
+			call rwend(simplifiedChinese(content))
+		end if
 	end if
 end sub
 '聊天机器人

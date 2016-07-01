@@ -13,6 +13,10 @@ httpurl="http://www.camarts.cn/"
 httpurl="http://www.moke8.com/wordpress/"
 httpurl="http://www.jinhusns.com/"
 httpurl="http://rednuht.org/genetic_cars_2/"
+httpurl="http://www.uiessays.com/"					'NO
+httpurl="http://www.5shiguang.net/"
+httpurl="https://grails.org/"
+httpurl="http://www.zsjujia.com/"				'模仿
 Dim newWebDir : newWebDir = "newweb/"                                           '新网站路径
 Dim Char_Set : Char_Set = "utf-8"                                               '编码
 Dim isGetHttpUrl : isGetHttpUrl = False                                         'getHttpUrl方式获得内容
@@ -26,12 +30,12 @@ Dim isPackTemplate : isPackTemplate = False                                     
 Dim isPackTemplateZip : isPackTemplateZip = False                                     '是否打包模板文件夹 zip
 Dim templateName                                                                '模板文件名称
 Dim isFormatting : isFormatting = True                                          '是否格式化HTML
+dim isUniformCoding:isUniformCoding=true										'是否统一编码
 
 Dim PubAHrefList, PubATitleList, DownFileToLocaList 
 
 'httpUrl="http://127.0.0.1/1.html"
 templateName = getWebSiteName(httpurl)                                          '模板名称从网址中获得
-
 
 Select Case Request("act")
     Case "downweb" : downWeb()
@@ -89,10 +93,11 @@ Sub downweb()
 
     httpurl = Request("httpurl") 
     Char_Set = Request("Char_Set") 
+	isUniformCoding=request("isUniformCoding")
     newWebDir = newWebDir & setfilename(httpurl) & "/" 
 
     Call createDirFolder(newWebDir) 
-    Call CopyWeb() 
+    Call copyWeb() 
 
     'call rwend(handleConentUrl("/admin/js/", "<script src='aa/js.js' ><script src=""bb/js.js"" >","",""))                '待用
 
@@ -256,7 +261,7 @@ Sub webBeautify(rootDir, resourcesDir, isTemplate)
         Call echo("下载xml打包文件", "<a href=?act=download&downfile=" & xorEnc(xmlFileName, 31380) & " title='点击下载'>点击下载" & xmlFileName & "("& xmlSize &")</a>") 
     End If 
 End Sub 
-'复制网站
+'仿站
 Sub copyWeb()
     Dim content, url, splStr, splxx, i, s, tempS, c, sFType, sFName, filePath 
     Dim YuanWebPath, SplTitle 
@@ -273,11 +278,17 @@ Sub copyWeb()
         If Request("isGetHttpUrl") = "1" Then
             content = getHttpUrl(httpurl, Char_Set) 
             Char_Set = "gb2312" 
-            Call WriteToFile(YuanWebPath, content, "gb2312") 
+            Call WriteToFile(YuanWebPath, content, Char_Set) 
         Else
-            Call SaveRemoteFile(httpurl, YuanWebPath) 
+            Call SaveRemoteFile(httpurl, YuanWebPath)
             content = readFile(YuanWebPath, Char_Set) 
-        End If 
+        End If
+		'对style中url()图片处理20160630
+		if instr(lcase(content),"url(")>0 then
+			content=handleCssStyleContent(httpurl, newWebDir,content)
+            Call WriteToFile(YuanWebPath, content, Char_Set) 		
+		end if
+
         content = regExp_Replace(content, "<head>", "<head>" & vbCrLf & "<base href=""" & getWebsite(httpurl) & """ />" & vbCrLf) 
         Call WriteToFile(groupUrl(newWebDir, "/index_网页源码_base.html"), content, Char_Set) 
 
@@ -291,8 +302,7 @@ Sub copyWeb()
 	'call createfile("1.txt",PubAHrefList)
     '下面
     If PubAHrefList <> "" Then PubAHrefList = Left(PubAHrefList, Len(PubAHrefList) - 2) 
-    If PubATitleList <> "" Then PubATitleList = Left(PubATitleList, Len(PubATitleList) - 2) 
-
+    If PubATitleList <> "" Then PubATitleList = Left(PubATitleList, Len(PubATitleList) - 2)
 
     Dim FileNameList, nCountArray 
     '下载图片等素材到本地
@@ -325,15 +335,11 @@ Sub copyWeb()
                 'MsgBox (nCountArray & vbCrLf & sFName & vbCrLf & fileNameList)
                 Else
                     FileNameList = FileNameList & LCase(sFName) & "|" 
-                End If 
-
-
-
+                End If
                 filePath = newWebDir & "\" & sFName 
                 If sFName = "pub.js" Then
                     msgBox(sFName & vbCrLf & s) 
-                End If 
-
+                End If
 
                 'MsgBox ("测试文件名称=" & sFName & vbCrLf & FilePath)
                 content = regExp_Replace(content, s, sFName)                             '替换内容中网址
@@ -359,14 +365,19 @@ Sub copyWeb()
     url = Mid(url, 1, InStrRev(url, "/")) 
     content = Replace(Replace(content, url, ""), getWebSite(httpurl), "")           '去掉模板网址
     Call WriteToFile(newWebDir & "/index.html", phptrim(content), Char_Set)         '保存模板文件(去两边空格)
-    Call WriteToFile(newWebDir & "/图片网址列表.txt", PubAHrefList, "gb2312") 
+    Call createfile(newWebDir & "/图片网址列表.txt", PubAHrefList) 
 End Sub 
 
 '处理Css文件内容
 Sub handleCssFile(httpurl, folderName, CssFileName)
-    Dim content, TempContent, c, startStr, endStr, splStr, i, s, tempS, sFType, sFName, filePath, url, ToPath, Char_Set 
-    ToPath = folderName & "/" & CssFileName 
-    Char_Set = checkCode(ToPath) 
+    Dim content, TempContent, c, startStr, endStr, splStr, i, s, tempS, sFType, sFName, filePath, url, ToPath, Char_Set ,sFName2
+    ToPath = folderName & "/" & CssFileName
+
+	if request("isUniformCoding")="1" then
+		Char_Set=Request("Char_Set")
+	else	
+	    Char_Set = checkCode(ToPath) 
+	end if
     Call echo(ToPath, Char_Set) 
     content = readFile(ToPath, Char_Set): c = content : TempContent = content 
     content = LCase(content) 
@@ -376,12 +387,18 @@ Sub handleCssFile(httpurl, folderName, CssFileName)
         Call WriteToFile(ToPath, phptrim(TempContent), "gb2312") 
     End If 
 
+	c=handleCssStyleContent(httpurl, folderName,c)
 
+    Call WriteToFile(ToPath, phptrim(c), Char_Set) 
+End Sub
+'处理CSS样式内容
+function handleCssStyleContent(httpurl, folderName,c)
+    Dim content, TempContent, startStr, endStr, splStr, i, s, tempS, sFType, sFName, filePath, url, ToPath, Char_Set ,sFName2
+	content=lcase(c)
     startStr = "url\(" 
     endStr = "\)" 
     content = getArray(content, startStr, endStr, False, False) 
     content = Replace(Replace(content, """", ""), "'", "")                          '去掉点
-
     If content <> "" Then
         splStr = Split(content, "$Array$") 
         For Each s In splStr
@@ -393,18 +410,36 @@ Sub handleCssFile(httpurl, folderName, CssFileName)
 
             url = fullHttpUrl(httpurl, s) 
             If InStr("|.jpg|.gif|.png|.swf|.js|.css|||", "|" & sFType & "|") > 0 Then
-                filePath = folderName & "\" & sFName 
-                c = caseInsensitiveReplace(c, s, sFName)                                 '不分大小写替换
-                If checkFile(filePath) = False Then
-                    Call SaveRemoteFile(url, filePath) 
-                    DownFileToLocaList = DownFileToLocaList & sFName & "|" 
-                End If 
+				if instr(vbcrlf & PubAHrefList & vbcrlf, vbcrlf & url & vbcrlf)=false then
+					PubAHrefList=PubAHrefList & url & vbcrlf
+    				Call createfile(newWebDir & "/图片网址列表.txt", PubAHrefList) 		'时时更新
+										
+					filePath = folderName & "\" & sFName
+					'对名称图片处理20160630
+					If checkFile(filePath) = true Then
+						for i=1 to 10
+							sFName2=getFileAttr(sFName,3) & "_" & i  &"."  & getFileAttr(sFName,4)
+							if checkFile(sFName2)=false then
+								sFName=sFName2
+								exit for
+							end if
+						next
+						filePath = folderName & "\" & sFName
+					end if
+					c = caseInsensitiveReplace(c, s, sFName)                                 '不分大小写替换
+					If checkFile(filePath) = False Then
+						call echo("下载",url) 
+						Call SaveRemoteFile(url, filePath) 
+						DownFileToLocaList = DownFileToLocaList & sFName & "|" 
+						
+					End If 
+				end if
             End If 
             doEvents 
         Next 
     End If 
-    Call WriteToFile(ToPath, phptrim(c), Char_Set) 
-End Sub 
+	handleCssStyleContent=c
+end function
 '替换网站标题
 Function replaceWebTitle(content, webTitle)
     Dim TempContent, startStr, endStr, nLen, bodyStart, bodyEnd 
@@ -517,6 +552,7 @@ Sub displayDefaultLayout()
 <label for="isWebToTemplateDir"><input name="isWebToTemplateDir" type="checkbox" id="isWebToTemplateDir" value="1" <% If isWebToTemplateDir = True Then rw("checked")%> />文件放到模板文件夹里</label>  
 <hr /> 
 <label for="isFormatting"><input name="isFormatting" type="checkbox" id="isFormatting" value="1" <% If isFormatting = True Then rw("checked")%> />是否格式化HTML</label> 
+<label for="isUniformCoding"><input name="isUniformCoding" type="checkbox" id="isUniformCoding" value="1" <% If isUniformCoding = True Then rw("checked")%> />是否统一编码</label> 
 </form> 
 
 
